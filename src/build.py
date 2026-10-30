@@ -237,7 +237,7 @@ def page_index():
         <p class="t-line">{T("hero_line")}</p>
         <div class="tags">{tags}</div>
       </div>
-      <div class="hero-cta"><a class="btn btn-gold" href="{MT}" data-mail>{T("cta_enroll")}</a><a class="btn btn-ghost" data-sec="plan" href="#plan">{T("cta_program")}</a></div>
+      <div class="hero-cta"><a class="btn btn-gold" href="#inscriere" data-sec="inscriere">{T("cta_enroll")}</a><a class="btn btn-ghost" data-sec="plan" href="#plan">{T("cta_program")}</a></div>
       <div class="mini-tags" aria-hidden="true">{mini}</div>
     </div>
     <div class="coord">
@@ -262,7 +262,7 @@ def page_index():
   <div class="boxes">
     <div class="box free"><h3>{IC['gift']}<span>{T("box_free_t")}</span></h3><p>{T("box_free_p")}</p></div>
     <div class="box seats"><h3>{IC['seats']}<span>{T("box_seats_t")}</span></h3><p>{T("box_seats_p")}</p></div>
-    <div class="box enroll"><h3>{IC['mail']}<a class="ttl" href="{MT}" data-mail>{T("box_enroll_t")}</a></h3><p>{T("box_enroll_p")}</p></div>
+    <div class="box enroll"><h3>{IC['mail']}<a class="ttl" href="#inscriere" data-sec="inscriere">{T("box_enroll_t")}</a></h3><p>{T("box_enroll_p")}</p></div>
   </div>
 </div>
 </div>
@@ -274,7 +274,7 @@ def page_index():
   <p class="lead sm-l">{T("hero_line")}</p>
   <div class="tags">{tags}</div>
   <p class="who-l"><b>Dan D. Farcaș</b> – {T("coord_role1")}, {T("coord_role2")}</p>
-  <p class="top-cta"><a class="btn btn-gold" href="{MT}" data-mail>{T("cta_enroll")}</a></p>
+  <p class="top-cta"><a class="btn btn-gold" href="#inscriere" data-sec="inscriere">{T("cta_enroll")}</a></p>
   <ul class="enr-conds facts"><li>📅 {T("card_when_v")}</li><li>🕖 {T("card_time_v")}</li><li>💻 {T("card_where_v")}</li><li>🎁 {T("box_free_t")}</li><li>👥 {T("box_seats_t")}</li></ul>
 </div>
 '''
@@ -298,7 +298,7 @@ def page_index():
   </div>
 </section>'''
     b = notice() + f'''<div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>{T("cd_start", label=SESS[0]["label"])}</span>
-    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="{JS("started")}" aria-live="off"></div><a class="btn btn-gold bar-cta" href="{MT}" data-mail>{T("nav_enroll")}</a></div></div>
+    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="{JS("started")}" aria-live="off"></div><a class="btn btn-gold bar-cta" href="#inscriere" data-sec="inscriere">{T("nav_enroll")}</a></div></div>
 {top_block}
 
 <section class="doc" id="inv" aria-labelledby="h-inv">
