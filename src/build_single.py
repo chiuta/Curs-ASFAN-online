@@ -5,7 +5,7 @@ import re, os, io, json, base64, glob, posixpath, html as _h
 from PIL import Image
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-SITE = os.path.dirname(ROOT)
+SITE = os.environ.get("SITE_DIR") or os.path.dirname(ROOT)
 A = SITE + "/assets/"
 rd = lambda p: open(p, encoding="utf-8").read()
 LANGS = ["ro", "en", "fr", "it", "es", "pt", "de", "hu"]
@@ -161,6 +161,6 @@ out += '<main id="main">\n' + sections + '</main>\n' + tail
 out = out.replace("</body></html>", "")
 out += "<script>window.__IMG__=" + json.dumps(IMG) + ";window.__I18N__=" + json.dumps(ALL, ensure_ascii=False) + ";window.__ICS__=" + json.dumps(ics, ensure_ascii=False) + ";</script>\n"
 out += "<script>\n" + sessions_js + "\n" + app + "\n" + glue + "\n</script>\n</body></html>\n"
-dst = os.path.join(SITE,"curs-asfan-online.html")
+dst = os.environ.get("DST") or os.path.join(SITE,"curs-asfan-online.html")
 open(dst, "w", encoding="utf-8").write(out)
 print("OK", dst, round(len(out.encode()) / 1024), "KB")

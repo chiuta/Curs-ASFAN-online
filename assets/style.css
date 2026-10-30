@@ -591,3 +591,13 @@ html[lang="es"] .sec h2 .sub,html[lang="fr"] .sec h2 .sub,html[lang="pt"] .sec h
 .qr-sec{padding-bottom:10px}
 .letter,.plan-list p,.enr-card{overflow-wrap:anywhere}
 @media print{.doc{padding-top:14px}.letter,.plan-list,.enr-card{background:#fff;color:#000;border-color:#000}.letter p,.plan-list p,.plan-list time b{color:#000}.plan-list .ics,.btn{display:none}}
+.top-compact{padding-top:clamp(26px,5vw,52px)}
+.top-compact .kick{margin:0 0 6px;color:var(--cyan);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.85rem}
+.top-compact h1{font-size:clamp(2rem,7vw,3.8rem);font-weight:900;line-height:1.08;margin:0}.top-compact h1 em{font-style:normal;color:var(--gold)}
+.top-compact .lead{margin:10px 0 0}.top-compact .lead b{color:var(--gold)}
+.top-compact .tags{margin-top:10px}.top-compact .who-l{margin:12px 0 0;color:#dbe8ff}.top-compact .top-cta{margin:16px 0 0}
+.top-compact .cards4{margin-top:24px}
+.plan .toolbar{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 18px}
+.plan .sess-filter{flex:1 1 240px;font:inherit;color:var(--txt);background:rgba(2,8,24,.85);border:1.5px solid var(--line);border-radius:999px;padding:11px 16px;min-height:46px}
+.plan .ac{max-width:none}.plan .note{margin-top:14px}
+.top-compact .facts{justify-content:flex-start;margin:18px 0 0}.top-compact .tags{justify-content:flex-start}

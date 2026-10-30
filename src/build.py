@@ -5,7 +5,8 @@ import os, json, html, datetime as dt, shutil
 import segno
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.dirname(ROOT)
+OUT = os.environ.get("OUT") or os.path.dirname(ROOT)
+POSTER = os.environ.get("POSTER") == "1"
 SITE = "https://curs.asfan.online"
 ASFAN = "https://www.asfanufo.ro"
 MAIL = "adrian.urzica@gmail.com"
@@ -213,9 +214,7 @@ def page_index():
         <a class="ics" href="{P}{CAL}sesiune-{x["n"]}.ics" data-ics="sesiune-{x["n"]}" download aria-label="{A("plan_ics")} – {E(x["label"], quote=True)}">📅 <span>{T("plan_ics")}</span></a></li>
 ''' for x in SESS)
     conds = "".join(f"<li>{E(x)}</li>" for x in UI["enr_cond"].split("|"))
-    b = notice() + f'''<div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>{T("cd_start", label=SESS[0]["label"])}</span>
-    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="{JS("started")}" aria-live="off"></div><a class="btn btn-gold bar-cta" href="{MT}" data-mail>{T("nav_enroll")}</a></div></div>
-<div class="pst" id="top">
+    poster_block = f'''<div class="pst" id="top">
 <section class="hero">
   <img class="hero-art art-a art-left" src="{P}assets/a-moai.jpg" alt="" width="126" height="176">
   <img class="hero-art art-b art-left" src="{P}assets/b-machu.jpg" alt="" width="330" height="236">
@@ -267,6 +266,40 @@ def page_index():
   </div>
 </div>
 </div>
+'''
+    compact_block = f'''<div class="wrap page-head top-compact" id="top">
+  <p class="kick">{T("about_assoc")}</p>
+  <h1>{E(UI["hero_h1_pre"])}<em>{E(UI["hero_main"])}</em></h1>
+  <p class="lead"><b>{T("hero_curs")}</b> {T("hero_serie")} · {T("hero_date")}</p>
+  <p class="lead sm-l">{T("hero_line")}</p>
+  <div class="tags">{tags}</div>
+  <p class="who-l"><b>Dan D. Farcaș</b> – {T("coord_role1")}, {T("coord_role2")}</p>
+  <p class="top-cta"><a class="btn btn-gold" href="{MT}" data-mail>{T("cta_enroll")}</a></p>
+  <ul class="enr-conds facts"><li>📅 {T("card_when_v")}</li><li>🕖 {T("card_time_v")}</li><li>💻 {T("card_where_v")}</li><li>🎁 {T("box_free_t")}</li><li>👥 {T("box_seats_t")}</li></ul>
+</div>
+'''
+    top_block = poster_block if POSTER else compact_block
+    acs = "".join(f'''    <details class="ac" id="s{x["n"]}" data-sess="{x["n"]}" open>
+      <summary><span class="num">{x["n"]}</span><span><span class="dt">{x["label"]} · 19:00–21:00</span><br><span class="tt">{E(x["title"])}</span></span></summary>
+      <div class="body"><p>{E(x["text"])}</p>
+        <ul class="chips">{"".join(f"<li>{E(c)}</li>" for c in x["chips"])}</ul>
+        <p style="margin-top:14px"><a class="btn btn-ghost" href="{P}{CAL}sesiune-{x["n"]}.ics" data-ics="sesiune-{x["n"]}" download>{T("prog_cal")}</a></p></div>
+    </details>
+''' for x in SESS)
+    plan_block = f'''<section class="doc plan" id="plan" aria-labelledby="h-plan">
+  <div class="wrap">
+    <header class="page-head"><h2 id="h-plan">{T("prog_h1")}</h2><p class="lead">{T("prog_lead")}</p></header>
+    <div class="toolbar">
+      <button class="btn btn-blue expand-all" type="button" data-expand="{JS("expand")}" data-collapse="{JS("collapse")}">{JS("collapse")}</button>
+      <a class="btn btn-gold" href="{P}{CAL}curs-complet.ics" data-ics="curs-complet" download>{T("prog_cal_all")}</a>
+      <input class="sess-filter" type="search" placeholder="{A("prog_filter_ph")}" aria-label="{A("prog_filter_aria")}">
+    </div>
+{acs}    <p class="note">{T("prog_note")}</p>
+  </div>
+</section>'''
+    b = notice() + f'''<div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>{T("cd_start", label=SESS[0]["label"])}</span>
+    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="{JS("started")}" aria-live="off"></div><a class="btn btn-gold bar-cta" href="{MT}" data-mail>{T("nav_enroll")}</a></div></div>
+{top_block}
 
 <section class="doc" id="inv" aria-labelledby="h-inv">
   <div class="wrap">
@@ -285,14 +318,7 @@ def page_index():
   </div>
 </section>
 
-<section class="doc plan" id="plan" aria-labelledby="h-plan">
-  <div class="wrap">
-    <header class="plan-head"><h2 id="h-plan">{T("plan_h")}</h2><p class="plan-sub">{T("plan_sub")}<span aria-hidden="true"> · </span><em>{T("plan_kind")}</em></p>
-      <p><a class="btn btn-gold" href="{P}{CAL}curs-complet.ics" data-ics="curs-complet" download>{T("plan_cal")}</a></p></header>
-    <ol class="plan-list">
-{plan}    </ol>
-  </div>
-</section>
+{plan_block}
 
 <section class="doc enroll-sec" id="inscriere" aria-labelledby="h-enr">
   <div class="wrap">
