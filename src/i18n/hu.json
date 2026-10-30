@@ -225,7 +225,20 @@
   "share_native": "Megosztás…",
   "share_copy": "Link másolása",
   "share_via": "Megosztás: {net}",
-  "share_text": "Ingyenes online tanfolyam: „Bevezetés az ufológiába” (ASFAN), 2026. november 18. – 2027. május 26., ZOOM-on (román nyelven)"
+  "share_text": "Ingyenes online tanfolyam: „Bevezetés az ufológiába” (ASFAN), 2026. november 18. – 2027. május 26., ZOOM-on (román nyelven)",
+  "inv_h": "MEGHÍVÓ",
+  "inv_lead": "Az ASFAN tisztelettel meghívja Önt a következő című tanfolyamra",
+  "inv_title": "BEVEZETÉS AZ UFOLÓGIÁBA",
+  "inv_sign": "A tanfolyam vezetője, az ASFAN elnöke",
+  "plan_h": "Bevezetés az ufológiába",
+  "plan_sub": "ASFAN-tanfolyam, 2026. nov. – 2027. máj.",
+  "plan_kind": "javasolt szerkezet",
+  "plan_cal": "📅 A teljes tanfolyam hozzáadása a naptárhoz",
+  "enr_btn": "✉️ Jelentkezés e-mailben",
+  "enr_hint": "Megnyílik az e-mail alkalmazás a címzettel, a tárgygyal és az üzenettel kitöltve; adja hozzá a nevét, és küldje el. Az e-mail a szervezők számára román nyelvű.",
+  "nav_top": "Fel",
+  "nav_inv": "Meghívó",
+  "plan_ics": "Naptár"
  },
  "js": {
   "copied": "Másolva ✓",

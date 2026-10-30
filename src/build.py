@@ -5,7 +5,7 @@ import os, json, html, datetime as dt, shutil
 import segno
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.dirname(ROOT)   # rădăcina depozitului = site-ul servit
+OUT = os.path.dirname(ROOT)
 SITE = "https://curs.asfan.online"
 ASFAN = "https://www.asfanufo.ro"
 MAIL = "adrian.urzica@gmail.com"
@@ -81,7 +81,7 @@ IC = {
 
 
 # ------------------------------------------------------------------ layout
-NAV = [("index.html","nav_home",""),("program.html","nav_program","program"),("detalii.html","nav_about","detalii"),("inscriere.html","nav_enroll","inscriere"),("qr.html","nav_qr","qr")]
+NAV = [("inv","nav_inv"),("plan","nav_program"),("inscriere","nav_enroll"),("qr","nav_qr")]
 def lang_href(code, path):
     """link relativ către aceeași pagină în limba `code`"""
     if CODE == "ro": return path if code == "ro" else f"{code}/{path}"
@@ -97,7 +97,7 @@ def head(title, desc, page, path, extra=""):
     canon = loc_url(CODE, path)
     alts = "".join(f'<link rel="alternate" hreflang="{l}" href="{loc_url(l, path)}">\n' for l in LANGS) + f'<link rel="alternate" hreflang="x-default" href="{loc_url("ro", path)}">\n'
     langlinks = "".join(f'<li><a lang="{l}" hreflang="{l}" data-lang-link="{l}" href="{lang_href(l, path)}"{" aria-current=\"true\"" if l == CODE else ""}>{E(DATA[l]["meta"]["name"])}</a></li>' for l in LANGS)
-    navl = "".join(f'    <a class="lnk" data-nav="{r}" data-k="{k}" href="{h}"{" aria-current=\"page\"" if h == path else ""}>{T(k)}</a>\n' for h, k, r in NAV)
+    navl = "".join(f'    <a class="lnk" data-sec="{h}" data-k="{k}" href="#{h}">{T(k)}</a>\n' for h, k in NAV)
     return f'''<!DOCTYPE html>
 <html lang="{LD["meta"]["html_lang"]}" data-theme="moai">
 <head>
@@ -119,7 +119,7 @@ def head(title, desc, page, path, extra=""):
 <body data-page="{page}">
 <canvas id="stars" aria-hidden="true"></canvas>
 <header class="topbar"><a class="skip" href="#main" data-k="skip">{T("skip")}</a><div class="wrap">
-  <a class="brand" data-nav="" data-k-aria="brand_aria" href="index.html" aria-label="{A("brand_aria")}"><img src="{P}assets/logo.png" alt="{A("logo_alt")}" data-k-alt="logo_alt" width="108" height="40"><small data-k="brand_small">{T("brand_small")}</small></a>
+  <a class="brand" data-sec="top" data-k-aria="brand_aria" href="#top" aria-label="{A("brand_aria")}"><img src="{P}assets/logo.png" alt="{A("logo_alt")}" data-k-alt="logo_alt" width="108" height="40"><small data-k="brand_small">{T("brand_small")}</small></a>
   <details class="lang"><summary data-lang-aria aria-label="{CODE.upper()} – {A("lang_aria")}"><span aria-hidden="true">🌐</span> <b>{CODE.upper()}</b></summary><ul>{langlinks}</ul></details>
   <button class="btn-menu" type="button" aria-expanded="false" aria-controls="nav" data-k="menu_btn">{T("menu_btn")}</button>
   <nav class="main" id="nav" aria-label="{A("nav_aria")}" data-k-aria="nav_aria">
@@ -148,7 +148,7 @@ def share_block():
   </div>'''
 
 def foot():
-    links = "".join(f'<a data-nav="{r}" data-k="{k}" href="{h}">{T(k)}</a>' for h, k, r in NAV[1:])
+    links = "".join(f'<a data-sec="{h}" data-k="{k}" href="#{h}">{T(k)}</a>' for h, k in NAV)
     return f'''</main>
 <dialog id="lb" aria-label="{A("lb_aria")}" data-k-aria="lb_aria"><div class="in"><div class="bar"><a class="btn btn-gold dl" href="#" download data-k="lb_dl">{T("lb_dl")}</a><button class="btn btn-ghost close" type="button" data-k="lb_close">{T("lb_close")}</button></div><img alt="{A("lb_alt")}" data-k-alt="lb_alt" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></div></dialog>
 <footer>
@@ -157,7 +157,7 @@ def foot():
     <div class="foot-bar"><div class="wrap">
       <a class="site" href="{ASFAN}" rel="noopener">{IC['globe']}<span>www.asfanufo.ro</span></a>
       <div class="tag"><b data-k="foot_tag_b">{T("foot_tag_b")}</b><small data-k="foot_tag_s">{T("foot_tag_s")}</small></div>
-      <a class="foot-qr" data-nav="qr" data-k-aria="foot_qr_aria" href="qr.html" aria-label="{A("foot_qr_aria")}"><img src="{P}assets/qr-curs.svg" width="64" height="64" alt="{A("foot_qr_alt")}" data-k-alt="foot_qr_alt"></a>
+      <a class="foot-qr" data-sec="qr" data-k-aria="foot_qr_aria" href="#qr" aria-label="{A("foot_qr_aria")}"><img src="{P}assets/qr-curs.svg" width="64" height="64" alt="{A("foot_qr_alt")}" data-k-alt="foot_qr_alt"></a>
     </div></div>
   </div>
   {share_block()}
@@ -173,10 +173,10 @@ def write(path, content):
 
 def qr_block():
     return f'''<div class="qrs">
-  <div class="qr"><div class="code"><img src="{P}assets/qr-curs.svg" width="150" height="150" alt="{A("qr_alt", url=SITE + "/")}" loading="lazy"></div>
+  <div class="qr"><div class="code"><img src="{P}assets/qr-curs.svg" width="150" height="150" alt="{A("qr_alt", url=SITE + "/")}"></div>
     <div><h2>{T("qr_course_h")}</h2><p>{T("qr_course_p")}</p><div class="url">curs.asfan.online</div>
     <div class="acts"><a class="btn btn-blue" href="{P}assets/qr-curs.png" download="qr-curs-asfan-online.png">PNG</a><a class="btn btn-ghost" href="{P}assets/qr-curs.svg" download="qr-curs-asfan-online.svg">SVG</a><button class="btn btn-ghost" type="button" data-copy="{SITE}/" data-copied="{JS("copied")}">{T("qr_copy")}</button></div></div></div>
-  <div class="qr"><div class="code"><img src="{P}assets/qr-asfan.svg" width="150" height="150" alt="{A("qr_alt", url=ASFAN)}" loading="lazy"></div>
+  <div class="qr"><div class="code"><img src="{P}assets/qr-asfan.svg" width="150" height="150" alt="{A("qr_alt", url=ASFAN)}"></div>
     <div><h2>{T("qr_asfan_h")}</h2><p>{T("qr_asfan_p")}</p><div class="url">www.asfanufo.ro</div>
     <div class="acts"><a class="btn btn-blue" href="{P}assets/qr-asfan.png" download="qr-asfanufo-ro.png">PNG</a><a class="btn btn-ghost" href="{P}assets/qr-asfan.svg" download="qr-asfanufo-ro.svg">SVG</a><button class="btn btn-ghost" type="button" data-copy="{ASFAN}" data-copied="{JS("copied")}">{T("qr_copy")}</button></div></div></div>
 </div>'''
@@ -188,20 +188,34 @@ def notice():
 def crumbs(*items):
     return '<div class="crumbs">' + f'<a href="index.html">{T("crumb_home")}</a>' + "".join(" › " + i for i in items) + '</div>'
 
-# ------------------------------------------------------------------ index
+# ------------------------------------------------------------------ pagina unică
+RO_SUBJECT = "Înscriere curs „Introducere în ufologie” (seria a patra)"
+RO_BODY = ("Bună ziua,\n\nDoresc să mă înscriu la cursul „Introducere în ufologie” (seria a patra), organizat de ASFAN, "
+           "18 noiembrie 2026 – 26 mai 2027, prin ZOOM.\n\nNume și prenume: \nAdresa de e-mail pentru link-urile ZOOM: \nLocalitatea: \n\n"
+           "Înțeleg că participarea este gratuită, că locurile sunt limitate și că diploma se poate solicita cu cel mult trei absențe.\n\nMulțumesc!\n")
+def mailto_href():
+    from urllib.parse import quote as q
+    return "mailto:" + MAIL + "?subject=" + q(RO_SUBJECT, safe="") + "&body=" + q(RO_BODY.replace("\n", "\r\n"), safe="")
+
 def page_index():
     h = head(T("title_index"), T("desc_index"), "index", "index.html",
              '<script type="application/ld+json">' + json.dumps({"@context":"https://schema.org","@type":"Course","name":T("ld_name"),"inLanguage":"ro","availableLanguage":["ro"],
               "description":T("ld_desc"),"provider":{"@type":"Organization","name":"ASFAN","sameAs":ASFAN},
               "hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","startDate":"2026-11-18","endDate":"2027-05-26","instructor":{"@type":"Person","name":"Dan D. Farcaș"}},
               "offers":{"@type":"Offer","price":"0","priceCurrency":"RON"},"url":loc_url(CODE, "index.html")}, ensure_ascii=False) + '</script>')
+    MT = mailto_href()
     tags = "<i>•</i>".join(f"<span>{E(x)}</span>" for x in UI["hero_tags"].split("|"))
     mini = "".join(f"<span>{E(x)}</span>" for x in UI["mini_tags"].split("|"))
-    topics = "".join(f'''      <a class="topic" href="sesiune-{TOPIC_SESS[i]}.html"><img class="art-a" src="{P}assets/a-t{i}.jpg" alt="" width="170" height="52" loading="lazy"><img class="art-b" src="{P}assets/b-t{i}.jpg" alt="" width="170" height="52" loading="lazy"><div><h3>{E(t)}</h3><p>{E(s)}</p></div><span class="go" aria-hidden="true">›</span></a>
+    topics = "".join(f'''      <div class="topic"><img class="art-a" src="{P}assets/a-t{i}.jpg" alt="" width="170" height="52" loading="lazy"><img class="art-b" src="{P}assets/b-t{i}.jpg" alt="" width="170" height="52" loading="lazy"><div><h3>{E(t)}</h3><p>{E(s)}</p></div></div>
 ''' for i, (t, s) in enumerate(LD["topics"], 1))
+    plan = "".join(f'''      <li id="s{x["n"]}"><time datetime="{x["date"].isoformat()}"><b>{E(x["label"])}</b><span>19:00–21:00</span></time>
+        <p>{E(x["text"])}</p>
+        <a class="ics" href="{P}{CAL}sesiune-{x["n"]}.ics" data-ics="sesiune-{x["n"]}" download aria-label="{A("plan_ics")} – {E(x["label"], quote=True)}">📅 <span>{T("plan_ics")}</span></a></li>
+''' for x in SESS)
+    conds = "".join(f"<li>{E(x)}</li>" for x in UI["enr_cond"].split("|"))
     b = notice() + f'''<div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>{T("cd_start", label=SESS[0]["label"])}</span>
-    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="{JS("started")}" aria-live="off"></div><a class="btn btn-gold bar-cta" href="inscriere.html">{T("nav_enroll")}</a></div></div>
-<div class="pst">
+    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="{JS("started")}" aria-live="off"></div><a class="btn btn-gold bar-cta" href="{MT}" data-mail>{T("nav_enroll")}</a></div></div>
+<div class="pst" id="top">
 <section class="hero">
   <img class="hero-art art-a art-left" src="{P}assets/a-moai.jpg" alt="" width="126" height="176">
   <img class="hero-art art-b art-left" src="{P}assets/b-machu.jpg" alt="" width="330" height="236">
@@ -210,7 +224,7 @@ def page_index():
   <div class="hand hand-l" aria-hidden="true">{T("hand_l")}</div>
   <div class="hand hand-r" aria-hidden="true">{T("hand_r")}<span class="sw"></span></div>
   <div class="wrap hero-inner">
-    <div class="hero-logo"><a class="logo-home" data-nav="" href="index.html" aria-label="{A("brand_aria")}" data-k-aria="brand_aria"><img src="{P}assets/logo.png" alt="{A("logo_alt")}" data-k-alt="logo_alt" width="163" height="105"></a>
+    <div class="hero-logo"><a class="logo-home" data-sec="top" href="#top" aria-label="{A("brand_aria")}" data-k-aria="brand_aria"><img src="{P}assets/logo.png" alt="{A("logo_alt")}" data-k-alt="logo_alt" width="163" height="105"></a>
       <div class="motto">{T("motto")}<div class="about">{T("about_assoc")}</div></div></div>
     <div class="hero-center">
       <div class="hero-title">
@@ -224,7 +238,7 @@ def page_index():
         <p class="t-line">{T("hero_line")}</p>
         <div class="tags">{tags}</div>
       </div>
-      <div class="hero-cta"><a class="btn btn-gold" href="inscriere.html">{T("cta_enroll")}</a><a class="btn btn-ghost" href="program.html">{T("cta_program")}</a></div>
+      <div class="hero-cta"><a class="btn btn-gold" href="{MT}" data-mail>{T("cta_enroll")}</a><a class="btn btn-ghost" data-sec="plan" href="#plan">{T("cta_program")}</a></div>
       <div class="mini-tags" aria-hidden="true">{mini}</div>
     </div>
     <div class="coord">
@@ -249,171 +263,58 @@ def page_index():
   <div class="boxes">
     <div class="box free"><h3>{IC['gift']}<span>{T("box_free_t")}</span></h3><p>{T("box_free_p")}</p></div>
     <div class="box seats"><h3>{IC['seats']}<span>{T("box_seats_t")}</span></h3><p>{T("box_seats_p")}</p></div>
-    <div class="box enroll"><h3>{IC['mail']}<a class="ttl" href="inscriere.html">{T("box_enroll_t")}</a></h3><p>{T("box_enroll_p")}</p></div>
+    <div class="box enroll"><h3>{IC['mail']}<a class="ttl" href="{MT}" data-mail>{T("box_enroll_t")}</a></h3><p>{T("box_enroll_p")}</p></div>
   </div>
 </div>
 </div>
-'''
-    return h + b + foot()
 
-# ------------------------------------------------------------------ program
-def page_program():
-    h = head(T("title_program"), T("desc_program"), "program", "program.html")
-    b = notice() + f'''<div class="wrap">
-  <div class="page-head">{crumbs(T("nav_program"))}
-    <h1>{T("prog_h1")}</h1>
-    <p class="lead">{T("prog_lead")}</p></div>
-  <div class="toolbar">
-    <button class="btn btn-blue expand-all" type="button" data-expand="{JS("expand")}" data-collapse="{JS("collapse")}">{T("prog_expand")}</button>
-    <a class="btn btn-gold" href="{P}{CAL}curs-complet.ics" data-ics="curs-complet" download>{T("prog_cal_all")}</a>
-    <input class="sess-filter" type="search" placeholder="{A("prog_filter_ph")}" aria-label="{A("prog_filter_aria")}" style="flex:1 1 240px;font:inherit;color:var(--txt);background:rgba(2,8,24,.85);border:1.5px solid var(--line);border-radius:999px;padding:11px 16px;min-height:46px">
-  </div>
-'''
-    for s in SESS:
-        b += f'''  <details class="ac reveal" id="s{s["n"]}" data-sess="{s["n"]}">
-    <summary><span class="num">{s["n"]}</span><span><span class="dt">{s["label"]} · 19:00–21:00</span><br><span class="tt">{E(s["title"])}</span></span></summary>
-    <div class="body"><p>{E(s["text"])}</p>
-      <ul class="chips">{"".join(f"<li>{E(c)}</li>" for c in s["chips"])}</ul>
-      <p style="margin-top:14px"><a class="btn btn-ghost" href="sesiune-{s["n"]}.html">{T("prog_session_page")}</a> <a class="btn btn-ghost" href="{P}{CAL}sesiune-{s["n"]}.ics" data-ics="sesiune-{s["n"]}" download>{T("prog_cal")}</a></p></div>
-  </details>
-'''
-    b += f'''  <p class="note">{T("prog_note")}</p>
-</div>
-'''
-    return h + b + foot()
-
-# ------------------------------------------------------------------ session pages
-def trunc(t, n=34): return E(t if len(t) <= n else t[:n].rstrip(" ,;:–-") + "…")
-def page_session(s):
-    n = s["n"]
-    prv = SESS[n-2] if n > 1 else None
-    nxt = SESS[n] if n < len(SESS) else None
-    ttl = T("title_session", n=n, title=s["title"])
-    if len(ttl) > 67: ttl = ttl[:66].rstrip(" ,;:–-") + "…"
-    h = head(ttl, T("desc_session", label=s["label"], text=s["text"]), "sesiune", f"sesiune-{n}.html")
-    rel = "".join(f'<li><a href="index.html#h-st" style="color:inherit;text-decoration:none">{E(LD["topics"][t-1][0])}</a></li>' for t in s["topics"])
-    b = notice() + f'''<div class="wrap">
-  <div class="page-head">{crumbs(f'<a href="program.html">{T("nav_program")}</a>', T("s_crumb", n=n))}
-    <h1><em>{n:02d}.</em> {E(s["title"])}</h1>
-    <p class="lead">{T("s_lead", label=s["label"])}</p></div>
-  <div class="facts" data-sess="{n}">
-    <div class="fact"><small>{T("fact_date")}</small><b>{s["label"]}</b></div>
-    <div class="fact"><small>{T("fact_time")}</small><b>19:00 – 21:00</b></div>
-    <div class="fact"><small>{T("fact_format")}</small><b>{T("s_format_v")}</b></div>
-    <div class="fact"><small>{T("fact_place")}</small><b>{T("s_place_v")}</b></div>
-  </div>
-  <div class="count"><span class="lbl">{T("s_cd_label")}</span><div class="cd" data-countdown="{s["start"]}" data-done="{A("s_cd_done")}"></div></div>
-  <div class="grid2" style="margin-top:20px">
-    <div>
-      <section class="panel"><h2 style="margin-top:0">{T("s_about")}</h2><p style="font-size:1.05rem">{E(s["text"])}</p>
-        <ul class="chips">{"".join(f"<li>{E(c)}</li>" for c in s["chips"])}</ul></section>
-      <section class="panel" style="margin-top:16px"><h2 style="margin-top:0">{T("s_topics")}</h2><ul>{rel}</ul></section>
-      <p style="margin-top:16px"><a class="btn btn-gold" href="{P}{CAL}sesiune-{n}.ics" data-ics="sesiune-{n}" download>{T("s_add_cal")}</a> <a class="btn btn-blue" href="inscriere.html">{T("s_enroll")}</a></p>
-      <p class="note">{T("s_note")}</p>
-    </div>
-    <aside class="panel sess-list" aria-label="{A("s_all")}"><h2 style="margin-top:0;font-size:1.2rem">{T("s_all")}</h2>
-''' + "".join(f'      <a href="sesiune-{x["n"]}.html"{" aria-current=\"page\"" if x["n"]==n else ""}><b>{x["short"]}</b><span>{E(x["title"])}</span></a>\n' for x in SESS) + '''    </aside>
-  </div>
-  <div class="pager">
-'''
-    b += f'    <a class="btn btn-ghost" href="sesiune-{prv["n"]}.html">← {prv["n"]}. {trunc(prv["title"])}</a>\n' if prv else '    <span></span>\n'
-    b += f'    <a class="btn btn-ghost" href="sesiune-{nxt["n"]}.html">{nxt["n"]}. {trunc(nxt["title"])} →</a>\n' if nxt else '    <span></span>\n'
-    b += '  </div>\n</div>\n'
-    return h + b + foot()
-
-# ------------------------------------------------------------------ detalii
-def page_detalii():
-    h = head(T("title_about"), T("desc_about"), "detalii", "detalii.html")
-    b = notice() + f'''<div class="wrap">
-  <div class="page-head">{crumbs(T("nav_about"))}
-    <h1>{T("about_h1")}</h1>
-    <p class="lead">{T("about_lead")}</p></div>
-  <div class="grid2">
-    <section class="panel"><h2 style="margin-top:0">{T("about_invite")}</h2>
+<section class="doc" id="inv" aria-labelledby="h-inv">
+  <div class="wrap">
+    <article class="letter">
+      <p class="l-org">{T("about_assoc")} (ASFAN)</p>
+      <h2 id="h-inv" class="l-h">{T("inv_h")}</h2>
+      <p class="l-lead">{T("inv_lead")}</p>
+      <p class="l-title">{T("inv_title")}</p>
+      <p class="l-serie">{T("hero_serie")}</p>
       <p>{T("about_p1")}</p>
       <p>{T("about_p2")}</p>
       <p>{T("about_p3")}</p>
       <p>{T("about_p4")}</p>
-      <p><a class="btn btn-gold" href="inscriere.html">{T("about_btn_enroll")}</a> <a class="btn btn-ghost" href="program.html">{T("about_btn_program")}</a></p></section>
-    <aside class="panel"><div class="coord" style="flex-direction:column;align-items:center;text-align:center">
-      <div class="ph ph-a" style="width:200px"><img src="{P}assets/a-portrait.jpg" alt="Dan D. Farcaș" width="246" height="288"></div>
-      <div class="ph art-b-ph" style="width:200px"><img src="{P}assets/b-portrait.jpg" alt="Dan D. Farcaș" width="244" height="252"></div>
-      <div class="who"><b>Dan D. Farcaș</b><span>{T("coord_role1")}</span><span>{T("coord_role2")}</span></div></div>
-      <p class="note" style="text-align:center;margin-top:14px"><a href="{ASFAN}" rel="noopener">www.asfanufo.ro</a><br>{E(" · ".join(UI["motto"].split("<br>")))}</p></aside>
+      <p class="l-sign">{T("inv_sign")},<br><b>Dan D. Farcaș</b></p>
+    </article>
   </div>
-  <section class="sec" aria-labelledby="h-af">
-    <h2 id="h-af">{T("posters_h")} <span class="sub">{T("posters_sub")}</span></h2>
-    <div class="posters">
-      <button type="button" data-poster="assets/afis-moai.jpg"><img src="{P}assets/afis-moai.jpg" alt="{A("poster_moai_alt")}" width="1024" height="1536" loading="lazy"><span>{T("poster_moai")}</span></button>
-      <button type="button" data-poster="assets/afis-anzi.jpg"><img src="{P}assets/afis-anzi.jpg" alt="{A("poster_anzi_alt")}" width="1024" height="1536" loading="lazy"><span>{T("poster_anzi")}</span></button>
+</section>
+
+<section class="doc plan" id="plan" aria-labelledby="h-plan">
+  <div class="wrap">
+    <header class="plan-head"><h2 id="h-plan">{T("plan_h")}</h2><p class="plan-sub">{T("plan_sub")}<span aria-hidden="true"> · </span><em>{T("plan_kind")}</em></p>
+      <p><a class="btn btn-gold" href="{P}{CAL}curs-complet.ics" data-ics="curs-complet" download>{T("plan_cal")}</a></p></header>
+    <ol class="plan-list">
+{plan}    </ol>
+  </div>
+</section>
+
+<section class="doc enroll-sec" id="inscriere" aria-labelledby="h-enr">
+  <div class="wrap">
+    <div class="enr-card">
+      <h2 id="h-enr">{T("enr_h1")}</h2>
+      <p class="lead">{T("enr_lead")}</p>
+      <div class="count"><span class="lbl">{T("enr_cd_label")}</span><div class="cd" data-countdown="2026-11-17T23:59:59+02:00" data-done="{A("enr_cd_done")}"></div></div>
+      <ul class="enr-conds">{conds}</ul>
+      <p class="enr-act"><a class="btn btn-gold btn-lg" href="{MT}" data-mail>{T("enr_btn")}</a></p>
+      <p class="note">{T("enr_hint")}</p>
+      <p class="note">{T("enr_write")} <a href="mailto:{MAIL}"><b>{MAIL}</b></a> <button class="btn btn-ghost btn-sm" type="button" data-copy="{MAIL}" data-copied="{JS("copied")}">{T("enr_copy_addr")}</button></p>
     </div>
-    <p class="note">{T("posters_note")}</p>
-  </section>
-
-  <section class="sec"><h2>{T("brief_h")}</h2>
-    <div class="facts">
-      <div class="fact"><small>{T("f_period")}</small><b>{T("f_period_v")}</b></div>
-      <div class="fact"><small>{T("f_day")}</small><b>{T("f_day_v")}</b></div>
-      <div class="fact"><small>{T("fact_format")}</small><b>{T("f_format_v")}</b></div>
-      <div class="fact"><small>{T("f_lang")}</small><b>{T("f_lang_v")}</b></div>
-      <div class="fact"><small>{T("f_cost")}</small><b>{T("f_cost_v")}</b></div>
-      <div class="fact"><small>{T("f_diploma")}</small><b>{T("f_diploma_v")}</b></div>
-      <div class="fact"><small>{T("f_seats")}</small><b>{T("f_seats_v")}</b></div>
-      <div class="fact"><small>{T("f_deadline")}</small><b>{T("f_deadline_v")}</b></div>
-      <div class="fact"><small>{T("f_sessions")}</small><b>14</b></div>
-    </div></section>
-  <section class="sec"><h2>{T("faq_h")}</h2>
-'''
-    for q, a in LD["faq"] + [[UI["faq_lang_q"], UI["faq_lang_a"]]]:
-        b += f'    <details class="ac"><summary><span class="tt">{E(q)}</span></summary><div class="body" style="padding-left:16px"><p>{E(rep(a))}</p></div></details>\n'
-    b += '''  </section>
-</div>
-'''
-    return h + b + foot()
-
-# ------------------------------------------------------------------ inscriere
-def page_inscriere():
-    h = head(T("title_enroll"), T("desc_enroll"), "inscriere", "inscriere.html")
-    conds = "".join(f"<li>{E(x)}</li>" for x in UI["enr_cond"].split("|"))
-    b = notice() + f'''<div class="wrap">
-  <div class="page-head">{crumbs(T("nav_enroll"))}
-    <h1>{T("enr_h1")}</h1>
-    <p class="lead">{T("enr_lead")}</p></div>
-  <div class="count"><span class="lbl">{T("enr_cd_label")}</span><div class="cd" data-countdown="2026-11-17T23:59:59+02:00" data-done="{A("enr_cd_done")}"></div></div>
-  <div class="grid2" style="margin-top:20px">
-    <section class="panel"><h2 style="margin-top:0">{T("enr_form_h")}</h2>
-      <p class="note">{T("enr_note1")}</p>
-      <form class="enr" novalidate data-ro-subject="Înscriere curs „Introducere în ufologie” (seria a patra)">
-        <button type="submit" class="vh" tabindex="-1" aria-hidden="true">{A("enr_send")}</button>
-        <label for="nume-{CODE}">{T("enr_name")}</label><input id="nume-{CODE}" name="nume" type="text" required autocomplete="name">
-        <label for="email-{CODE}">{T("enr_email")}</label><input id="email-{CODE}" name="email" type="email" required autocomplete="email" inputmode="email">
-        <label for="loc-{CODE}">{T("enr_loc")}</label><input id="loc-{CODE}" name="loc" type="text" autocomplete="address-level2">
-        <label for="motiv-{CODE}">{T("enr_motiv")}</label><textarea id="motiv-{CODE}" name="motiv"></textarea>
-        <p style="margin-top:16px"><a class="btn btn-gold enr-send" href="mailto:{MAIL}">{T("enr_send")}</a> <button class="btn btn-ghost enr-copy" type="button" data-copied="{JS("copied")}" data-fail="{JS("copy_fail")}">{T("enr_copy")}</button></p>
-        <p class="note">{T("enr_note2")}</p>
-        <p class="ok enr-ok" hidden>{T("enr_ok")}</p>
-      </form></section>
-    <aside class="panel"><h2 style="margin-top:0">{T("enr_direct_h")}</h2>
-      <p>{T("enr_write")} <a href="mailto:{MAIL}"><b>{MAIL}</b></a></p>
-      <p><button class="btn btn-ghost" type="button" data-copy="{MAIL}" data-copied="{JS("copied")}">{T("enr_copy_addr")}</button></p>
-      <hr style="border:0;border-top:1px solid var(--line)"><h3>{T("enr_cond_h")}</h3>
-      <ul>{conds}</ul></aside>
   </div>
-</div>
-'''
-    return h + b + foot()
+</section>
 
-# ------------------------------------------------------------------ qr page
-def page_qr():
-    h = head(T("title_qr"), T("desc_qr"), "qr", "qr.html")
-    b = notice() + f'''<div class="wrap">
-  <div class="page-head">{crumbs(T("nav_qr"))}
-    <h1>{T("qr_h1")}</h1>
+<section class="doc qr-sec" id="qr" aria-labelledby="h-qr">
+  <div class="wrap">
+    <h2 id="h-qr">{T("qr_h1")}</h2>
     <p class="lead">{T("qr_lead")}</p>
-    <p class="toolbar"><button class="btn btn-gold" type="button" onclick="print()">{T("qr_print")}</button></p></div>
-  {qr_block()}
-  <p class="note" style="margin-top:14px">{T("qr_note")}</p>
-</div>
+    {qr_block()}
+  </div>
+</section>
 '''
     return h + b + foot()
 
@@ -429,17 +330,15 @@ for CODE in LANGS:
     if CODE == "ro":   # date independente de limbă
         open(f"{OUT}/assets/sessions.js","w",encoding="utf-8").write("window.ASFAN_SESSIONS="+json.dumps([dict(n=s["n"],start=s["start"],end=s["end"]) for s in SESS])+";\n")
     chrome = {k: UI[k] for k in ("skip","brand_aria","brand_small","logo_alt","menu_btn","nav_aria","nav_home","nav_program","nav_about","nav_enroll","nav_qr","theme_aria","lang_aria",
-              "lb_aria","lb_dl","lb_close","lb_alt","foot_hand","foot_hand2","foot_tag_b","foot_tag_s","foot_qr_aria","foot_qr_alt","share_h","share_native","share_copy","share_via","share_text","lang_notice")}
+              "nav_inv","lb_aria","lb_dl","lb_close","lb_alt","foot_hand","foot_hand2","foot_tag_b","foot_tag_s","foot_qr_aria","foot_qr_alt","share_h","share_native","share_copy","share_via","share_text","lang_notice")}
     open(f"{OUT}/assets/i18n-{CODE}.js","w",encoding="utf-8").write("window.ASFAN_I18N="+json.dumps(dict(lang=CODE,js=LD["js"],labels=[s["label"] for s in SESS],chrome=chrome,
-        titles={"index":UI["title_index"],"program":UI["title_program"],"detalii":UI["title_about"],"inscriere":UI["title_enroll"],"qr":UI["title_qr"]},
+        titles={"index":UI["title_index"]},
         cd_start=UI["cd_start"]),ensure_ascii=False)+";\n")
-    write("index.html", page_index()); write("program.html", page_program()); write("detalii.html", page_detalii())
-    write("inscriere.html", page_inscriere()); write("qr.html", page_qr())
-    for s in SESS: write(f"sesiune-{s['n']}.html", page_session(s))
+    write("index.html", page_index())
 
 open(f"{OUT}/assets/favicon.svg","w").write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#06142f"/><ellipse cx="32" cy="30" rx="24" ry="8" fill="#4cc9ff"/><ellipse cx="32" cy="26" rx="11" ry="9" fill="#bfe6ff"/><path d="M22 38l-6 14h32l-6-14z" fill="#f7b733" opacity=".55"/></svg>')
 open(f"{OUT}/robots.txt","w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
-pages = ["index.html", "program.html", "detalii.html", "inscriere.html", "qr.html"] + [f"sesiune-{i}.html" for i in range(1, 15)]
+pages = ["index.html"]
 def alt(p): return "".join(f'<xhtml:link rel="alternate" hreflang="{l}" href="{loc_url(l, p)}"/>' for l in LANGS) + f'<xhtml:link rel="alternate" hreflang="x-default" href="{loc_url("ro", p)}"/>'
 open(f"{OUT}/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
     + "".join(f"<url><loc>{loc_url(l, p)}</loc>{alt(p)}</url>\n" for p in pages for l in LANGS) + "</urlset>\n")

@@ -9,7 +9,7 @@ SITE = os.path.dirname(ROOT)
 A = SITE + "/assets/"
 rd = lambda p: open(p, encoding="utf-8").read()
 LANGS = ["ro", "en", "fr", "it", "es", "pt", "de", "hu"]
-PAGES = ["index", "program", "detalii", "inscriere", "qr"] + [f"sesiune-{i}" for i in range(1, 15)]
+PAGES = ["index"]
 
 def jpeg_uri(path, maxw=None, q=82):
     im = Image.open(path).convert("RGB")
@@ -57,8 +57,9 @@ for lang in LANGS:
         b = re.search(r'<main id="main">\n(.*?)</main>', h, re.S).group(1)
         b = fix_links(b, lang)
         # id-uri unice între limbi
-        b = re.sub(r'id="(s\d+|h-st|h-af)"', rf'id="{lang}-\1"', b)
-        b = re.sub(r'aria-labelledby="(h-st|h-af)"', rf'aria-labelledby="{lang}-\1"', b)
+        b = re.sub(r'id="(s\d+|h-st|h-inv|h-plan|h-enr|h-qr|top|inv|plan|inscriere|qr)"', rf'id="{lang}-\1"', b)
+        b = re.sub(r'aria-labelledby="(h-st|h-inv|h-plan|h-enr|h-qr)"', rf'aria-labelledby="{lang}-\1"', b)
+        b = re.sub(r'href="#(top|inv|plan|inscriere|qr)"', r'href="#\1"', b)
         sections += f'<section class="page" data-page="{lang}/{pg}" data-title="{title}"{"" if (lang, pg) == ("ro", "index") else " hidden"}>\n{b}</section>\n'
 
 idx = rd(f"{SITE}/index.html")
@@ -141,7 +142,12 @@ function route(hs){var r=parse(hs),first=!window.__routed;
   window.scrollTo(0,0);if(window.__asfanTick)window.__asfanTick();
   var mm=document.getElementById('main');if(mm&&window.__routed){mm.setAttribute('tabindex','-1');try{mm.focus({preventScroll:true})}catch(e){}}window.__routed=true}
 addEventListener('hashchange',function(){route()});addEventListener('popstate',function(){route()});
-document.addEventListener('click',function(e){var a=e.target.closest?e.target.closest('a[href^="#/"]'):null;if(!a||e.defaultPrevented||e.ctrlKey||e.metaKey||e.shiftKey)return;
+document.addEventListener('click',function(e){var sc=e.target.closest?e.target.closest('a[data-sec]'):null;
+  if(sc&&!e.defaultPrevented&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey){e.preventDefault();var id=sc.dataset.sec,t=id==='top'?null:document.getElementById(root.lang+'-'+id);
+    if(t){var y=t.getBoundingClientRect().top+window.pageYOffset-64;window.scrollTo({top:y,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});try{t.setAttribute('tabindex','-1');t.focus({preventScroll:true})}catch(x){}}
+    else window.scrollTo({top:0,behavior:'smooth'});
+    if(nav){nav.classList.remove('open');if(bm)bm.setAttribute('aria-expanded','false')}return}
+  var a=e.target.closest?e.target.closest('a[href^="#/"]'):null;if(!a||e.defaultPrevented||e.ctrlKey||e.metaKey||e.shiftKey)return;
   e.preventDefault();var h=a.getAttribute('href');if(a.dataset.langLink){try{localStorage.setItem('asfan-lang',a.dataset.langLink)}catch(x){}}
   try{history.pushState(null,'',h)}catch(x){try{location.hash=h}catch(y){}}route(h)});
 route();
@@ -155,6 +161,6 @@ out += '<main id="main">\n' + sections + '</main>\n' + tail
 out = out.replace("</body></html>", "")
 out += "<script>window.__IMG__=" + json.dumps(IMG) + ";window.__I18N__=" + json.dumps(ALL, ensure_ascii=False) + ";window.__ICS__=" + json.dumps(ics, ensure_ascii=False) + ";</script>\n"
 out += "<script>\n" + sessions_js + "\n" + app + "\n" + glue + "\n</script>\n</body></html>\n"
-dst = os.path.join(SITE, "curs-asfan-online.html")
+dst = os.path.join(SITE,"curs-asfan-online.html")
 open(dst, "w", encoding="utf-8").write(out)
 print("OK", dst, round(len(out.encode()) / 1024), "KB")

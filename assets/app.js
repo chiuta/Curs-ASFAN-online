@@ -12,6 +12,7 @@ document.querySelectorAll('.theme-switch button').forEach(function(b){b.addEvent
 var bm=document.querySelector('.btn-menu'),nav=document.querySelector('nav.main');
 if(bm){bm.addEventListener('click',function(e){e.stopPropagation();var o=nav.classList.toggle('open');bm.setAttribute('aria-expanded',o)});
   function closeNav(){nav.classList.remove('open');bm.setAttribute('aria-expanded','false')}
+  nav.addEventListener('click',function(e){if(e.target.closest('a'))closeNav()});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&nav.classList.contains('open')){closeNav();bm.focus()}});
   document.addEventListener('click',function(e){if(nav.classList.contains('open')&&!nav.contains(e.target))closeNav()})}
 /* ---- Stars ---- */

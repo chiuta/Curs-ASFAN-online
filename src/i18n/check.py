@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Usage: python3 src/i18n/check.py xx  -> validates xx.json against ro.json"""
-import json,re,sys,os
-D=os.path.dirname(os.path.abspath(__file__))
+"""Usage: python3 check.py xx  -> validates xx.json against ro.json"""
+import json,re,sys
 code=sys.argv[1]
-ro=json.load(open(D+'/ro.json',encoding='utf-8'));t=json.load(open(f'{D}/{code}.json',encoding='utf-8'))
+ro=json.load(open('/home/claude/i18n/ro.json',encoding='utf-8'));t=json.load(open(f'/home/claude/i18n/{code}.json',encoding='utf-8'))
 bad=[]
 tag=lambda s:sorted(re.findall(r'</?[a-zA-Z]+[^>]*>',s))
 ph=lambda s:sorted(re.findall(r'\{[A-Za-z_0-9]+\}',s))

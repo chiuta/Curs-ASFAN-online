@@ -225,7 +225,20 @@
   "share_native": "Teilen…",
   "share_copy": "Link kopieren",
   "share_via": "Auf {net} teilen",
-  "share_text": "Kostenloser Online-Kurs „Einführung in die Ufologie“ (ASFAN), 18. November 2026 – 26. Mai 2027, über ZOOM (auf Rumänisch)"
+  "share_text": "Kostenloser Online-Kurs „Einführung in die Ufologie“ (ASFAN), 18. November 2026 – 26. Mai 2027, über ZOOM (auf Rumänisch)",
+  "inv_h": "EINLADUNG",
+  "inv_lead": "Die ASFAN lädt Sie zu einem Kurs ein mit dem Titel",
+  "inv_title": "EINFÜHRUNG IN DIE UFOLOGIE",
+  "inv_sign": "Kursleiter, Präsident der ASFAN",
+  "plan_h": "Einführung in die Ufologie",
+  "plan_sub": "ASFAN-Kurs, Nov. 2026 – Mai 2027",
+  "plan_kind": "Strukturvorschlag",
+  "plan_cal": "📅 Ganzen Kurs zum Kalender hinzufügen",
+  "enr_btn": "✉️ Per E-Mail anmelden",
+  "enr_hint": "Ihre E-Mail-App öffnet sich mit Empfänger, Betreff und Nachricht bereits ausgefüllt; ergänzen Sie Ihren Namen und senden Sie ab. Die E-Mail ist für die Veranstalter auf Rumänisch verfasst.",
+  "nav_top": "Nach oben",
+  "nav_inv": "Einladung",
+  "plan_ics": "Kalender"
  },
  "js": {
   "copied": "Kopiert ✓",
