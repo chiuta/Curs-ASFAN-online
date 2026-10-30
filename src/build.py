@@ -99,20 +99,20 @@ def head(title, desc, page, path, extra=""):
     langlinks = "".join(f'<li><a lang="{l}" hreflang="{l}" data-lang-link="{l}" href="{lang_href(l, path)}"{" aria-current=\"true\"" if l == CODE else ""}>{E(DATA[l]["meta"]["name"])}</a></li>' for l in LANGS)
     navl = "".join(f'    <a class="lnk" data-nav="{r}" data-k="{k}" href="{h}"{" aria-current=\"page\"" if h == path else ""}>{T(k)}</a>\n' for h, k, r in NAV)
     return f'''<!DOCTYPE html>
-<html lang="{LD["meta"]["html_lang"]}" data-theme="anzi">
+<html lang="{LD["meta"]["html_lang"]}" data-theme="moai">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc, quote=True)}">
-<meta name="theme-color" content="#0b1b3b"><meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#030a1c"><meta name="color-scheme" content="dark">
 <link rel="canonical" href="{canon}">
 {alts}<link rel="icon" href="{P}assets/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website"><meta property="og:locale" content="{LD["meta"]["locale"]}">
 <meta property="og:title" content="{E(title, quote=True)}"><meta property="og:description" content="{E(desc, quote=True)}">
 <meta property="og:url" content="{canon}"><meta property="og:image" content="{SITE}/assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<script>document.documentElement.classList.add('js');try{{var t=new URLSearchParams(location.search).get('tema')||localStorage.getItem('asfan-theme-v2');if(t==='anzi'||t==='moai')document.documentElement.setAttribute('data-theme',t)}}catch(e){{}}</script>
+<script>document.documentElement.classList.add('js');try{{var t=new URLSearchParams(location.search).get('tema')||localStorage.getItem('asfan-theme-v3');if(t==='anzi'||t==='moai')document.documentElement.setAttribute('data-theme',t)}}catch(e){{}}</script>
 <link rel="stylesheet" href="{P}assets/style.css">
 {extra}
 </head>
@@ -124,8 +124,8 @@ def head(title, desc, page, path, extra=""):
   <button class="btn-menu" type="button" aria-expanded="false" aria-controls="nav" data-k="menu_btn">{T("menu_btn")}</button>
   <nav class="main" id="nav" aria-label="{A("nav_aria")}" data-k-aria="nav_aria">
 {navl}    <span class="theme-switch" role="group" aria-label="{A("theme_aria")}" data-k-aria="theme_aria">
-      <button type="button" data-theme="moai" aria-pressed="false">🗿 Moai</button>
-      <button type="button" data-theme="anzi" aria-pressed="true">🏔️ Anzi</button>
+      <button type="button" data-theme="moai" aria-pressed="true">🗿 Moai</button>
+      <button type="button" data-theme="anzi" aria-pressed="false">🏔️ Anzi</button>
     </span>
   </nav>
 </div></header>

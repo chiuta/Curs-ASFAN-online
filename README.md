@@ -17,7 +17,7 @@ Site-ul cursului gratuit online **„Introducere în ufologie”** (seria a patr
 | Calendare `.ics` (câte unul pe sesiune + cursul complet, per limbă) | `calendar/` |
 | Sursa generatorului și traducerile | `src/` |
 
-Două teme de design (**Moai** și **Anzi**, implicit Anzi), reproducând afișele cursului pe desktop, cu variante optimizate pentru tabletă și mobil.
+Două teme de design (**Moai** și **Anzi**, implicit Moai), reproducând afișele cursului pe desktop, cu variante optimizate pentru tabletă și mobil.
 
 ## Regenerare
 

@@ -2,12 +2,12 @@
 'use strict';
 var root=document.documentElement;
 /* ---- Theme ---- */
-function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('asfan-theme-v2',t)}catch(e){}
+function setTheme(t,save){root.setAttribute('data-theme',t);if(save){try{localStorage.setItem('asfan-theme-v3',t)}catch(e){}}
   document.querySelectorAll('.theme-switch button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.theme===t)});
   var m=document.querySelector('meta[name=theme-color]');if(m)m.content=t==='anzi'?'#0b1b3b':'#030a1c';}
-var q=new URLSearchParams(location.search).get('tema'),saved=null;try{saved=localStorage.getItem('asfan-theme-v2')}catch(e){}
-setTheme(q==='anzi'||q==='moai'?q:(saved==='anzi'||saved==='moai'?saved:'anzi'));
-document.querySelectorAll('.theme-switch button').forEach(function(b){b.addEventListener('click',function(){setTheme(b.dataset.theme)})});
+var q=new URLSearchParams(location.search).get('tema'),saved=null;try{saved=localStorage.getItem('asfan-theme-v3')}catch(e){}
+setTheme(q==='anzi'||q==='moai'?q:(saved==='anzi'||saved==='moai'?saved:'moai'));
+document.querySelectorAll('.theme-switch button').forEach(function(b){b.addEventListener('click',function(){setTheme(b.dataset.theme,true)})});
 /* ---- Menu ---- */
 var bm=document.querySelector('.btn-menu'),nav=document.querySelector('nav.main');
 if(bm){bm.addEventListener('click',function(e){e.stopPropagation();var o=nav.classList.toggle('open');bm.setAttribute('aria-expanded',o)});
