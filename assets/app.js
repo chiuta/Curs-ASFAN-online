@@ -102,3 +102,6 @@ document.querySelectorAll('.share-native').forEach(function(b){if(!navigator.sha
   var d=document.createElement('aside');d.className='lang-sug';d.setAttribute('aria-label','Language');d.innerHTML='<div class="wrap"><a hreflang="'+c+'" lang="'+c+'" href="'+c+'/">'+M[c]+' →</a><button type="button" aria-label="OK">×</button></div>';
   d.querySelector('button').addEventListener('click',function(){d.remove();document.documentElement.classList.remove('has-sug');try{sessionStorage.setItem('asfan-sug','1')}catch(e){}});
   h.parentNode.insertBefore(d,h.nextSibling);document.documentElement.classList.add('has-sug')})();
+
+/* ---- Mod arhivă: după ultima sesiune (26 mai 2027, 21:00 ora României) ---- */
+(function(){var end=new Date('2027-05-26T21:00:00+03:00').getTime();function chk(){if(Date.now()>end)document.documentElement.classList.add('course-over')}chk();setInterval(chk,60000)})();

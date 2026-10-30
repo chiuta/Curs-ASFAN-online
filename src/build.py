@@ -136,6 +136,8 @@ def head(title, desc, page, path, extra=""):
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="twitter:card" content="summary_large_image">
 <script>document.documentElement.classList.add('js');try{{var t=new URLSearchParams(location.search).get('tema')||localStorage.getItem('asfan-theme-v3');if(t==='anzi'||t==='moai')document.documentElement.setAttribute('data-theme',t)}}catch(e){{}}</script>
+<link rel="preload" href="{P}assets/fonts/mont-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{P}assets/fonts/ss-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{P}assets/style.css?v={av("style.css")}">
 {extra}
 </head>
@@ -173,7 +175,6 @@ def share_block():
 def foot():
     links = "".join(f'<a data-sec="{h}" data-k="{k}" href="#{h}">{T(k)}</a>' for h, k in NAV)
     return f'''</main>
-<dialog id="lb" aria-label="{A("lb_aria")}" data-k-aria="lb_aria"><div class="in"><div class="bar"><a class="btn btn-gold dl" href="#" download data-k="lb_dl">{T("lb_dl")}</a><button class="btn btn-ghost close" type="button" data-k="lb_close">{T("lb_close")}</button></div><img alt="{A("lb_alt")}" data-k-alt="lb_alt" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></div></dialog>
 <footer>
   <div class="foot-poster">
     <div class="foot-art" aria-hidden="true"><div class="foot-hand art-a" data-k="foot_hand">{T("foot_hand")}</div><div class="foot-hand art-b" data-k="foot_hand2">{T("foot_hand2")}</div></div>
@@ -317,7 +318,7 @@ def page_index():
 '''
     top_block = poster_block if POSTER else compact_block
     acs = "".join(f'''    <details class="ac" id="s{x["n"]}" data-sess="{x["n"]}" open>
-      <summary><span class="num">{x["n"]}</span><span><span class="dt">{x["label"]} · 19:00–21:00</span><br>{"" if SIMPLE else '<span class="tt">' + E(x["title"]) + '</span>'}</span></summary>
+      <summary><span class="num">{x["n"]}</span><h3 class="sh"><span class="dt">{x["label"]} · 19:00–21:00</span>{"" if SIMPLE else '<span class="tt">' + E(x["title"]) + '</span>'}</h3></summary>
       <div class="body"><p>{E(x["text"])}</p>
         {"" if SIMPLE else '<ul class="chips">' + "".join(f"<li>{E(c)}</li>" for c in x["chips"]) + '</ul>'}
         <p style="margin-top:14px"><a class="btn btn-ghost" href="{P}{CAL}sesiune-{x["n"]}.ics" data-ics="sesiune-{x["n"]}" download>{T("prog_cal")}</a></p></div>
@@ -335,7 +336,8 @@ def page_index():
     <p class="note">{T("prog_note")}</p>
   </div>
 </section>'''
-    b = notice() + f'''<div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>{T("cd_start", label=SESS[0]["label"])}</span>
+    b = notice() + f'''<div class="course-over-note" role="note" data-k="over_note">{T("over_note")}</div>
+<div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>{T("cd_start", label=SESS[0]["label"])}</span>
     <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="{JS("started")}" aria-live="off"></div><a class="btn btn-gold bar-cta" href="#inscriere" data-sec="inscriere">{T("nav_enroll")}</a></div></div>
 {top_block}
 
@@ -395,7 +397,7 @@ for CODE in LANGS:
     if CODE == "ro":   # date independente de limbă
         open(f"{OUT}/assets/sessions.js","w",encoding="utf-8").write("window.ASFAN_SESSIONS="+json.dumps([dict(n=s["n"],start=s["start"],end=s["end"]) for s in SESS])+";\n")
     chrome = {k: UI[k] for k in ("skip","brand_aria","brand_small","logo_alt","menu_btn","nav_aria","nav_home","nav_program","nav_about","nav_enroll","nav_qr","theme_aria","lang_aria",
-              "nav_inv","lb_aria","lb_dl","lb_close","lb_alt","foot_hand","foot_hand2","foot_tag_b","foot_tag_s","foot_qr_aria","foot_qr_alt","share_h","share_native","share_copy","share_via","share_text","lang_notice")}
+              "nav_inv","over_note","lb_aria","lb_dl","lb_close","lb_alt","foot_hand","foot_hand2","foot_tag_b","foot_tag_s","foot_qr_aria","foot_qr_alt","share_h","share_native","share_copy","share_via","share_text","lang_notice")}
     open(f"{OUT}/assets/i18n-{CODE}.js","w",encoding="utf-8").write("window.ASFAN_I18N="+json.dumps(dict(lang=CODE,js=LD["js"],labels=[s["label"] for s in SESS],chrome=chrome,
         titles={"index":UI["title_index"]},
         cd_start=UI["cd_start"]),ensure_ascii=False)+";\n")

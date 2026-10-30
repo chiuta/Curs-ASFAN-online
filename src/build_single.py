@@ -67,6 +67,7 @@ idx = rd(f"{SITE}/index.html")
 head = idx.split('<main id="main">')[0]
 tail = idx.split("</main>", 1)[1]
 head = re.sub(r'<link rel="alternate"[^>]*>\n?', '', head)
+head = re.sub(r'<link rel="preload"[^>]*>\n?', '', head)
 head = re.sub(r'<meta http-equiv="Content-Security-Policy"[^>]*>\n?', '', head)
 head = re.sub(r'<meta property="og:(site_name|locale:alternate|image:[a-z]+)"[^>]*>', '', head)
 head = re.sub(r'<link rel="canonical"[^>]*>\n?', '', head)

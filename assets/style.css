@@ -626,3 +626,14 @@ html{scroll-padding-top:76px;scroll-padding-bottom:72px}
 html.has-sug body{padding-bottom:58px}
 .btn-sm{min-height:44px;padding:8px 14px}
 .brand{min-height:44px}
+
+/* --- runda 4 --- */
+details.ac summary h3.sh{margin:0;font:inherit;line-height:inherit;display:block;flex:1 1 auto;min-width:0}
+details.ac summary h3.sh .dt{display:block}
+.btn-menu{min-height:44px}
+/* după încheierea cursului (26 mai 2027): fără apeluri la înscriere */
+html.course-over .bar-cta,html.course-over .top-cta,html.course-over .hero-cta,html.course-over #inscriere,html.course-over [data-sec="inscriere"]{display:none!important}
+.course-over-note{display:none;background:rgba(76,201,255,.1);border-bottom:1px solid rgba(76,201,255,.4);text-align:center;padding:10px 14px;font-weight:700}
+html.course-over .course-over-note{display:block}
+details.ac summary h3.sh .tt{display:block}
+html.course-over .count.slim{display:none}
