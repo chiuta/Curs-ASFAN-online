@@ -37,6 +37,10 @@ python3 src/i18n/check.py en  # validează o traducere față de ro.json
 
 Textele sunt în `src/i18n/<cod>.json` (sursa: `ro.json`). Pentru o limbă nouă: copiază `ro.json`, tradu valorile (păstrând etichetele HTML și `{substituenții}`), adaugă codul în `LANGS` din `src/build.py` și `src/build_single.py`.
 
+## Credite și licențe
+
+Fonturi: **Montserrat** și **Source Sans 3**, sub licența SIL Open Font License 1.1 (textele în `assets/fonts/OFL-*.txt`), încorporate prin pachetele Fontsource. Imaginile afișului și fotografia aparțin ASFAN / autorilor lor.
+
 ## Înscriere
 
 Prin e-mail la adrian.urzica@gmail.com, până la 17 noiembrie 2026 (butonul din site deschide e-mailul precompletat, în română, pentru organizatori; alternative: Gmail și „Copiază mesajul”).
