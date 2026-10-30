@@ -200,7 +200,7 @@ def page_index():
     topics = "".join(f'''      <a class="topic" href="sesiune-{TOPIC_SESS[i]}.html"><img class="art-a" src="{P}assets/a-t{i}.jpg" alt="" width="170" height="52" loading="lazy"><img class="art-b" src="{P}assets/b-t{i}.jpg" alt="" width="170" height="52" loading="lazy"><div><h3>{E(t)}</h3><p>{E(s)}</p></div><span class="go" aria-hidden="true">›</span></a>
 ''' for i, (t, s) in enumerate(LD["topics"], 1))
     b = notice() + f'''<div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>{T("cd_start", label=SESS[0]["label"])}</span>
-    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="{JS("started")}" aria-live="off"></div></div></div>
+    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="{JS("started")}" aria-live="off"></div><a class="btn btn-gold bar-cta" href="inscriere.html">{T("nav_enroll")}</a></div></div>
 <div class="pst">
 <section class="hero">
   <img class="hero-art art-a art-left" src="{P}assets/a-moai.jpg" alt="" width="126" height="176">

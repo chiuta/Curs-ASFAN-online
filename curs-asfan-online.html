@@ -559,6 +559,19 @@ html[lang="es"] .sec h2 .sub,html[lang="fr"] .sec h2 .sub,html[lang="pt"] .sec h
 }
 .count.slim{padding:0}
 
+/* buton de înscriere în bara cu cronometru (mobil/tabletă) */
+.bar-cta{display:none}
+@media (max-width:899px){
+  .count.slim .wrap{align-items:center}
+  .count.slim .lbl{flex:1 0 100%}
+  .bar-cta{display:inline-flex;align-items:center;justify-content:center;margin-left:auto;min-height:44px;padding:0 16px;font-size:.88rem;white-space:nowrap}
+}
+@media (max-width:899px){
+  .count.slim .cd div{min-width:38px;padding:1px 5px}
+  .count.slim .cd{gap:4px}
+  .bar-cta{padding:0 14px;font-size:.86rem}
+}
+
 [hidden]{display:none!important}
 section.page{display:block}
 
@@ -587,7 +600,7 @@ section.page{display:block}
 <main id="main">
 <section class="page" data-page="ro/index" data-title="Introducere în ufologie – curs ASFAN, seria a patra">
 <div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>Cursul începe – miercuri, 18 noiembrie 2026, ora 19:00 (ora României)</span>
-    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="Sesiunea a început!" aria-live="off"></div></div></div>
+    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="Sesiunea a început!" aria-live="off"></div><a class="btn btn-gold bar-cta" href="#/inscriere">Înscriere</a></div></div>
 <div class="pst">
 <section class="hero">
   <img class="hero-art art-a art-left" data-img="a-moai.jpg" alt="" width="126" height="176">
@@ -1452,7 +1465,7 @@ section.page{display:block}
 <section class="page" data-page="en/index" data-title="Introduction to Ufology – ASFAN course, fourth series" hidden>
 <div class="lang-note" role="note"><div class="wrap"><span aria-hidden="true">🇷🇴</span> <span data-k="lang_notice">Please note: the course is taught in Romanian. This website is translated for information only.</span></div></div>
 <div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>The course starts – Wednesday 18 November 2026, 19:00 (Romania time)</span>
-    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="The session has begun!" aria-live="off"></div></div></div>
+    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="The session has begun!" aria-live="off"></div><a class="btn btn-gold bar-cta" href="#/en/inscriere">Enrol</a></div></div>
 <div class="pst">
 <section class="hero">
   <img class="hero-art art-a art-left" data-img="a-moai.jpg" alt="" width="126" height="176">
@@ -2335,7 +2348,7 @@ section.page{display:block}
 <section class="page" data-page="fr/index" data-title="Introduction à l’ufologie – cours ASFAN, quatrième série" hidden>
 <div class="lang-note" role="note"><div class="wrap"><span aria-hidden="true">🇷🇴</span> <span data-k="lang_notice">À noter : le cours se déroule en roumain. Ce site est traduit à titre informatif.</span></div></div>
 <div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>Le cours commence – mercredi 18 novembre 2026, à 19 h (heure de la Roumanie)</span>
-    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="La séance a commencé !" aria-live="off"></div></div></div>
+    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="La séance a commencé !" aria-live="off"></div><a class="btn btn-gold bar-cta" href="#/fr/inscriere">Inscription</a></div></div>
 <div class="pst">
 <section class="hero">
   <img class="hero-art art-a art-left" data-img="a-moai.jpg" alt="" width="126" height="176">
@@ -3218,7 +3231,7 @@ section.page{display:block}
 <section class="page" data-page="it/index" data-title="Introduzione all&#x27;ufologia – corso ASFAN, quarta serie" hidden>
 <div class="lang-note" role="note"><div class="wrap"><span aria-hidden="true">🇷🇴</span> <span data-k="lang_notice">Nota bene: il corso si svolge in lingua romena. Questo sito è tradotto solo a scopo informativo.</span></div></div>
 <div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>Il corso inizia – mercoledì 18 novembre 2026, ore 19:00 (ora della Romania)</span>
-    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="La sessione è iniziata!" aria-live="off"></div></div></div>
+    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="La sessione è iniziata!" aria-live="off"></div><a class="btn btn-gold bar-cta" href="#/it/inscriere">Iscrizione</a></div></div>
 <div class="pst">
 <section class="hero">
   <img class="hero-art art-a art-left" data-img="a-moai.jpg" alt="" width="126" height="176">
@@ -4101,7 +4114,7 @@ section.page{display:block}
 <section class="page" data-page="es/index" data-title="Introducción a la ufología – curso de ASFAN, cuarta serie" hidden>
 <div class="lang-note" role="note"><div class="wrap"><span aria-hidden="true">🇷🇴</span> <span data-k="lang_notice">Importante: el curso se imparte en rumano. Este sitio está traducido solo con fines informativos.</span></div></div>
 <div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>El curso comienza – miércoles, 18 de noviembre de 2026, a las 19:00 (hora de Rumanía)</span>
-    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="¡La sesión ha comenzado!" aria-live="off"></div></div></div>
+    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="¡La sesión ha comenzado!" aria-live="off"></div><a class="btn btn-gold bar-cta" href="#/es/inscriere">Inscripción</a></div></div>
 <div class="pst">
 <section class="hero">
   <img class="hero-art art-a art-left" data-img="a-moai.jpg" alt="" width="126" height="176">
@@ -4984,7 +4997,7 @@ section.page{display:block}
 <section class="page" data-page="pt/index" data-title="Introdução à ufologia – curso ASFAN, quarta série" hidden>
 <div class="lang-note" role="note"><div class="wrap"><span aria-hidden="true">🇷🇴</span> <span data-k="lang_notice">Nota: o curso é lecionado em romeno. Este site está traduzido apenas a título informativo.</span></div></div>
 <div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>O curso começa – quarta-feira, 18 de novembro de 2026, às 19:00 (hora da Roménia)</span>
-    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="A sessão começou!" aria-live="off"></div></div></div>
+    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="A sessão começou!" aria-live="off"></div><a class="btn btn-gold bar-cta" href="#/pt/inscriere">Inscrição</a></div></div>
 <div class="pst">
 <section class="hero">
   <img class="hero-art art-a art-left" data-img="a-moai.jpg" alt="" width="126" height="176">
@@ -5867,7 +5880,7 @@ section.page{display:block}
 <section class="page" data-page="de/index" data-title="Einführung in die Ufologie – ASFAN-Kurs, vierte Staffel" hidden>
 <div class="lang-note" role="note"><div class="wrap"><span aria-hidden="true">🇷🇴</span> <span data-k="lang_notice">Bitte beachten Sie: Der Kurs findet auf Rumänisch statt. Diese Website ist nur zur Information übersetzt.</span></div></div>
 <div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>Der Kurs beginnt – Mittwoch, 18. November 2026, 19:00 Uhr (rumänische Zeit)</span>
-    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="Die Sitzung hat begonnen!" aria-live="off"></div></div></div>
+    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="Die Sitzung hat begonnen!" aria-live="off"></div><a class="btn btn-gold bar-cta" href="#/de/inscriere">Anmeldung</a></div></div>
 <div class="pst">
 <section class="hero">
   <img class="hero-art art-a art-left" data-img="a-moai.jpg" alt="" width="126" height="176">
@@ -6750,7 +6763,7 @@ section.page{display:block}
 <section class="page" data-page="hu/index" data-title="Bevezetés az ufológiába – ASFAN-tanfolyam, negyedik sorozat" hidden>
 <div class="lang-note" role="note"><div class="wrap"><span aria-hidden="true">🇷🇴</span> <span data-k="lang_notice">Felhívjuk figyelmét: a tanfolyam román nyelven zajlik. Ez a weboldal csupán tájékoztató jelleggel van lefordítva.</span></div></div>
 <div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>A tanfolyam indul – 2026. november 18., szerda, 19:00 (romániai idő)</span>
-    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="Az alkalom elkezdődött!" aria-live="off"></div></div></div>
+    <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="Az alkalom elkezdődött!" aria-live="off"></div><a class="btn btn-gold bar-cta" href="#/hu/inscriere">Jelentkezés</a></div></div>
 <div class="pst">
 <section class="hero">
   <img class="hero-art art-a art-left" data-img="a-moai.jpg" alt="" width="126" height="176">

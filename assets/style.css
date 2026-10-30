@@ -543,3 +543,16 @@ html[lang="es"] .sec h2 .sub,html[lang="fr"] .sec h2 .sub,html[lang="pt"] .sec h
   html[data-theme="moai"]{--who-t:83.8%}
 }
 .count.slim{padding:0}
+
+/* buton de înscriere în bara cu cronometru (mobil/tabletă) */
+.bar-cta{display:none}
+@media (max-width:899px){
+  .count.slim .wrap{align-items:center}
+  .count.slim .lbl{flex:1 0 100%}
+  .bar-cta{display:inline-flex;align-items:center;justify-content:center;margin-left:auto;min-height:44px;padding:0 16px;font-size:.88rem;white-space:nowrap}
+}
+@media (max-width:899px){
+  .count.slim .cd div{min-width:38px;padding:1px 5px}
+  .count.slim .cd{gap:4px}
+  .bar-cta{padding:0 14px;font-size:.86rem}
+}
