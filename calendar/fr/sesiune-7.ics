@@ -5,11 +5,16 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Cours ASFAN – Introduction à l’ufologie
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s7-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270310T170000Z
 DTEND:20270310T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (7/14)
-DESCRIPTION:Cas roumains remarquables\n\nCas roumains remarquables. Histoire\, ufologues\, associations\, revues.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s7
+DESCRIPTION:Cas roumains remarquables\n\nCas roumains remarquables. Histoir
+ e\, ufologues\, associations\, revues.\n\nUne heure d’exposé\, une heur
+ e de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.
+ \nDétails : https://curs.asfan.online/fr/#s7
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s7
 BEGIN:VALARM

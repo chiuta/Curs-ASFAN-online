@@ -5,11 +5,17 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:ASFAN-tanfolyam – Bevezetés az ufológiába
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s8-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270324T170000Z
 DTEND:20270324T190000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (8/14)
-DESCRIPTION:Vallási kapcsolatok\n\nVallási kapcsolatok\, szekták\, szent megjelenések\, UFO-k a Bibliában?\, égi elrablások\, genetikai\, sátáni kísérletek? Vatikán\, Vallée.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s8
+DESCRIPTION:Vallási kapcsolatok\n\nVallási kapcsolatok\, szekták\, szent
+  megjelenések\, UFO-k a Bibliában?\, égi elrablások\, genetikai\, sát
+ áni kísérletek? Vatikán\, Vallée.\n\nEgy óra előadás\, egy óra be
+ szélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek:
+  https://curs.asfan.online/hu/#s8
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s8
 BEGIN:VALARM

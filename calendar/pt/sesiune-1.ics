@@ -5,11 +5,19 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Curso ASFAN – Introdução à ufologia
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s1-pt@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261118T170000Z
 DTEND:20261118T190000Z
 SUMMARY:Curso ASFAN – Introdução à ufologia (1/14)
-DESCRIPTION:Noções básicas: fenómenos aeroespaciais/anómalos não identificados (FAN/OVNI)\n\nFenómenos aeroespaciais/anómalos não identificados (FAN/OVNI)\, noções básicas: aéreos\, subaquáticos\, espaço cósmico\, transmédia. Observações diurnas\, noturnas\, radar. Características\, aterragens. OVNI agressivos.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/#s1
+DESCRIPTION:Noções básicas: fenómenos aeroespaciais/anómalos não iden
+ tificados (FAN/OVNI)\n\nFenómenos aeroespaciais/anómalos não identifica
+ dos (FAN/OVNI)\, noções básicas: aéreos\, subaquáticos\, espaço cós
+ mico\, transmédia. Observações diurnas\, noturnas\, radar. Característ
+ icas\, aterragens. OVNI agressivos.\n\nUma hora de apresentação\, uma ho
+ ra de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: 
+ https://curs.asfan.online/pt/#s1
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/pt/#s1
 BEGIN:VALARM

@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Corso ASFAN – Introduzione all'ufologia
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s10-it@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270407T160000Z
 DTEND:20270407T180000Z
 SUMMARY:Corso ASFAN – Introduzione all'ufologia (10/14)
-DESCRIPTION:Spiegazioni possibili\n\nSpiegazioni possibili: temponauti? Intraterrestri? Ecc. Due ipotesi extraterrestri\, iperciviltà\, condizioni\, autodistruzione\, non intervento. Ipnosi culturale\, limiti\, possibili conseguenze.\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/#s10
+DESCRIPTION:Spiegazioni possibili\n\nSpiegazioni possibili: temponauti? Int
+ raterrestri? Ecc. Due ipotesi extraterrestri\, iperciviltà\, condizioni\,
+  autodistruzione\, non intervento. Ipnosi culturale\, limiti\, possibili c
+ onseguenze.\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ri
+ cevono il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/#s
+ 10
 LOCATION:Online\, su ZOOM
 URL:https://curs.asfan.online/it/#s10
 BEGIN:VALARM

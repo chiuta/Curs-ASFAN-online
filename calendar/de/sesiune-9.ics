@@ -5,11 +5,17 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:ASFAN-Kurs – Einführung in die Ufologie
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s9-de@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270331T160000Z
 DTEND:20270331T180000Z
 SUMMARY:ASFAN-Kurs – Einführung in die Ufologie (9/14)
-DESCRIPTION:Uralte Zivilisationen\n\nUralte Zivilisationen\, Silurier\, Atlantis\, Nibiru\, Anunnaki\, Plejadier\, Reptiloide. Paläo-SETI\, Ooparts\, zyklopische Bauten\, Mumien.\n\nEine Stunde Vortrag\, eine Stunde Diskussion. Zugelassene erhalten den ZOOM-Link per E-Mail.\nDetails: https://curs.asfan.online/de/#s9
+DESCRIPTION:Uralte Zivilisationen\n\nUralte Zivilisationen\, Silurier\, Atl
+ antis\, Nibiru\, Anunnaki\, Plejadier\, Reptiloide. Paläo-SETI\, Ooparts\
+ , zyklopische Bauten\, Mumien.\n\nEine Stunde Vortrag\, eine Stunde Diskus
+ sion. Zugelassene erhalten den ZOOM-Link per E-Mail.\nDetails: https://cur
+ s.asfan.online/de/#s9
 LOCATION:Online\, über ZOOM
 URL:https://curs.asfan.online/de/#s9
 BEGIN:VALARM

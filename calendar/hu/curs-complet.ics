@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:ASFAN-tanfolyam – Bevezetés az ufológiába
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s1-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261118T170000Z
 DTEND:20261118T190000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (1/14)
-DESCRIPTION:Alapfogalmak: azonosítatlan légi/anomális jelenségek (AAP/UFO)\n\nAzonosítatlan légi/anomális jelenségek (AAP/UFO)\, alapfogalmak: légi\, víz alatti\, világűr\, transzmédia. Nappali\, éjszakai\, radarmegfigyelések. Tulajdonságok\, leszállások. Agresszív UFO-k.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s1
+DESCRIPTION:Alapfogalmak: azonosítatlan légi/anomális jelenségek (AAP/U
+ FO)\n\nAzonosítatlan légi/anomális jelenségek (AAP/UFO)\, alapfogalmak
+ : légi\, víz alatti\, világűr\, transzmédia. Nappali\, éjszakai\, ra
+ darmegfigyelések. Tulajdonságok\, leszállások. Agresszív UFO-k.\n\nEg
+ y óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mai
+ lben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s1
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s1
 BEGIN:VALARM
@@ -20,11 +27,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s2-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261202T170000Z
 DTEND:20261202T190000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (2/14)
-DESCRIPTION:Politikai-katonai történet 1942–2017\n\nPolitikai-katonai történet 1942–2017\, nukleáris kapcsolatok\, lezuhanások\, konfliktusok\, projektek\, Blue Book\, Hynek\, szabályzatok. Titkolózás\, dezinformáció\, tabu\, nevetségessé tétel\, a média cinkossága\, UFO-mitológia. Oroszoknál\, briteknél\, franciáknál\, dél-amerikaiaknál stb. is.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s2
+DESCRIPTION:Politikai-katonai történet 1942–2017\n\nPolitikai-katonai t
+ örténet 1942–2017\, nukleáris kapcsolatok\, lezuhanások\, konfliktus
+ ok\, projektek\, Blue Book\, Hynek\, szabályzatok. Titkolózás\, dezinfo
+ rmáció\, tabu\, nevetségessé tétel\, a média cinkossága\, UFO-mitol
+ ógia. Oroszoknál\, briteknél\, franciáknál\, dél-amerikaiaknál stb.
+  is.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felve
+ ttek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s2
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s2
 BEGIN:VALARM
@@ -35,11 +50,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s3-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261216T170000Z
 DTEND:20261216T190000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (3/14)
-DESCRIPTION:2017 után: Kongresszus\, Pentagon\, NASA\, AARO\n\n2017 után: a Kongresszus\, a Pentagon\, a NASA\, az AARO stb. Magánkezdeményezések. Használt-e az amerikai hadiipar UFO-maradványokat? Oroszország\, Kína és az ICER\, más egyesületek. Hivatalos UFO-struktúrák. A legújabb titkosítás-feloldások.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s3
+DESCRIPTION:2017 után: Kongresszus\, Pentagon\, NASA\, AARO\n\n2017 után:
+  a Kongresszus\, a Pentagon\, a NASA\, az AARO stb. Magánkezdeményezése
+ k. Használt-e az amerikai hadiipar UFO-maradványokat? Oroszország\, Kí
+ na és az ICER\, más egyesületek. Hivatalos UFO-struktúrák. A legújab
+ b titkosítás-feloldások.\n\nEgy óra előadás\, egy óra beszélgetés
+ . A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://cu
+ rs.asfan.online/hu/#s3
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s3
 BEGIN:VALARM
@@ -50,11 +73,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s4-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270113T170000Z
 DTEND:20270113T190000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (4/14)
-DESCRIPTION:Harmadik–negyedik típusú találkozások\n\nHarmadik–negyedik típusú találkozások. Kapcsolatfelvételek\, kapcsolatba kerültek\, elrablások\, forgatókönyv\, genetikai kísérletek\, átprogramozás\, különleges jellemzők\, bizonyítékok\, vissza nem térő elrablások. Hopkins\, Mack stb. Megcsonkítások\, kriptozoológia\, rezervátumok?\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s4
+DESCRIPTION:Harmadik–negyedik típusú találkozások\n\nHarmadik–negye
+ dik típusú találkozások. Kapcsolatfelvételek\, kapcsolatba kerültek\
+ , elrablások\, forgatókönyv\, genetikai kísérletek\, átprogramozás\
+ , különleges jellemzők\, bizonyítékok\, vissza nem térő elrablások
+ . Hopkins\, Mack stb. Megcsonkítások\, kriptozoológia\, rezervátumok?\
+ n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek 
+ e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s4
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s4
 BEGIN:VALARM
@@ -65,11 +96,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s5-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270224T170000Z
 DTEND:20270224T190000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (5/14)
-DESCRIPTION:A jelenség régi története\n\nA jelenség régi története\, népi hagyományi kapcsolatok\, ielék (román népi tündérek)\, törpék\, Magonia\, mágikus körök és terménykörök\, Vallée.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s5
+DESCRIPTION:A jelenség régi története\n\nA jelenség régi története\
+ , népi hagyományi kapcsolatok\, ielék (román népi tündérek)\, törp
+ ék\, Magonia\, mágikus körök és terménykörök\, Vallée.\n\nEgy ór
+ a előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben 
+ kapják meg.\nRészletek: https://curs.asfan.online/hu/#s5
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s5
 BEGIN:VALARM
@@ -80,11 +117,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s6-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270303T170000Z
 DTEND:20270303T190000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (6/14)
-DESCRIPTION:Kapcsolat a paranormálissal\n\nKapcsolat a paranormálissal. CRV távolbalátási technika\, csatornázás\, Akasha\, reinkarnáció? Spirituális vonatkozások\, a szellem utazásai\, samanok\, technikák\, Mack.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s6
+DESCRIPTION:Kapcsolat a paranormálissal\n\nKapcsolat a paranormálissal. C
+ RV távolbalátási technika\, csatornázás\, Akasha\, reinkarnáció? Sp
+ irituális vonatkozások\, a szellem utazásai\, samanok\, technikák\, Ma
+ ck.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvet
+ tek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s6
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s6
 BEGIN:VALARM
@@ -95,11 +138,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s7-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270310T170000Z
 DTEND:20270310T190000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (7/14)
-DESCRIPTION:Különleges romániai esetek\n\nKülönleges romániai esetek. Történet\, ufológusok\, egyesületek\, folyóiratok.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s7
+DESCRIPTION:Különleges romániai esetek\n\nKülönleges romániai esetek.
+  Történet\, ufológusok\, egyesületek\, folyóiratok.\n\nEgy óra előa
+ dás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják
+  meg.\nRészletek: https://curs.asfan.online/hu/#s7
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s7
 BEGIN:VALARM
@@ -110,11 +158,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s8-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270324T170000Z
 DTEND:20270324T190000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (8/14)
-DESCRIPTION:Vallási kapcsolatok\n\nVallási kapcsolatok\, szekták\, szent megjelenések\, UFO-k a Bibliában?\, égi elrablások\, genetikai\, sátáni kísérletek? Vatikán\, Vallée.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s8
+DESCRIPTION:Vallási kapcsolatok\n\nVallási kapcsolatok\, szekták\, szent
+  megjelenések\, UFO-k a Bibliában?\, égi elrablások\, genetikai\, sát
+ áni kísérletek? Vatikán\, Vallée.\n\nEgy óra előadás\, egy óra be
+ szélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek:
+  https://curs.asfan.online/hu/#s8
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s8
 BEGIN:VALARM
@@ -125,11 +179,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s9-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270331T160000Z
 DTEND:20270331T180000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (9/14)
-DESCRIPTION:Ókori civilizációk\n\nÓkori civilizációk\, szilur\, Atlantisz\, Nibiru\, Anunnakik\, plejádiak\, reptiliánok. Paleoasztronautika\, ooparts (időszerűtlen leletek)\, küklopszi építmények\, múmiák.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s9
+DESCRIPTION:Ókori civilizációk\n\nÓkori civilizációk\, szilur\, Atlan
+ tisz\, Nibiru\, Anunnakik\, plejádiak\, reptiliánok. Paleoasztronautika\
+ , ooparts (időszerűtlen leletek)\, küklopszi építmények\, múmiák.\
+ n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek 
+ e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s9
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s9
 BEGIN:VALARM
@@ -140,11 +200,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s10-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270407T160000Z
 DTEND:20270407T180000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (10/14)
-DESCRIPTION:Lehetséges magyarázatok\n\nLehetséges magyarázatok: időnauták? Intraterresztriálisok? Stb. Két földönkívüli hipotézis\, hipercivilizációk\, feltételek\, önpusztítás\, be nem avatkozás. Kulturális hipnózis\, korlátok\, lehetséges következmények.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s10
+DESCRIPTION:Lehetséges magyarázatok\n\nLehetséges magyarázatok: időnau
+ ták? Intraterresztriálisok? Stb. Két földönkívüli hipotézis\, hipe
+ rcivilizációk\, feltételek\, önpusztítás\, be nem avatkozás. Kultur
+ ális hipnózis\, korlátok\, lehetséges következmények.\n\nEgy óra el
+ őadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapj
+ ák meg.\nRészletek: https://curs.asfan.online/hu/#s10
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s10
 BEGIN:VALARM
@@ -155,11 +222,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s11-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270421T160000Z
 DTEND:20270421T180000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (11/14)
-DESCRIPTION:Leleplezési kísérletek\n\nLeleplezési kísérletek. Titkosítás-feloldások. Lesz kapcsolatfelvétel? Hogyan fog kinézni? Milyen feltételekkel? A jelenlegi hozzáállás a leleplezéshez: katonák\, kutatók\, vallásos emberek\, a nagyközönség.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s11
+DESCRIPTION:Leleplezési kísérletek\n\nLeleplezési kísérletek. Titkos
+ ítás-feloldások. Lesz kapcsolatfelvétel? Hogyan fog kinézni? Milyen f
+ eltételekkel? A jelenlegi hozzáállás a leleplezéshez: katonák\, kuta
+ tók\, vallásos emberek\, a nagyközönség.\n\nEgy óra előadás\, egy 
+ óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRés
+ zletek: https://curs.asfan.online/hu/#s11
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s11
 BEGIN:VALARM
@@ -170,11 +244,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s12-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270428T160000Z
 DTEND:20270428T180000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (12/14)
-DESCRIPTION:További romániai esetek és szabad előadások\n\nTovábbi romániai esetek. Szabad előadások. Filmek\, fényképek stb.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s12
+DESCRIPTION:További romániai esetek és szabad előadások\n\nTovábbi ro
+ mániai esetek. Szabad előadások. Filmek\, fényképek stb.\n\nEgy óra 
+ előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben ka
+ pják meg.\nRészletek: https://curs.asfan.online/hu/#s12
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s12
 BEGIN:VALARM
@@ -185,11 +264,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s13-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270512T160000Z
 DTEND:20270512T180000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (13/14)
-DESCRIPTION:Vizsgálati módszertan és hamis UFO-k\n\nMódszertan\, hogyan vizsgáljuk az AAP-eseteket\, ASFAN-források (adatbázis\, adattár stb.). Hogyan ismerünk fel/különböztetünk meg egy UFO-t\, hamis UFO-k\, repülőgépek\, műholdak\, fényképek és filmek\, hamisítványok.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s13
+DESCRIPTION:Vizsgálati módszertan és hamis UFO-k\n\nMódszertan\, hogyan
+  vizsgáljuk az AAP-eseteket\, ASFAN-források (adatbázis\, adattár stb.
+ ). Hogyan ismerünk fel/különböztetünk meg egy UFO-t\, hamis UFO-k\, r
+ epülőgépek\, műholdak\, fényképek és filmek\, hamisítványok.\n\nE
+ gy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-ma
+ ilben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s13
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s13
 BEGIN:VALARM
@@ -200,11 +286,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s14-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270526T160000Z
 DTEND:20270526T180000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (14/14)
-DESCRIPTION:Következtetések\, kérdések és záró beszélgetés\n\nKövetkeztetések\, kérdések és záró beszélgetés.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s14
+DESCRIPTION:Következtetések\, kérdések és záró beszélgetés\n\nKöv
+ etkeztetések\, kérdések és záró beszélgetés.\n\nEgy óra előadás
+ \, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg
+ .\nRészletek: https://curs.asfan.online/hu/#s14
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s14
 BEGIN:VALARM

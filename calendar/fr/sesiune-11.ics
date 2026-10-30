@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Cours ASFAN – Introduction à l’ufologie
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s11-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270421T160000Z
 DTEND:20270421T180000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (11/14)
-DESCRIPTION:Tentatives de divulgation\n\nTentatives de divulgation. Déclassifications. Y aura-t-il un contact ? À quoi ressemblera-t-il ? Dans quelles conditions ? Attitude actuelle face à une divulgation : militaires\, chercheurs\, religieux\, grand public.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s11
+DESCRIPTION:Tentatives de divulgation\n\nTentatives de divulgation. Déclas
+ sifications. Y aura-t-il un contact ? À quoi ressemblera-t-il ? Dans quel
+ les conditions ? Attitude actuelle face à une divulgation : militaires\, 
+ chercheurs\, religieux\, grand public.\n\nUne heure d’exposé\, une heur
+ e de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.
+ \nDétails : https://curs.asfan.online/fr/#s11
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s11
 BEGIN:VALARM

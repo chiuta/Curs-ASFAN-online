@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Curs ASFAN – Introducere în ufologie
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s13-ro@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270512T160000Z
 DTEND:20270512T180000Z
 SUMMARY:Curs ASFAN – Introducere în ufologie (13/14)
-DESCRIPTION:Metodologie de investigare și false OZN-uri\n\nMetodologie\, cum investigăm cazurile FAN\, resurse ASFAN (BD\, fond de date etc.). Cum recunoaștem/deosebim un OZN\, false OZN-uri\, aeronave\, sateliți\, fotografii și filme\, contrafaceri.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/#s13
+DESCRIPTION:Metodologie de investigare și false OZN-uri\n\nMetodologie\, c
+ um investigăm cazurile FAN\, resurse ASFAN (BD\, fond de date etc.). Cum 
+ recunoaștem/deosebim un OZN\, false OZN-uri\, aeronave\, sateliți\, foto
+ grafii și filme\, contrafaceri.\n\nO oră prezentare\, o oră discuții. 
+ Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https
+ ://curs.asfan.online/#s13
 LOCATION:Online\, prin ZOOM
 URL:https://curs.asfan.online/#s13
 BEGIN:VALARM

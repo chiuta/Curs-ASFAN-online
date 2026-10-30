@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Corso ASFAN – Introduzione all'ufologia
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s13-it@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270512T160000Z
 DTEND:20270512T180000Z
 SUMMARY:Corso ASFAN – Introduzione all'ufologia (13/14)
-DESCRIPTION:Metodologia d'indagine e falsi UFO\n\nMetodologia\, come indagare i casi UAP\, risorse ASFAN (banca dati\, archivio ecc.). Come riconoscere/distinguere un UFO\, falsi UFO\, aeromobili\, satelliti\, fotografie e filmati\, contraffazioni.\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/#s13
+DESCRIPTION:Metodologia d'indagine e falsi UFO\n\nMetodologia\, come indaga
+ re i casi UAP\, risorse ASFAN (banca dati\, archivio ecc.). Come riconosce
+ re/distinguere un UFO\, falsi UFO\, aeromobili\, satelliti\, fotografie e 
+ filmati\, contraffazioni.\n\nUn'ora di relazione\, un'ora di discussione. 
+ Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asfa
+ n.online/it/#s13
 LOCATION:Online\, su ZOOM
 URL:https://curs.asfan.online/it/#s13
 BEGIN:VALARM

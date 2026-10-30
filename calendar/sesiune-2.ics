@@ -5,11 +5,19 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Curs ASFAN – Introducere în ufologie
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s2-ro@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261202T170000Z
 DTEND:20261202T190000Z
 SUMMARY:Curs ASFAN – Introducere în ufologie (2/14)
-DESCRIPTION:Istoria politico-militară 1942–2017\n\nIstoria politico-militară 1942-2017\, conexiuni nucleare\, prăbușiri\, conflicte\, proiecte\, Blue Book\, Hynek\, regulamente. Secret\, dezinformare\, tabu\, ridiculizare\, complicitatea media\, mitologia OZN. Și la ruși\, englezi\, francezi\, sudamericani etc.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/#s2
+DESCRIPTION:Istoria politico-militară 1942–2017\n\nIstoria politico-mili
+ tară 1942-2017\, conexiuni nucleare\, prăbușiri\, conflicte\, proiecte\
+ , Blue Book\, Hynek\, regulamente. Secret\, dezinformare\, tabu\, ridiculi
+ zare\, complicitatea media\, mitologia OZN. Și la ruși\, englezi\, franc
+ ezi\, sudamericani etc.\n\nO oră prezentare\, o oră discuții. Link-ul Z
+ OOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.a
+ sfan.online/#s2
 LOCATION:Online\, prin ZOOM
 URL:https://curs.asfan.online/#s2
 BEGIN:VALARM

@@ -5,11 +5,17 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Curs ASFAN – Introducere în ufologie
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s9-ro@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270331T160000Z
 DTEND:20270331T180000Z
 SUMMARY:Curs ASFAN – Introducere în ufologie (9/14)
-DESCRIPTION:Civilizații străvechi\n\nCivilizații străvechi\, Silurian\, Atlantida\, Nibiru\, Anunnaki\, pleiadieni\, reptilieni. Paleoastronautică\, ooparts\, construcții ciclopice\, mumii.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/#s9
+DESCRIPTION:Civilizații străvechi\n\nCivilizații străvechi\, Silurian\,
+  Atlantida\, Nibiru\, Anunnaki\, pleiadieni\, reptilieni. Paleoastronautic
+ ă\, ooparts\, construcții ciclopice\, mumii.\n\nO oră prezentare\, o or
+ ă discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\n
+ Detalii: https://curs.asfan.online/#s9
 LOCATION:Online\, prin ZOOM
 URL:https://curs.asfan.online/#s9
 BEGIN:VALARM

@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:ASFAN course – Introduction to Ufology
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s6-en@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270303T170000Z
 DTEND:20270303T190000Z
 SUMMARY:ASFAN course – Introduction to Ufology (6/14)
-DESCRIPTION:The connection with the paranormal\n\nThe connection with the paranormal. The CRV remote viewing technique\, channeling\, Akasha\, reincarnations? Spiritual aspects\, journeys of the spirit\, shamans\, techniques\, Mack.\n\nOne hour of presentation\, one hour of discussion. Those admitted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.online/en/#s6
+DESCRIPTION:The connection with the paranormal\n\nThe connection with the p
+ aranormal. The CRV remote viewing technique\, channeling\, Akasha\, reinca
+ rnations? Spiritual aspects\, journeys of the spirit\, shamans\, technique
+ s\, Mack.\n\nOne hour of presentation\, one hour of discussion. Those admi
+ tted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.online/
+ en/#s6
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/en/#s6
 BEGIN:VALARM

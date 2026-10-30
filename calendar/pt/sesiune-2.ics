@@ -5,11 +5,19 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Curso ASFAN – Introdução à ufologia
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s2-pt@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261202T170000Z
 DTEND:20261202T190000Z
 SUMMARY:Curso ASFAN – Introdução à ufologia (2/14)
-DESCRIPTION:História político-militar 1942–2017\n\nHistória político-militar 1942-2017\, ligações nucleares\, quedas\, conflitos\, projetos\, Blue Book\, Hynek\, regulamentos. Segredo\, desinformação\, tabu\, ridicularização\, cumplicidade dos media\, mitologia OVNI. E também entre russos\, ingleses\, franceses\, sul-americanos\, etc.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/#s2
+DESCRIPTION:História político-militar 1942–2017\n\nHistória político-
+ militar 1942-2017\, ligações nucleares\, quedas\, conflitos\, projetos\,
+  Blue Book\, Hynek\, regulamentos. Segredo\, desinformação\, tabu\, ridi
+ cularização\, cumplicidade dos media\, mitologia OVNI. E também entre r
+ ussos\, ingleses\, franceses\, sul-americanos\, etc.\n\nUma hora de aprese
+ ntação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admit
+ idos.\nDetalhes: https://curs.asfan.online/pt/#s2
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/pt/#s2
 BEGIN:VALARM

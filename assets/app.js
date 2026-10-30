@@ -100,5 +100,5 @@ document.querySelectorAll('.share-native').forEach(function(b){if(!navigator.sha
   var nl=navigator.languages||[navigator.language||'ro'],c=null;for(var i=0;i<nl.length;i++){var x=String(nl[i]).slice(0,2).toLowerCase();if(x==='ro')return;if(M[x]){c=x;break}}
   if(!c)return;var h=document.querySelector('header.topbar');if(!h)return;
   var d=document.createElement('aside');d.className='lang-sug';d.setAttribute('aria-label','Language');d.innerHTML='<div class="wrap"><a hreflang="'+c+'" lang="'+c+'" href="'+c+'/">'+M[c]+' →</a><button type="button" aria-label="OK">×</button></div>';
-  d.querySelector('button').addEventListener('click',function(){d.remove();try{sessionStorage.setItem('asfan-sug','1')}catch(e){}});
-  h.parentNode.insertBefore(d,h.nextSibling)})();
+  d.querySelector('button').addEventListener('click',function(){d.remove();document.documentElement.classList.remove('has-sug');try{sessionStorage.setItem('asfan-sug','1')}catch(e){}});
+  h.parentNode.insertBefore(d,h.nextSibling);document.documentElement.classList.add('has-sug')})();

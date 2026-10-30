@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:ASFAN course – Introduction to Ufology
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s3-en@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261216T170000Z
 DTEND:20261216T190000Z
 SUMMARY:ASFAN course – Introduction to Ufology (3/14)
-DESCRIPTION:After 2017: Congress\, Pentagon\, NASA\, AARO\n\nAfter 2017: Congress\, the Pentagon\, NASA\, AARO etc. Private initiatives. Has the American military industry used UFO debris? Russia\, China and ICER\, other associations. Official UFO structures. The latest declassifications.\n\nOne hour of presentation\, one hour of discussion. Those admitted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.online/en/#s3
+DESCRIPTION:After 2017: Congress\, Pentagon\, NASA\, AARO\n\nAfter 2017: Co
+ ngress\, the Pentagon\, NASA\, AARO etc. Private initiatives. Has the Amer
+ ican military industry used UFO debris? Russia\, China and ICER\, other as
+ sociations. Official UFO structures. The latest declassifications.\n\nOne 
+ hour of presentation\, one hour of discussion. Those admitted receive the 
+ ZOOM link by e-mail.\nDetails: https://curs.asfan.online/en/#s3
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/en/#s3
 BEGIN:VALARM

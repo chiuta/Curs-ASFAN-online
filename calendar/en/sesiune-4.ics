@@ -5,11 +5,19 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:ASFAN course – Introduction to Ufology
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s4-en@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270113T170000Z
 DTEND:20270113T190000Z
 SUMMARY:ASFAN course – Introduction to Ufology (4/14)
-DESCRIPTION:Close encounters of the 3rd–4th kind\n\nClose encounters of the 3rd-4th kind. Contacts\, contactees\, abductions\, scenario\, genetic experiments\, indoctrination\, special characteristics\, evidence\, abductions without return. Hopkins\, Mack etc. Mutilations\, cryptozoology\, reservations?\n\nOne hour of presentation\, one hour of discussion. Those admitted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.online/en/#s4
+DESCRIPTION:Close encounters of the 3rd–4th kind\n\nClose encounters of t
+ he 3rd-4th kind. Contacts\, contactees\, abductions\, scenario\, genetic e
+ xperiments\, indoctrination\, special characteristics\, evidence\, abducti
+ ons without return. Hopkins\, Mack etc. Mutilations\, cryptozoology\, rese
+ rvations?\n\nOne hour of presentation\, one hour of discussion. Those admi
+ tted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.online/
+ en/#s4
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/en/#s4
 BEGIN:VALARM

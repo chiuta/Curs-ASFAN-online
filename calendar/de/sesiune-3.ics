@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:ASFAN-Kurs – Einführung in die Ufologie
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s3-de@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261216T170000Z
 DTEND:20261216T190000Z
 SUMMARY:ASFAN-Kurs – Einführung in die Ufologie (3/14)
-DESCRIPTION:Nach 2017: Kongress\, Pentagon\, NASA\, AARO\n\nNach 2017: Kongress\, Pentagon\, NASA\, AARO usw. Private Initiativen. Hat die US-Rüstungsindustrie UFO-Trümmer genutzt? Russland\, China und ICER\, weitere Vereinigungen. Offizielle UFO-Stellen. Jüngste Freigaben.\n\nEine Stunde Vortrag\, eine Stunde Diskussion. Zugelassene erhalten den ZOOM-Link per E-Mail.\nDetails: https://curs.asfan.online/de/#s3
+DESCRIPTION:Nach 2017: Kongress\, Pentagon\, NASA\, AARO\n\nNach 2017: Kong
+ ress\, Pentagon\, NASA\, AARO usw. Private Initiativen. Hat die US-Rüstun
+ gsindustrie UFO-Trümmer genutzt? Russland\, China und ICER\, weitere Vere
+ inigungen. Offizielle UFO-Stellen. Jüngste Freigaben.\n\nEine Stunde Vort
+ rag\, eine Stunde Diskussion. Zugelassene erhalten den ZOOM-Link per E-Mai
+ l.\nDetails: https://curs.asfan.online/de/#s3
 LOCATION:Online\, über ZOOM
 URL:https://curs.asfan.online/de/#s3
 BEGIN:VALARM

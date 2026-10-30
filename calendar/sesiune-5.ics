@@ -5,11 +5,17 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Curs ASFAN – Introducere în ufologie
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s5-ro@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270224T170000Z
 DTEND:20270224T190000Z
 SUMMARY:Curs ASFAN – Introducere în ufologie (5/14)
-DESCRIPTION:Istoria veche a fenomenului\n\nIstoria veche a fenomenului\, conexiuni folclorice\, iele\, pitici\, Magonia\, cercuri magice și agroglife\, Vallée.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/#s5
+DESCRIPTION:Istoria veche a fenomenului\n\nIstoria veche a fenomenului\, co
+ nexiuni folclorice\, iele\, pitici\, Magonia\, cercuri magice și agroglif
+ e\, Vallée.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se prim
+ ește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online
+ /#s5
 LOCATION:Online\, prin ZOOM
 URL:https://curs.asfan.online/#s5
 BEGIN:VALARM

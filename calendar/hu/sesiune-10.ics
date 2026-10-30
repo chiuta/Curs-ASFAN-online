@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:ASFAN-tanfolyam – Bevezetés az ufológiába
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s10-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270407T160000Z
 DTEND:20270407T180000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (10/14)
-DESCRIPTION:Lehetséges magyarázatok\n\nLehetséges magyarázatok: időnauták? Intraterresztriálisok? Stb. Két földönkívüli hipotézis\, hipercivilizációk\, feltételek\, önpusztítás\, be nem avatkozás. Kulturális hipnózis\, korlátok\, lehetséges következmények.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s10
+DESCRIPTION:Lehetséges magyarázatok\n\nLehetséges magyarázatok: időnau
+ ták? Intraterresztriálisok? Stb. Két földönkívüli hipotézis\, hipe
+ rcivilizációk\, feltételek\, önpusztítás\, be nem avatkozás. Kultur
+ ális hipnózis\, korlátok\, lehetséges következmények.\n\nEgy óra el
+ őadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapj
+ ák meg.\nRészletek: https://curs.asfan.online/hu/#s10
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s10
 BEGIN:VALARM

@@ -5,11 +5,16 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Curs ASFAN – Introducere în ufologie
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s7-ro@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270310T170000Z
 DTEND:20270310T190000Z
 SUMMARY:Curs ASFAN – Introducere în ufologie (7/14)
-DESCRIPTION:Cazuri românești deosebite\n\nCazuri românești deosebite. Istorie\, ufologi\, asociații\, reviste.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/#s7
+DESCRIPTION:Cazuri românești deosebite\n\nCazuri românești deosebite. I
+ storie\, ufologi\, asociații\, reviste.\n\nO oră prezentare\, o oră dis
+ cuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetali
+ i: https://curs.asfan.online/#s7
 LOCATION:Online\, prin ZOOM
 URL:https://curs.asfan.online/#s7
 BEGIN:VALARM

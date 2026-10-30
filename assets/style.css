@@ -620,3 +620,9 @@ details.ac summary .dt,details.ac summary .tt,.foot-bar .tag,.foot-bar .site{ove
 .foot-bar .wrap{flex-wrap:wrap}
 @media print{.lang-sug,.topbar,.count.slim,.share,#stars,.expand-all,.sess-filter{display:none!important}}
 .foot-links{flex-wrap:wrap;overflow-wrap:anywhere}.foot-links a{overflow-wrap:anywhere}
+
+/* --- runda 3: focus neacoperit, ținte tactile, bară de limbă --- */
+html{scroll-padding-top:76px;scroll-padding-bottom:72px}
+html.has-sug body{padding-bottom:58px}
+.btn-sm{min-height:44px;padding:8px 14px}
+.brand{min-height:44px}

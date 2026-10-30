@@ -5,11 +5,16 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Curso ASFAN – Introdução à ufologia
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s12-pt@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270428T160000Z
 DTEND:20270428T180000Z
 SUMMARY:Curso ASFAN – Introdução à ufologia (12/14)
-DESCRIPTION:Outros casos romenos e apresentações livres\n\nOutros casos romenos. Apresentações livres. Filmes\, fotografias\, etc.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/#s12
+DESCRIPTION:Outros casos romenos e apresentações livres\n\nOutros casos r
+ omenos. Apresentações livres. Filmes\, fotografias\, etc.\n\nUma hora de
+  apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail ao
+ s admitidos.\nDetalhes: https://curs.asfan.online/pt/#s12
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/pt/#s12
 BEGIN:VALARM

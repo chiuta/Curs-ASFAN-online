@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Corso ASFAN – Introduzione all'ufologia
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s4-it@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270113T170000Z
 DTEND:20270113T190000Z
 SUMMARY:Corso ASFAN – Introduzione all'ufologia (4/14)
-DESCRIPTION:Incontri ravvicinati del 3° e 4° tipo\n\nIncontri ravvicinati del 3° e 4° tipo. Contatti\, contattisti\, rapimenti\, scenario\, esperimenti genetici\, indottrinamento\, caratteristiche speciali\, prove\, rapimenti senza ritorno. Hopkins\, Mack ecc. Mutilazioni\, criptozoologia\, riserve?\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/#s4
+DESCRIPTION:Incontri ravvicinati del 3° e 4° tipo\n\nIncontri ravvicinati
+  del 3° e 4° tipo. Contatti\, contattisti\, rapimenti\, scenario\, esper
+ imenti genetici\, indottrinamento\, caratteristiche speciali\, prove\, rap
+ imenti senza ritorno. Hopkins\, Mack ecc. Mutilazioni\, criptozoologia\, r
+ iserve?\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ricevo
+ no il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/#s4
 LOCATION:Online\, su ZOOM
 URL:https://curs.asfan.online/it/#s4
 BEGIN:VALARM

@@ -5,11 +5,17 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Curso ASFAN – Introdução à ufologia
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s8-pt@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270324T170000Z
 DTEND:20270324T190000Z
 SUMMARY:Curso ASFAN – Introdução à ufologia (8/14)
-DESCRIPTION:Ligações religiosas\n\nLigações religiosas\, seitas\, aparições sagradas\, OVNI na Bíblia?\, raptos celestes\, experiências genéticas\, satânicas? Vaticano\, Vallée.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/#s8
+DESCRIPTION:Ligações religiosas\n\nLigações religiosas\, seitas\, apari
+ ções sagradas\, OVNI na Bíblia?\, raptos celestes\, experiências gené
+ ticas\, satânicas? Vaticano\, Vallée.\n\nUma hora de apresentação\, um
+ a hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalh
+ es: https://curs.asfan.online/pt/#s8
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/pt/#s8
 BEGIN:VALARM

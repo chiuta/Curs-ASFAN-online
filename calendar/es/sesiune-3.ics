@@ -5,11 +5,19 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Curso de ASFAN – Introducción a la ufología
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s3-es@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261216T170000Z
 DTEND:20261216T190000Z
 SUMMARY:Curso de ASFAN – Introducción a la ufología (3/14)
-DESCRIPTION:Después de 2017: Congreso\, Pentágono\, NASA\, AARO\n\nDespués de 2017\, el Congreso\, el Pentágono\, la NASA\, AARO\, etc. Iniciativas privadas. ¿La industria militar estadounidense ha usado restos de OVNI? Rusia\, China e ICER\, otras asociaciones. Estructuras oficiales OVNI. Las últimas desclasificaciones.\n\nUna hora de exposición\, una hora de debate. Las personas admitidas reciben el enlace de ZOOM por correo.\nDetalles: https://curs.asfan.online/es/#s3
+DESCRIPTION:Después de 2017: Congreso\, Pentágono\, NASA\, AARO\n\nDespu
+ és de 2017\, el Congreso\, el Pentágono\, la NASA\, AARO\, etc. Iniciati
+ vas privadas. ¿La industria militar estadounidense ha usado restos de OVN
+ I? Rusia\, China e ICER\, otras asociaciones. Estructuras oficiales OVNI. 
+ Las últimas desclasificaciones.\n\nUna hora de exposición\, una hora de 
+ debate. Las personas admitidas reciben el enlace de ZOOM por correo.\nDeta
+ lles: https://curs.asfan.online/es/#s3
 LOCATION:En línea\, por ZOOM
 URL:https://curs.asfan.online/es/#s3
 BEGIN:VALARM

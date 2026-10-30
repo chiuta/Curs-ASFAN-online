@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:ASFAN-tanfolyam – Bevezetés az ufológiába
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s11-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270421T160000Z
 DTEND:20270421T180000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (11/14)
-DESCRIPTION:Leleplezési kísérletek\n\nLeleplezési kísérletek. Titkosítás-feloldások. Lesz kapcsolatfelvétel? Hogyan fog kinézni? Milyen feltételekkel? A jelenlegi hozzáállás a leleplezéshez: katonák\, kutatók\, vallásos emberek\, a nagyközönség.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s11
+DESCRIPTION:Leleplezési kísérletek\n\nLeleplezési kísérletek. Titkos
+ ítás-feloldások. Lesz kapcsolatfelvétel? Hogyan fog kinézni? Milyen f
+ eltételekkel? A jelenlegi hozzáállás a leleplezéshez: katonák\, kuta
+ tók\, vallásos emberek\, a nagyközönség.\n\nEgy óra előadás\, egy 
+ óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRés
+ zletek: https://curs.asfan.online/hu/#s11
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s11
 BEGIN:VALARM

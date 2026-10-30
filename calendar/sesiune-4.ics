@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Curs ASFAN – Introducere în ufologie
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s4-ro@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270113T170000Z
 DTEND:20270113T190000Z
 SUMMARY:Curs ASFAN – Introducere în ufologie (4/14)
-DESCRIPTION:Întâlniri de gradul 3–4\n\nÎntâlniri de gradul 3-4. Contacte\, contactați\, răpiri\, scenariu\, experimente genetice\, îndoctrinare\, caracteristici speciale\, dovezi\, răpiri fără întoarcere. Hopkins\, Mack etc. Mutilări\, criptozoologie\, rezervații?\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/#s4
+DESCRIPTION:Întâlniri de gradul 3–4\n\nÎntâlniri de gradul 3-4. Conta
+ cte\, contactați\, răpiri\, scenariu\, experimente genetice\, îndoctrin
+ are\, caracteristici speciale\, dovezi\, răpiri fără întoarcere. Hopki
+ ns\, Mack etc. Mutilări\, criptozoologie\, rezervații?\n\nO oră prezent
+ are\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei 
+ admiși.\nDetalii: https://curs.asfan.online/#s4
 LOCATION:Online\, prin ZOOM
 URL:https://curs.asfan.online/#s4
 BEGIN:VALARM

@@ -5,11 +5,16 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Corso ASFAN – Introduzione all'ufologia
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s14-it@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270526T160000Z
 DTEND:20270526T180000Z
 SUMMARY:Corso ASFAN – Introduzione all'ufologia (14/14)
-DESCRIPTION:Conclusioni\, domande e discussione finale\n\nConclusioni\, domande e discussione finale.\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/#s14
+DESCRIPTION:Conclusioni\, domande e discussione finale\n\nConclusioni\, dom
+ ande e discussione finale.\n\nUn'ora di relazione\, un'ora di discussione.
+  Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asf
+ an.online/it/#s14
 LOCATION:Online\, su ZOOM
 URL:https://curs.asfan.online/it/#s14
 BEGIN:VALARM

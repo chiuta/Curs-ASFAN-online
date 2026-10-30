@@ -26,6 +26,8 @@ assert [d for d, _ in SDATES] == sorted(d for d, _ in SDATES)
 
 E = html.escape
 import hashlib
+BUILD_UTC = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+BUILD_SEQ = int((dt.datetime.now(dt.timezone.utc) - dt.datetime(2026,10,30,tzinfo=dt.timezone.utc)).total_seconds() // 3600)
 def av(rel): return hashlib.md5(open(f"{OUT}/assets/{rel}","rb").read()).hexdigest()[:8]
 CODE = "ro"; LD = DATA["ro"]; UI = LD["ui"]; P = ""; CAL = "calendar/"; SESS = []
 
@@ -63,14 +65,24 @@ def esc(s): return s.replace("\\","\\\\").replace(";","\\;").replace(",","\\,").
 def page_url(n): return SITE + "/" + (CODE + "/" if CODE != "ro" else "") + f"#s{n}"
 def vevent(s):
     desc = f"{s['title']}\n\n{s['text']}\n\n" + T("ics_desc", url=page_url(s['n']))
-    return ["BEGIN:VEVENT", f"UID:asfan-ufologie-4-s{s['n']}-{CODE}@curs.asfan.online", "DTSTAMP:20261030T000000Z",
+    return ["BEGIN:VEVENT", f"UID:asfan-ufologie-4-s{s['n']}-{CODE}@curs.asfan.online", f"DTSTAMP:{BUILD_UTC}", f"SEQUENCE:{BUILD_SEQ}", "STATUS:CONFIRMED",
             f"DTSTART:{s['utc_s']}", f"DTEND:{s['utc_e']}", f"SUMMARY:{esc(T('ics_summary', n=s['n']))}",
             f"DESCRIPTION:{esc(desc)}", f"LOCATION:{esc(T('ics_loc'))}", f"URL:{page_url(s['n'])}",
             "BEGIN:VALARM","TRIGGER:-PT60M","ACTION:DISPLAY",f"DESCRIPTION:{esc(T('ics_alarm'))}","END:VALARM","END:VEVENT"]
+def fold(line):
+    """RFC 5545: linii de max. 75 octeți, continuare cu spațiu; nu taie caractere UTF-8"""
+    out, cur, n = [], "", 0
+    for ch in line:
+        k = len(ch.encode("utf-8"))
+        if n + k > (75 if not out else 74):
+            out.append(cur); cur, n = "", 0
+        cur += ch; n += k
+    out.append(cur)
+    return "\r\n ".join(out)
 def ics(events):
     lines = ["BEGIN:VCALENDAR","VERSION:2.0",f"PRODID:-//ASFAN//Curs Ufologie 4//{CODE.upper()}","CALSCALE:GREGORIAN",f"X-WR-CALNAME:{esc(T('ics_cal'))}"]
     for ev in events: lines += vevent(ev)
-    lines.append("END:VCALENDAR"); return "\r\n".join(lines) + "\r\n"
+    lines.append("END:VCALENDAR"); return "\r\n".join(fold(l) for l in lines) + "\r\n"
 # ------------------------------------------------------------------ iconițe
 IC = {
  "cal":'<svg viewBox="0 0 40 40" aria-hidden="true"><rect x="5" y="8" width="30" height="27" rx="3"/><path d="M5 16h30M12 4v8M28 4v8M11 22h4M18 22h4M25 22h4M11 28h4M18 28h4M25 28h4"/></svg>',

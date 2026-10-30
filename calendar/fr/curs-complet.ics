@@ -5,11 +5,19 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Cours ASFAN – Introduction à l’ufologie
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s1-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261118T170000Z
 DTEND:20261118T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (1/14)
-DESCRIPTION:Notions de base : phénomènes aérospatiaux/anomaux non identifiés (PAN/OVNI)\n\nPhénomènes aérospatiaux/anomaux non identifiés (PAN/OVNI)\, notions de base : aériens\, sous-marins\, espace\, transmilieu. Observations diurnes\, nocturnes\, radar. Caractéristiques\, atterrissages. OVNI agressifs.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s1
+DESCRIPTION:Notions de base : phénomènes aérospatiaux/anomaux non identi
+ fiés (PAN/OVNI)\n\nPhénomènes aérospatiaux/anomaux non identifiés (PA
+ N/OVNI)\, notions de base : aériens\, sous-marins\, espace\, transmilieu.
+  Observations diurnes\, nocturnes\, radar. Caractéristiques\, atterrissag
+ es. OVNI agressifs.\n\nUne heure d’exposé\, une heure de discussion. Le
+ s personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https:
+ //curs.asfan.online/fr/#s1
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s1
 BEGIN:VALARM
@@ -20,11 +28,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s2-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261202T170000Z
 DTEND:20261202T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (2/14)
-DESCRIPTION:Histoire politico-militaire 1942–2017\n\nHistoire politico-militaire 1942-2017\, liens avec le nucléaire\, crashs\, conflits\, projets\, Blue Book\, Hynek\, règlements. Secret\, désinformation\, tabou\, ridiculisation\, complicité des médias\, mythologie OVNI. Et chez les Russes\, les Anglais\, les Français\, les Sud-Américains\, etc.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s2
+DESCRIPTION:Histoire politico-militaire 1942–2017\n\nHistoire politico-mi
+ litaire 1942-2017\, liens avec le nucléaire\, crashs\, conflits\, projets
+ \, Blue Book\, Hynek\, règlements. Secret\, désinformation\, tabou\, rid
+ iculisation\, complicité des médias\, mythologie OVNI. Et chez les Russe
+ s\, les Anglais\, les Français\, les Sud-Américains\, etc.\n\nUne heure 
+ d’exposé\, une heure de discussion. Les personnes admises reçoivent le
+  lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s2
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s2
 BEGIN:VALARM
@@ -35,11 +51,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s3-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261216T170000Z
 DTEND:20261216T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (3/14)
-DESCRIPTION:Après 2017 : Congrès\, Pentagone\, NASA\, AARO\n\nAprès 2017\, le Congrès\, le Pentagone\, la NASA\, AARO\, etc. Initiatives privées. L’industrie militaire américaine a-t-elle utilisé des débris d’OVNI ? Russie\, Chine et ICER\, autres associations. Structures officielles OVNI. Dernières déclassifications.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s3
+DESCRIPTION:Après 2017 : Congrès\, Pentagone\, NASA\, AARO\n\nAprès 2017
+ \, le Congrès\, le Pentagone\, la NASA\, AARO\, etc. Initiatives privées
+ . L’industrie militaire américaine a-t-elle utilisé des débris d’OV
+ NI ? Russie\, Chine et ICER\, autres associations. Structures officielles 
+ OVNI. Dernières déclassifications.\n\nUne heure d’exposé\, une heure 
+ de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\n
+ Détails : https://curs.asfan.online/fr/#s3
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s3
 BEGIN:VALARM
@@ -50,11 +74,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s4-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270113T170000Z
 DTEND:20270113T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (4/14)
-DESCRIPTION:Rencontres du 3e et 4e type\n\nRencontres du 3e et 4e type. Contacts\, contactés\, enlèvements\, scénario\, expériences génétiques\, endoctrinement\, caractéristiques particulières\, preuves\, enlèvements sans retour. Hopkins\, Mack\, etc. Mutilations\, cryptozoologie\, réserves ?\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s4
+DESCRIPTION:Rencontres du 3e et 4e type\n\nRencontres du 3e et 4e type. Con
+ tacts\, contactés\, enlèvements\, scénario\, expériences génétiques\
+ , endoctrinement\, caractéristiques particulières\, preuves\, enlèvemen
+ ts sans retour. Hopkins\, Mack\, etc. Mutilations\, cryptozoologie\, rése
+ rves ?\n\nUne heure d’exposé\, une heure de discussion. Les personnes a
+ dmises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.
+ online/fr/#s4
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s4
 BEGIN:VALARM
@@ -65,11 +97,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s5-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270224T170000Z
 DTEND:20270224T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (5/14)
-DESCRIPTION:L’histoire ancienne du phénomène\n\nHistoire ancienne du phénomène\, liens avec le folklore\, iele (fées du folklore roumain)\, nains\, Magonia\, cercles magiques et crop circles\, Vallée.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s5
+DESCRIPTION:L’histoire ancienne du phénomène\n\nHistoire ancienne du ph
+ énomène\, liens avec le folklore\, iele (fées du folklore roumain)\, na
+ ins\, Magonia\, cercles magiques et crop circles\, Vallée.\n\nUne heure d
+ ’exposé\, une heure de discussion. Les personnes admises reçoivent le 
+ lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s5
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s5
 BEGIN:VALARM
@@ -80,11 +118,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s6-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270303T170000Z
 DTEND:20270303T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (6/14)
-DESCRIPTION:Le lien avec le paranormal\n\nLe lien avec le paranormal. Technique de vision à distance CRV\, channeling\, Akasha\, réincarnations ? Aspects spirituels\, voyages de l’esprit\, chamanes\, techniques\, Mack.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s6
+DESCRIPTION:Le lien avec le paranormal\n\nLe lien avec le paranormal. Techn
+ ique de vision à distance CRV\, channeling\, Akasha\, réincarnations ? A
+ spects spirituels\, voyages de l’esprit\, chamanes\, techniques\, Mack.\
+ n\nUne heure d’exposé\, une heure de discussion. Les personnes admises 
+ reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/
+ fr/#s6
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s6
 BEGIN:VALARM
@@ -95,11 +140,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s7-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270310T170000Z
 DTEND:20270310T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (7/14)
-DESCRIPTION:Cas roumains remarquables\n\nCas roumains remarquables. Histoire\, ufologues\, associations\, revues.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s7
+DESCRIPTION:Cas roumains remarquables\n\nCas roumains remarquables. Histoir
+ e\, ufologues\, associations\, revues.\n\nUne heure d’exposé\, une heur
+ e de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.
+ \nDétails : https://curs.asfan.online/fr/#s7
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s7
 BEGIN:VALARM
@@ -110,11 +160,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s8-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270324T170000Z
 DTEND:20270324T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (8/14)
-DESCRIPTION:Liens avec la religion\n\nLiens avec la religion\, sectes\, apparitions saintes\, OVNI dans la Bible ?\, enlèvements célestes\, expériences génétiques\, sataniques ? Vatican\, Vallée.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s8
+DESCRIPTION:Liens avec la religion\n\nLiens avec la religion\, sectes\, app
+ aritions saintes\, OVNI dans la Bible ?\, enlèvements célestes\, expéri
+ ences génétiques\, sataniques ? Vatican\, Vallée.\n\nUne heure d’expo
+ sé\, une heure de discussion. Les personnes admises reçoivent le lien ZO
+ OM par e-mail.\nDétails : https://curs.asfan.online/fr/#s8
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s8
 BEGIN:VALARM
@@ -125,11 +181,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s9-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270331T160000Z
 DTEND:20270331T180000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (9/14)
-DESCRIPTION:Civilisations anciennes\n\nCivilisations anciennes\, Silurien\, Atlantide\, Nibiru\, Anunnaki\, Pléiadiens\, reptiliens. Paléoastronautique\, ooparts\, constructions cyclopéennes\, momies.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s9
+DESCRIPTION:Civilisations anciennes\n\nCivilisations anciennes\, Silurien\,
+  Atlantide\, Nibiru\, Anunnaki\, Pléiadiens\, reptiliens. Paléoastronaut
+ ique\, ooparts\, constructions cyclopéennes\, momies.\n\nUne heure d’ex
+ posé\, une heure de discussion. Les personnes admises reçoivent le lien 
+ ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s9
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s9
 BEGIN:VALARM
@@ -140,11 +202,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s10-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270407T160000Z
 DTEND:20270407T180000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (10/14)
-DESCRIPTION:Explications possibles\n\nExplications possibles : chronautes ? Intraterrestres ? Etc. Deux hypothèses extraterrestres\, hypercivilisations\, conditions\, autodestruction\, non-intervention. Hypnose culturelle\, limites\, conséquences possibles.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s10
+DESCRIPTION:Explications possibles\n\nExplications possibles : chronautes ?
+  Intraterrestres ? Etc. Deux hypothèses extraterrestres\, hypercivilisati
+ ons\, conditions\, autodestruction\, non-intervention. Hypnose culturelle\
+ , limites\, conséquences possibles.\n\nUne heure d’exposé\, une heure 
+ de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\n
+ Détails : https://curs.asfan.online/fr/#s10
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s10
 BEGIN:VALARM
@@ -155,11 +224,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s11-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270421T160000Z
 DTEND:20270421T180000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (11/14)
-DESCRIPTION:Tentatives de divulgation\n\nTentatives de divulgation. Déclassifications. Y aura-t-il un contact ? À quoi ressemblera-t-il ? Dans quelles conditions ? Attitude actuelle face à une divulgation : militaires\, chercheurs\, religieux\, grand public.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s11
+DESCRIPTION:Tentatives de divulgation\n\nTentatives de divulgation. Déclas
+ sifications. Y aura-t-il un contact ? À quoi ressemblera-t-il ? Dans quel
+ les conditions ? Attitude actuelle face à une divulgation : militaires\, 
+ chercheurs\, religieux\, grand public.\n\nUne heure d’exposé\, une heur
+ e de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.
+ \nDétails : https://curs.asfan.online/fr/#s11
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s11
 BEGIN:VALARM
@@ -170,11 +246,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s12-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270428T160000Z
 DTEND:20270428T180000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (12/14)
-DESCRIPTION:Autres cas roumains et présentations libres\n\nAutres cas roumains. Présentations libres. Films\, photographies\, etc.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s12
+DESCRIPTION:Autres cas roumains et présentations libres\n\nAutres cas roum
+ ains. Présentations libres. Films\, photographies\, etc.\n\nUne heure d
+ ’exposé\, une heure de discussion. Les personnes admises reçoivent le 
+ lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s12
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s12
 BEGIN:VALARM
@@ -185,11 +266,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s13-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270512T160000Z
 DTEND:20270512T180000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (13/14)
-DESCRIPTION:Méthodologie d’enquête et faux OVNI\n\nMéthodologie\, comment enquêter sur les cas PAN\, ressources de l’ASFAN (base de données\, fonds documentaire\, etc.). Comment reconnaître/distinguer un OVNI\, faux OVNI\, aéronefs\, satellites\, photographies et films\, contrefaçons.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s13
+DESCRIPTION:Méthodologie d’enquête et faux OVNI\n\nMéthodologie\, comm
+ ent enquêter sur les cas PAN\, ressources de l’ASFAN (base de données\
+ , fonds documentaire\, etc.). Comment reconnaître/distinguer un OVNI\, fa
+ ux OVNI\, aéronefs\, satellites\, photographies et films\, contrefaçons.
+ \n\nUne heure d’exposé\, une heure de discussion. Les personnes admises
+  reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online
+ /fr/#s13
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s13
 BEGIN:VALARM
@@ -200,11 +289,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s14-fr@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20270526T160000Z
 DTEND:20270526T180000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (14/14)
-DESCRIPTION:Conclusions\, questions et discussions finales\n\nConclusions\, questions et discussions finales.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s14
+DESCRIPTION:Conclusions\, questions et discussions finales\n\nConclusions\,
+  questions et discussions finales.\n\nUne heure d’exposé\, une heure de
+  discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nD
+ étails : https://curs.asfan.online/fr/#s14
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s14
 BEGIN:VALARM

@@ -5,11 +5,18 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:ASFAN-tanfolyam – Bevezetés az ufológiába
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s1-hu@curs.asfan.online
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261030T131036Z
+SEQUENCE:13
+STATUS:CONFIRMED
 DTSTART:20261118T170000Z
 DTEND:20261118T190000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (1/14)
-DESCRIPTION:Alapfogalmak: azonosítatlan légi/anomális jelenségek (AAP/UFO)\n\nAzonosítatlan légi/anomális jelenségek (AAP/UFO)\, alapfogalmak: légi\, víz alatti\, világűr\, transzmédia. Nappali\, éjszakai\, radarmegfigyelések. Tulajdonságok\, leszállások. Agresszív UFO-k.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s1
+DESCRIPTION:Alapfogalmak: azonosítatlan légi/anomális jelenségek (AAP/U
+ FO)\n\nAzonosítatlan légi/anomális jelenségek (AAP/UFO)\, alapfogalmak
+ : légi\, víz alatti\, világűr\, transzmédia. Nappali\, éjszakai\, ra
+ darmegfigyelések. Tulajdonságok\, leszállások. Agresszív UFO-k.\n\nEg
+ y óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mai
+ lben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s1
 LOCATION:Online\, ZOOM-on
 URL:https://curs.asfan.online/hu/#s1
 BEGIN:VALARM
