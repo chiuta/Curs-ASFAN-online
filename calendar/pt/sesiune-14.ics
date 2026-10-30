@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270526T160000Z
 DTEND:20270526T180000Z
 SUMMARY:Curso ASFAN – Introdução à ufologia (14/14)
-DESCRIPTION:Conclusões\, perguntas e debate final\n\nConclusões\, perguntas e debate final.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-14.html
+DESCRIPTION:Conclusões\, perguntas e debate final\n\nConclusões\, perguntas e debate final.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/#s14
 LOCATION:Online\, via ZOOM
-URL:https://curs.asfan.online/pt/sesiune-14.html
+URL:https://curs.asfan.online/pt/#s14
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

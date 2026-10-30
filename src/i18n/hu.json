@@ -238,7 +238,12 @@
   "enr_hint": "Megnyílik az e-mail alkalmazás a címzettel, a tárgygyal és az üzenettel kitöltve; adja hozzá a nevét, és küldje el. Az e-mail a szervezők számára román nyelvű.",
   "nav_top": "Fel",
   "nav_inv": "Meghívó",
-  "plan_ics": "Naptár"
+  "plan_ics": "Naptár",
+  "tz_note": "Romániai idő szerint. Budapesten: 18:00–20:00; Londonban: 17:00–19:00.",
+  "enr_gmail": "Megnyitás Gmailben",
+  "enr_copy_msg": "Üzenet másolása",
+  "enr_alt": "Nincs e-mail alkalmazás?",
+  "og_alt": "„Bevezetés az ufológiába” tanfolyam plakátja – UFO, moai szobor és Dan D. Farcaș portréja"
  },
  "js": {
   "copied": "Másolva ✓",

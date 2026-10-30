@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270526T160000Z
 DTEND:20270526T180000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (14/14)
-DESCRIPTION:Következtetések\, kérdések és záró beszélgetés\n\nKövetkeztetések\, kérdések és záró beszélgetés.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/sesiune-14.html
+DESCRIPTION:Következtetések\, kérdések és záró beszélgetés\n\nKövetkeztetések\, kérdések és záró beszélgetés.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s14
 LOCATION:Online\, ZOOM-on
-URL:https://curs.asfan.online/hu/sesiune-14.html
+URL:https://curs.asfan.online/hu/#s14
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

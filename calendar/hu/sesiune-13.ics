@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270512T160000Z
 DTEND:20270512T180000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (13/14)
-DESCRIPTION:Vizsgálati módszertan és hamis UFO-k\n\nMódszertan\, hogyan vizsgáljuk az AAP-eseteket\, ASFAN-források (adatbázis\, adattár stb.). Hogyan ismerünk fel/különböztetünk meg egy UFO-t\, hamis UFO-k\, repülőgépek\, műholdak\, fényképek és filmek\, hamisítványok.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/sesiune-13.html
+DESCRIPTION:Vizsgálati módszertan és hamis UFO-k\n\nMódszertan\, hogyan vizsgáljuk az AAP-eseteket\, ASFAN-források (adatbázis\, adattár stb.). Hogyan ismerünk fel/különböztetünk meg egy UFO-t\, hamis UFO-k\, repülőgépek\, műholdak\, fényképek és filmek\, hamisítványok.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s13
 LOCATION:Online\, ZOOM-on
-URL:https://curs.asfan.online/hu/sesiune-13.html
+URL:https://curs.asfan.online/hu/#s13
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

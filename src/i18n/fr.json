@@ -238,7 +238,12 @@
   "enr_hint": "Votre application de messagerie s’ouvre avec le destinataire, l’objet et le message déjà remplis ; ajoutez votre nom et envoyez. Le message est rédigé en roumain, pour les organisateurs.",
   "nav_top": "Haut",
   "nav_inv": "Invitation",
-  "plan_ics": "Agenda"
+  "plan_ics": "Agenda",
+  "tz_note": "Heure de Roumanie. À Paris : 18 h–20 h ; à Londres : 17 h–19 h.",
+  "enr_gmail": "Ouvrir dans Gmail",
+  "enr_copy_msg": "Copier le message",
+  "enr_alt": "Pas d’application de messagerie ?",
+  "og_alt": "Affiche du cours « Introduction à l’ufologie » – OVNI, statue Moai et portrait de Dan D. Farcaș"
  },
  "js": {
   "copied": "Copié ✓",

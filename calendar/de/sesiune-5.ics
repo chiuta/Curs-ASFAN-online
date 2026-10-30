@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270224T170000Z
 DTEND:20270224T190000Z
 SUMMARY:ASFAN-Kurs – Einführung in die Ufologie (5/14)
-DESCRIPTION:Die frühe Geschichte des Phänomens\n\nDie frühe Geschichte des Phänomens\, folkloristische Bezüge\, Iele (rumänische Feen)\, Zwerge\, Magonia\, Kornkreise und Agrarglyphen\, Vallée.\n\nEine Stunde Vortrag\, eine Stunde Diskussion. Zugelassene erhalten den ZOOM-Link per E-Mail.\nDetails: https://curs.asfan.online/de/sesiune-5.html
+DESCRIPTION:Die frühe Geschichte des Phänomens\n\nDie frühe Geschichte des Phänomens\, folkloristische Bezüge\, Iele (rumänische Feen)\, Zwerge\, Magonia\, Kornkreise und Agrarglyphen\, Vallée.\n\nEine Stunde Vortrag\, eine Stunde Diskussion. Zugelassene erhalten den ZOOM-Link per E-Mail.\nDetails: https://curs.asfan.online/de/#s5
 LOCATION:Online\, über ZOOM
-URL:https://curs.asfan.online/de/sesiune-5.html
+URL:https://curs.asfan.online/de/#s5
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

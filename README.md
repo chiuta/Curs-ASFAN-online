@@ -10,9 +10,12 @@ Site-ul cursului gratuit online **„Introducere în ufologie”** (seria a patr
 
 | Ce | Unde |
 |---|---|
-| Site static (servit direct, ex. GitHub Pages) | rădăcina depozitului: `index.html`, `program.html`, `detalii.html`, `inscriere.html`, `qr.html`, `sesiune-1…14.html` |
+| Site static, o singură pagină pe limbă (servit de GitHub Pages) | rădăcina depozitului: `index.html` (secțiuni: invitație, program, înscriere, QR) |
+| Redirecționări de la adresele vechi (`program.html`, `sesiune-N.html` etc.) și pagina 404 | `*.html` din rădăcină, `404.html` |
+| Domeniul propriu | `CNAME` (**nu se șterge**; `build.py` îl regenerează) |
 | Celelalte 7 limbi | `en/ fr/ it/ es/ pt/ de/ hu/` (aceeași structură; `hreflang` + `sitemap.xml`) |
-| Variantă într-un singur fișier HTML (imagini, fonturi și toate limbile încorporate, funcționează offline) | `curs-asfan-online.html` |
+| Variantă într-un singur fișier HTML (offline, toate limbile) | se generează în `dist/` (necomisă); variantele livrate sunt pe ramura `variante` |
+| Imagini ale afișului, doar pentru varianta cu afiș | `src/art/` |
 | Imagini, CSS, JS, fonturi, coduri QR | `assets/` |
 | Calendare `.ics` (câte unul pe sesiune + cursul complet, per limbă) | `calendar/` |
 | Sursa generatorului și traducerile | `src/` |
@@ -24,7 +27,11 @@ Două teme de design (**Moai** și **Anzi**, implicit Moai), reproducând afișe
 ```bash
 pip install segno pillow
 python3 src/build.py          # regenerează site-ul (8 limbi) în rădăcina depozitului
-python3 src/build_single.py   # regenerează curs-asfan-online.html
+python3 src/build_single.py   # regenerează dist/curs-asfan-online.html
+
+# variante (opțional)
+SIMPLE=1 python3 src/build.py   # fără titlurile/etichetele derivate: doar textul din plan
+# POSTER=1: varianta cu pagina-afiș (copiază întâi src/art/* în assets/)
 python3 src/i18n/check.py en  # validează o traducere față de ro.json
 ```
 
@@ -32,7 +39,7 @@ Textele sunt în `src/i18n/<cod>.json` (sursa: `ro.json`). Pentru o limbă nouă
 
 ## Înscriere
 
-Prin e-mail la adrian.urzica@gmail.com, până la 17 noiembrie 2026 (formularul din site pregătește e-mailul, scris în română, pentru organizatori).
+Prin e-mail la adrian.urzica@gmail.com, până la 17 noiembrie 2026 (butonul din site deschide e-mailul precompletat, în română, pentru organizatori; alternative: Gmail și „Copiază mesajul”).
 
 ---
 

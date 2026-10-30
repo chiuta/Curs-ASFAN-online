@@ -238,7 +238,12 @@
   "enr_hint": "Si apre la tua app di posta con destinatario, oggetto e messaggio già compilati; aggiungi il tuo nome e invia. L'e-mail è in lingua romena, per gli organizzatori.",
   "nav_top": "Su",
   "nav_inv": "Invito",
-  "plan_ics": "Calendario"
+  "plan_ics": "Calendario",
+  "tz_note": "Orario della Romania. A Roma: 18:00–20:00; a Londra: 17:00–19:00.",
+  "enr_gmail": "Apri in Gmail",
+  "enr_copy_msg": "Copia il messaggio",
+  "enr_alt": "Nessuna app di posta?",
+  "og_alt": "Locandina del corso «Introduzione all’ufologia» – UFO, statua Moai e ritratto di Dan D. Farcaș"
  },
  "js": {
   "copied": "Copiato ✓",

@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270310T170000Z
 DTEND:20270310T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (7/14)
-DESCRIPTION:Cas roumains remarquables\n\nCas roumains remarquables. Histoire\, ufologues\, associations\, revues.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/sesiune-7.html
+DESCRIPTION:Cas roumains remarquables\n\nCas roumains remarquables. Histoire\, ufologues\, associations\, revues.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s7
 LOCATION:En ligne\, via ZOOM
-URL:https://curs.asfan.online/fr/sesiune-7.html
+URL:https://curs.asfan.online/fr/#s7
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

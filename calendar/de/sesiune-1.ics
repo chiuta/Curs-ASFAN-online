@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20261118T170000Z
 DTEND:20261118T190000Z
 SUMMARY:ASFAN-Kurs – Einführung in die Ufologie (1/14)
-DESCRIPTION:Grundlagen: unidentifizierte Aerospace-/anomale Phänomene (UAP/UFO)\n\nUnidentifizierte Aerospace-/anomale Phänomene (UAP/UFO)\, Grundlagen: in der Luft\, unter Wasser\, im Weltraum\, Transmedium. Beobachtungen bei Tag\, bei Nacht\, per Radar. Eigenschaften\, Landungen. Aggressive UFOs.\n\nEine Stunde Vortrag\, eine Stunde Diskussion. Zugelassene erhalten den ZOOM-Link per E-Mail.\nDetails: https://curs.asfan.online/de/sesiune-1.html
+DESCRIPTION:Grundlagen: unidentifizierte Aerospace-/anomale Phänomene (UAP/UFO)\n\nUnidentifizierte Aerospace-/anomale Phänomene (UAP/UFO)\, Grundlagen: in der Luft\, unter Wasser\, im Weltraum\, Transmedium. Beobachtungen bei Tag\, bei Nacht\, per Radar. Eigenschaften\, Landungen. Aggressive UFOs.\n\nEine Stunde Vortrag\, eine Stunde Diskussion. Zugelassene erhalten den ZOOM-Link per E-Mail.\nDetails: https://curs.asfan.online/de/#s1
 LOCATION:Online\, über ZOOM
-URL:https://curs.asfan.online/de/sesiune-1.html
+URL:https://curs.asfan.online/de/#s1
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

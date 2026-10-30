@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270224T170000Z
 DTEND:20270224T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (5/14)
-DESCRIPTION:L’histoire ancienne du phénomène\n\nHistoire ancienne du phénomène\, liens avec le folklore\, iele (fées du folklore roumain)\, nains\, Magonia\, cercles magiques et crop circles\, Vallée.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/sesiune-5.html
+DESCRIPTION:L’histoire ancienne du phénomène\n\nHistoire ancienne du phénomène\, liens avec le folklore\, iele (fées du folklore roumain)\, nains\, Magonia\, cercles magiques et crop circles\, Vallée.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s5
 LOCATION:En ligne\, via ZOOM
-URL:https://curs.asfan.online/fr/sesiune-5.html
+URL:https://curs.asfan.online/fr/#s5
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

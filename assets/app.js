@@ -88,3 +88,15 @@ document.querySelectorAll('form.enr').forEach(function(f){
 document.querySelectorAll('.share-native').forEach(function(b){if(!navigator.share)return;b.hidden=false;
   b.addEventListener('click',function(){var w=b.closest('[data-share]');navigator.share({title:w.dataset.shareTitle,text:w.dataset.shareText,url:w.dataset.shareUrl}).catch(function(){})})});
 })();
+
+/* ---- Termen înscriere: după 17 nov. 2026 ascunde butoanele de înscriere din bară/antet ---- */
+(function(){var dl=new Date('2026-11-17T23:59:59+02:00').getTime();function chk(){if(Date.now()>dl)document.documentElement.classList.add('enr-closed')}chk();setInterval(chk,30000)})();
+/* ---- Sugestie de limbă (doar pe pagina română, fără redirecționare automată) ---- */
+(function(){if(window.__SINGLE__||document.documentElement.lang!=='ro')return;
+  var M={en:'Read this page in English',fr:'Lire cette page en français',it:'Leggi questa pagina in italiano',es:'Leer esta página en español',pt:'Ler esta página em português',de:'Diese Seite auf Deutsch lesen',hu:'Olvassa el magyarul'};
+  try{if(sessionStorage.getItem('asfan-sug')||localStorage.getItem('asfan-lang')==='ro')return}catch(e){}
+  var nl=navigator.languages||[navigator.language||'ro'],c=null;for(var i=0;i<nl.length;i++){var x=String(nl[i]).slice(0,2).toLowerCase();if(x==='ro')return;if(M[x]){c=x;break}}
+  if(!c)return;var h=document.querySelector('header.topbar');if(!h)return;
+  var d=document.createElement('aside');d.className='lang-sug';d.setAttribute('aria-label','Language');d.innerHTML='<div class="wrap"><a hreflang="'+c+'" lang="'+c+'" href="'+c+'/">'+M[c]+' →</a><button type="button" aria-label="OK">×</button></div>';
+  d.querySelector('button').addEventListener('click',function(){d.remove();try{sessionStorage.setItem('asfan-sug','1')}catch(e){}});
+  h.parentNode.insertBefore(d,h.nextSibling)})();

@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270428T160000Z
 DTEND:20270428T180000Z
 SUMMARY:ASFAN course – Introduction to Ufology (12/14)
-DESCRIPTION:More Romanian cases and open presentations\n\nMore Romanian cases. Open presentations. Films\, photographs etc.\n\nOne hour of presentation\, one hour of discussion. Those admitted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.online/en/sesiune-12.html
+DESCRIPTION:More Romanian cases and open presentations\n\nMore Romanian cases. Open presentations. Films\, photographs etc.\n\nOne hour of presentation\, one hour of discussion. Those admitted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.online/en/#s12
 LOCATION:Online\, via ZOOM
-URL:https://curs.asfan.online/en/sesiune-12.html
+URL:https://curs.asfan.online/en/#s12
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

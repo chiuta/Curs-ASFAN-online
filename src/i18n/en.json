@@ -238,7 +238,12 @@
   "enr_hint": "Your e-mail app opens with the recipient, subject and message already filled in; add your name and send. The e-mail is in Romanian, for the organisers.",
   "nav_top": "Top",
   "nav_inv": "Invitation",
-  "plan_ics": "Calendar"
+  "plan_ics": "Calendar",
+  "tz_note": "Times are Romanian time. In London: 17:00–19:00; in Paris/Berlin: 18:00–20:00.",
+  "enr_gmail": "Open in Gmail",
+  "enr_copy_msg": "Copy the message",
+  "enr_alt": "No e-mail app?",
+  "og_alt": "Poster of the course “Introduction to ufology” – UFO, Moai statue and portrait of Dan D. Farcaș"
  },
  "js": {
   "copied": "Copied ✓",

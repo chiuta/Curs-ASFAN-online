@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270113T170000Z
 DTEND:20270113T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (4/14)
-DESCRIPTION:Rencontres du 3e et 4e type\n\nRencontres du 3e et 4e type. Contacts\, contactés\, enlèvements\, scénario\, expériences génétiques\, endoctrinement\, caractéristiques particulières\, preuves\, enlèvements sans retour. Hopkins\, Mack\, etc. Mutilations\, cryptozoologie\, réserves ?\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/sesiune-4.html
+DESCRIPTION:Rencontres du 3e et 4e type\n\nRencontres du 3e et 4e type. Contacts\, contactés\, enlèvements\, scénario\, expériences génétiques\, endoctrinement\, caractéristiques particulières\, preuves\, enlèvements sans retour. Hopkins\, Mack\, etc. Mutilations\, cryptozoologie\, réserves ?\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s4
 LOCATION:En ligne\, via ZOOM
-URL:https://curs.asfan.online/fr/sesiune-4.html
+URL:https://curs.asfan.online/fr/#s4
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

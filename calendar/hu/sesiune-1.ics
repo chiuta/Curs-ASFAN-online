@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20261118T170000Z
 DTEND:20261118T190000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (1/14)
-DESCRIPTION:Alapfogalmak: azonosítatlan légi/anomális jelenségek (AAP/UFO)\n\nAzonosítatlan légi/anomális jelenségek (AAP/UFO)\, alapfogalmak: légi\, víz alatti\, világűr\, transzmédia. Nappali\, éjszakai\, radarmegfigyelések. Tulajdonságok\, leszállások. Agresszív UFO-k.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/sesiune-1.html
+DESCRIPTION:Alapfogalmak: azonosítatlan légi/anomális jelenségek (AAP/UFO)\n\nAzonosítatlan légi/anomális jelenségek (AAP/UFO)\, alapfogalmak: légi\, víz alatti\, világűr\, transzmédia. Nappali\, éjszakai\, radarmegfigyelések. Tulajdonságok\, leszállások. Agresszív UFO-k.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s1
 LOCATION:Online\, ZOOM-on
-URL:https://curs.asfan.online/hu/sesiune-1.html
+URL:https://curs.asfan.online/hu/#s1
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

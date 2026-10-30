@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270421T160000Z
 DTEND:20270421T180000Z
 SUMMARY:Curs ASFAN – Introducere în ufologie (11/14)
-DESCRIPTION:Încercări de dezvăluire\n\nÎncercări de dezvăluire. Desecretizări. Va fi un contact? Cum va arăta? În ce condiții? Atitudinea actuală față de o dezvăluire: militari\, cercetători\, religioși\, marele public.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/sesiune-11.html
+DESCRIPTION:Încercări de dezvăluire\n\nÎncercări de dezvăluire. Desecretizări. Va fi un contact? Cum va arăta? În ce condiții? Atitudinea actuală față de o dezvăluire: militari\, cercetători\, religioși\, marele public.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/#s11
 LOCATION:Online\, prin ZOOM
-URL:https://curs.asfan.online/sesiune-11.html
+URL:https://curs.asfan.online/#s11
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

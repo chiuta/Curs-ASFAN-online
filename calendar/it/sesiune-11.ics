@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270421T160000Z
 DTEND:20270421T180000Z
 SUMMARY:Corso ASFAN – Introduzione all'ufologia (11/14)
-DESCRIPTION:Tentativi di rivelazione\n\nTentativi di rivelazione. Declassificazioni. Ci sarà un contatto? Come sarà? A quali condizioni? L'atteggiamento attuale verso una rivelazione: militari\, ricercatori\, religiosi\, grande pubblico.\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/sesiune-11.html
+DESCRIPTION:Tentativi di rivelazione\n\nTentativi di rivelazione. Declassificazioni. Ci sarà un contatto? Come sarà? A quali condizioni? L'atteggiamento attuale verso una rivelazione: militari\, ricercatori\, religiosi\, grande pubblico.\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/#s11
 LOCATION:Online\, su ZOOM
-URL:https://curs.asfan.online/it/sesiune-11.html
+URL:https://curs.asfan.online/it/#s11
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

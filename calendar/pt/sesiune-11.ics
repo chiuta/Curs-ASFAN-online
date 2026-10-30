@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270421T160000Z
 DTEND:20270421T180000Z
 SUMMARY:Curso ASFAN – Introdução à ufologia (11/14)
-DESCRIPTION:Tentativas de divulgação\n\nTentativas de divulgação. Desclassificações. Haverá um contacto? Como será? Em que condições? A atitude atual perante uma divulgação: militares\, investigadores\, religiosos\, grande público.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-11.html
+DESCRIPTION:Tentativas de divulgação\n\nTentativas de divulgação. Desclassificações. Haverá um contacto? Como será? Em que condições? A atitude atual perante uma divulgação: militares\, investigadores\, religiosos\, grande público.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/#s11
 LOCATION:Online\, via ZOOM
-URL:https://curs.asfan.online/pt/sesiune-11.html
+URL:https://curs.asfan.online/pt/#s11
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

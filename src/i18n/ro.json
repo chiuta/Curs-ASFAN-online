@@ -238,7 +238,12 @@
   "enr_hint": "Se deschide aplicația ta de e-mail, cu destinatarul, subiectul și mesajul deja completate; adaugi numele și trimiți. E-mailul este în limba română, pentru organizatori.",
   "nav_top": "Sus",
   "nav_inv": "Invitație",
-  "plan_ics": "Calendar"
+  "plan_ics": "Calendar",
+  "tz_note": "",
+  "enr_gmail": "Deschide în Gmail",
+  "enr_copy_msg": "Copiază mesajul",
+  "enr_alt": "Nu ai aplicație de e-mail?",
+  "og_alt": "Afișul cursului „Introducere în ufologie” – OZN, statuie Moai și portretul lui Dan D. Farcaș"
  },
  "js": {
   "copied": "Copiat ✓",

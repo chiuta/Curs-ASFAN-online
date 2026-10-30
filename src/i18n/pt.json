@@ -238,7 +238,12 @@
   "enr_hint": "Abre-se a sua aplicação de e-mail com o destinatário, o assunto e a mensagem já preenchidos; acrescente o seu nome e envie. O e-mail está em romeno, para os organizadores.",
   "nav_top": "Topo",
   "nav_inv": "Convite",
-  "plan_ics": "Calendário"
+  "plan_ics": "Calendário",
+  "tz_note": "Hora da Roménia. Em Lisboa: 17:00–19:00; em Paris: 18:00–20:00.",
+  "enr_gmail": "Abrir no Gmail",
+  "enr_copy_msg": "Copiar a mensagem",
+  "enr_alt": "Sem aplicação de e-mail?",
+  "og_alt": "Cartaz do curso «Introdução à ufologia» – OVNI, estátua Moai e retrato de Dan D. Farcaș"
  },
  "js": {
   "copied": "Copiado ✓",

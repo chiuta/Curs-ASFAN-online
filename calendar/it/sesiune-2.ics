@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20261202T170000Z
 DTEND:20261202T190000Z
 SUMMARY:Corso ASFAN – Introduzione all'ufologia (2/14)
-DESCRIPTION:Storia politico-militare 1942–2017\n\nStoria politico-militare 1942-2017\, legami nucleari\, precipitazioni\, conflitti\, progetti\, Blue Book\, Hynek\, regolamenti. Segreto\, disinformazione\, tabù\, ridicolizzazione\, complicità dei media\, mitologia UFO. E presso russi\, inglesi\, francesi\, sudamericani ecc.\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/sesiune-2.html
+DESCRIPTION:Storia politico-militare 1942–2017\n\nStoria politico-militare 1942-2017\, legami nucleari\, precipitazioni\, conflitti\, progetti\, Blue Book\, Hynek\, regolamenti. Segreto\, disinformazione\, tabù\, ridicolizzazione\, complicità dei media\, mitologia UFO. E presso russi\, inglesi\, francesi\, sudamericani ecc.\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/#s2
 LOCATION:Online\, su ZOOM
-URL:https://curs.asfan.online/it/sesiune-2.html
+URL:https://curs.asfan.online/it/#s2
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

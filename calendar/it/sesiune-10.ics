@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270407T160000Z
 DTEND:20270407T180000Z
 SUMMARY:Corso ASFAN – Introduzione all'ufologia (10/14)
-DESCRIPTION:Spiegazioni possibili\n\nSpiegazioni possibili: temponauti? Intraterrestri? Ecc. Due ipotesi extraterrestri\, iperciviltà\, condizioni\, autodistruzione\, non intervento. Ipnosi culturale\, limiti\, possibili conseguenze.\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/sesiune-10.html
+DESCRIPTION:Spiegazioni possibili\n\nSpiegazioni possibili: temponauti? Intraterrestri? Ecc. Due ipotesi extraterrestri\, iperciviltà\, condizioni\, autodistruzione\, non intervento. Ipnosi culturale\, limiti\, possibili conseguenze.\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/#s10
 LOCATION:Online\, su ZOOM
-URL:https://curs.asfan.online/it/sesiune-10.html
+URL:https://curs.asfan.online/it/#s10
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

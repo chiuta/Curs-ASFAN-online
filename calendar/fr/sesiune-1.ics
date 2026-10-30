@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20261118T170000Z
 DTEND:20261118T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (1/14)
-DESCRIPTION:Notions de base : phénomènes aérospatiaux/anomaux non identifiés (PAN/OVNI)\n\nPhénomènes aérospatiaux/anomaux non identifiés (PAN/OVNI)\, notions de base : aériens\, sous-marins\, espace\, transmilieu. Observations diurnes\, nocturnes\, radar. Caractéristiques\, atterrissages. OVNI agressifs.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/sesiune-1.html
+DESCRIPTION:Notions de base : phénomènes aérospatiaux/anomaux non identifiés (PAN/OVNI)\n\nPhénomènes aérospatiaux/anomaux non identifiés (PAN/OVNI)\, notions de base : aériens\, sous-marins\, espace\, transmilieu. Observations diurnes\, nocturnes\, radar. Caractéristiques\, atterrissages. OVNI agressifs.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s1
 LOCATION:En ligne\, via ZOOM
-URL:https://curs.asfan.online/fr/sesiune-1.html
+URL:https://curs.asfan.online/fr/#s1
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

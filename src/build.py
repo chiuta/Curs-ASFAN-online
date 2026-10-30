@@ -7,6 +7,7 @@ import segno
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT") or os.path.dirname(ROOT)
 POSTER = os.environ.get("POSTER") == "1"
+SIMPLE = os.environ.get("SIMPLE") == "1"   # fără titluri/etichete derivate: doar textul din plan
 SITE = "https://curs.asfan.online"
 ASFAN = "https://www.asfanufo.ro"
 MAIL = "adrian.urzica@gmail.com"
@@ -57,7 +58,7 @@ make_qr(SITE + "/", "qr-curs"); make_qr(ASFAN, "qr-asfan")
 
 # ------------------------------------------------------------------ ICS (per limbă)
 def esc(s): return s.replace("\\","\\\\").replace(";","\\;").replace(",","\\,").replace("\n","\\n")
-def page_url(n): return SITE + "/" + (CODE + "/" if CODE != "ro" else "") + f"sesiune-{n}.html"
+def page_url(n): return SITE + "/" + (CODE + "/" if CODE != "ro" else "") + f"#s{n}"
 def vevent(s):
     desc = f"{s['title']}\n\n{s['text']}\n\n" + T("ics_desc", url=page_url(s['n']))
     return ["BEGIN:VEVENT", f"UID:asfan-ufologie-4-s{s['n']}-{CODE}@curs.asfan.online", "DTSTAMP:20261030T000000Z",
@@ -85,6 +86,9 @@ IC = {
 NAV = [("inv","nav_inv"),("plan","nav_program"),("inscriere","nav_enroll"),("qr","nav_qr")]
 def lang_href(code, path):
     """link relativ către aceeași pagină în limba `code`"""
+    if path == "index.html":
+        if CODE == "ro": return "./" if code == "ro" else f"{code}/"
+        return "../" if code == "ro" else ("./" if code == CODE else f"../{code}/")
     if CODE == "ro": return path if code == "ro" else f"{code}/{path}"
     return f"../{path}" if code == "ro" else (path if code == code and code == CODE else f"../{code}/{path}")
 def loc_url(code, path):
@@ -111,7 +115,11 @@ def head(title, desc, page, path, extra=""):
 {alts}<link rel="icon" href="{P}assets/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website"><meta property="og:locale" content="{LD["meta"]["locale"]}">
 <meta property="og:title" content="{E(title, quote=True)}"><meta property="og:description" content="{E(desc, quote=True)}">
-<meta property="og:url" content="{canon}"><meta property="og:image" content="{SITE}/assets/og.jpg">
+<meta property="og:url" content="{canon}"><meta property="og:site_name" content="ASFAN – curs.asfan.online"><meta property="og:image" content="{SITE}/assets/og.jpg">
+<meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{A("og_alt")}"><meta name="twitter:image:alt" content="{A("og_alt")}">
+{"".join(f'<meta property="og:locale:alternate" content="{DATA[l]["meta"]["locale"]}">' for l in LANGS if l != CODE)}
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="twitter:card" content="summary_large_image">
 <script>document.documentElement.classList.add('js');try{{var t=new URLSearchParams(location.search).get('tema')||localStorage.getItem('asfan-theme-v3');if(t==='anzi'||t==='moai')document.documentElement.setAttribute('data-theme',t)}}catch(e){{}}</script>
 <link rel="stylesheet" href="{P}assets/style.css">
@@ -175,10 +183,10 @@ def write(path, content):
 def qr_block():
     return f'''<div class="qrs">
   <div class="qr"><div class="code"><img src="{P}assets/qr-curs.svg" width="210" height="210" alt="{A("qr_alt", url=SITE + "/")}"></div>
-    <div><h2>{T("qr_course_h")}</h2><p>{T("qr_course_p")}</p><div class="url">curs.asfan.online</div>
+    <div><h3>{T("qr_course_h")}</h3><p>{T("qr_course_p")}</p><div class="url">curs.asfan.online</div>
     <div class="acts"><a class="btn btn-blue" href="{P}assets/qr-curs.png" download="qr-curs-asfan-online.png">PNG</a><a class="btn btn-ghost" href="{P}assets/qr-curs.svg" download="qr-curs-asfan-online.svg">SVG</a><button class="btn btn-ghost" type="button" data-copy="{SITE}/" data-copied="{JS("copied")}">{T("qr_copy")}</button></div></div></div>
   <div class="qr"><div class="code"><img src="{P}assets/qr-asfan.svg" width="210" height="210" alt="{A("qr_alt", url=ASFAN)}"></div>
-    <div><h2>{T("qr_asfan_h")}</h2><p>{T("qr_asfan_p")}</p><div class="url">www.asfanufo.ro</div>
+    <div><h3>{T("qr_asfan_h")}</h3><p>{T("qr_asfan_p")}</p><div class="url">www.asfanufo.ro</div>
     <div class="acts"><a class="btn btn-blue" href="{P}assets/qr-asfan.png" download="qr-asfanufo-ro.png">PNG</a><a class="btn btn-ghost" href="{P}assets/qr-asfan.svg" download="qr-asfanufo-ro.svg">SVG</a><button class="btn btn-ghost" type="button" data-copy="{ASFAN}" data-copied="{JS("copied")}">{T("qr_copy")}</button></div></div></div>
 </div>'''
 
@@ -198,13 +206,27 @@ def mailto_href():
     from urllib.parse import quote as q
     return "mailto:" + MAIL + "?subject=" + q(RO_SUBJECT, safe="") + "&body=" + q(RO_BODY.replace("\n", "\r\n"), safe="")
 
+def events_ld():
+    ev = [{"@type":"Event","name":f"{T('ld_name')} – {x['n']}/14","description":x["text"],"startDate":x["start"],"endDate":x["end"],"inLanguage":"ro",
+           "eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+           "location":{"@type":"VirtualLocation","url":SITE + "/"},"isAccessibleForFree":True,
+           "organizer":{"@type":"Organization","name":"ASFAN","url":ASFAN},"performer":{"@type":"Person","name":"Dan D. Farcaș"},
+           "offers":{"@type":"Offer","price":"0","priceCurrency":"RON","availability":"https://schema.org/LimitedAvailability","url":SITE + "/"}} for x in SESS]
+    return '<script type="application/ld+json">' + json.dumps({"@context":"https://schema.org","@graph":ev}, ensure_ascii=False) + '</script>'
+
+def gmail_href():
+    from urllib.parse import quote as q
+    return "https://mail.google.com/mail/?view=cm&fs=1&to=" + MAIL + "&su=" + q(RO_SUBJECT, safe="") + "&body=" + q(RO_BODY, safe="")
+
 def page_index():
     h = head(T("title_index"), T("desc_index"), "index", "index.html",
              '<script type="application/ld+json">' + json.dumps({"@context":"https://schema.org","@type":"Course","name":T("ld_name"),"inLanguage":"ro","availableLanguage":["ro"],
               "description":T("ld_desc"),"provider":{"@type":"Organization","name":"ASFAN","sameAs":ASFAN},
               "hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","startDate":"2026-11-18","endDate":"2027-05-26","instructor":{"@type":"Person","name":"Dan D. Farcaș"}},
-              "offers":{"@type":"Offer","price":"0","priceCurrency":"RON"},"url":loc_url(CODE, "index.html")}, ensure_ascii=False) + '</script>')
-    MT = mailto_href()
+              "offers":{"@type":"Offer","price":"0","priceCurrency":"RON"},"url":loc_url(CODE, "index.html")}, ensure_ascii=False) + '</script>' + events_ld())
+    MT = mailto_href(); GM = gmail_href()
+    full_msg = "To: " + MAIL + "\nSubject: " + RO_SUBJECT + "\n\n" + RO_BODY
+    tz = f'<p class="tz-note">🕖 {T("tz_note")}</p>' if T("tz_note") else ""
     tags = "<i>•</i>".join(f"<span>{E(x)}</span>" for x in UI["hero_tags"].split("|"))
     mini = "".join(f"<span>{E(x)}</span>" for x in UI["mini_tags"].split("|"))
     topics = "".join(f'''      <div class="topic"><img class="art-a" src="{P}assets/a-t{i}.jpg" alt="" width="170" height="52" loading="lazy"><img class="art-b" src="{P}assets/b-t{i}.jpg" alt="" width="170" height="52" loading="lazy"><div><h3>{E(t)}</h3><p>{E(s)}</p></div></div>
@@ -276,13 +298,14 @@ def page_index():
   <p class="who-l"><b>Dan D. Farcaș</b> – {T("coord_role1")}, {T("coord_role2")}</p>
   <p class="top-cta"><a class="btn btn-gold" href="#inscriere" data-sec="inscriere">{T("cta_enroll")}</a></p>
   <ul class="enr-conds facts"><li>📅 {T("card_when_v")}</li><li>🕖 {T("card_time_v")}</li><li>💻 {T("card_where_v")}</li><li>🎁 {T("box_free_t")}</li><li>👥 {T("box_seats_t")}</li></ul>
+  {tz}
 </div>
 '''
     top_block = poster_block if POSTER else compact_block
     acs = "".join(f'''    <details class="ac" id="s{x["n"]}" data-sess="{x["n"]}" open>
-      <summary><span class="num">{x["n"]}</span><span><span class="dt">{x["label"]} · 19:00–21:00</span><br><span class="tt">{E(x["title"])}</span></span></summary>
+      <summary><span class="num">{x["n"]}</span><span><span class="dt">{x["label"]} · 19:00–21:00</span><br>{"" if SIMPLE else '<span class="tt">' + E(x["title"]) + '</span>'}</span></summary>
       <div class="body"><p>{E(x["text"])}</p>
-        <ul class="chips">{"".join(f"<li>{E(c)}</li>" for c in x["chips"])}</ul>
+        {"" if SIMPLE else '<ul class="chips">' + "".join(f"<li>{E(c)}</li>" for c in x["chips"]) + '</ul>'}
         <p style="margin-top:14px"><a class="btn btn-ghost" href="{P}{CAL}sesiune-{x["n"]}.ics" data-ics="sesiune-{x["n"]}" download>{T("prog_cal")}</a></p></div>
     </details>
 ''' for x in SESS)
@@ -329,6 +352,7 @@ def page_index():
       <ul class="enr-conds">{conds}</ul>
       <p class="enr-act"><a class="btn btn-gold btn-lg" href="{MT}" data-mail>{T("enr_btn")}</a></p>
       <p class="note">{T("enr_hint")}</p>
+      <p class="enr-alt"><span>{T("enr_alt")}</span> <a class="btn btn-ghost btn-sm" href="{GM}" target="_blank" rel="noopener noreferrer">{T("enr_gmail")}</a> <button class="btn btn-ghost btn-sm" type="button" data-copy="{E(full_msg, quote=True)}" data-copied="{JS("copied")}">{T("enr_copy_msg")}</button></p>
       <p class="note">{T("enr_write")} <a href="mailto:{MAIL}"><b>{MAIL}</b></a> <button class="btn btn-ghost btn-sm" type="button" data-copy="{MAIL}" data-copied="{JS("copied")}">{T("enr_copy_addr")}</button></p>
     </div>
   </div>
@@ -361,7 +385,23 @@ for CODE in LANGS:
         titles={"index":UI["title_index"]},
         cd_start=UI["cd_start"]),ensure_ascii=False)+";\n")
     write("index.html", page_index())
+    base = SITE + "/" + ("" if CODE == "ro" else CODE + "/")
+    olds = {"program.html":"#plan","detalii.html":"#inv","inscriere.html":"#inscriere","qr.html":"#qr"}
+    olds.update({f"sesiune-{i}.html": f"#s{i}" for i in range(1, 15)})
+    for fn, anc in olds.items():
+        write(fn, f'''<!DOCTYPE html>
+<html lang="{LD["meta"]["html_lang"]}"><head><meta charset="utf-8"><title>{E(UI["title_index"])}</title><meta name="robots" content="noindex">
+<link rel="canonical" href="{base}"><meta http-equiv="refresh" content="0;url={base}{anc}">
+<script>location.replace("{base}{anc}")</script></head>
+<body><p><a href="{base}{anc}">{E(UI["title_index"])}</a></p></body></html>
+''')
 
+open(f"{OUT}/CNAME","w").write("curs.asfan.online\n")
+open(f"{OUT}/404.html","w",encoding="utf-8").write(f'''<!DOCTYPE html>
+<html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pagina nu există · curs.asfan.online</title><meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0;url={SITE}/"><style>body{{margin:0;min-height:100vh;display:grid;place-items:center;background:#030a1c;color:#eaf2ff;font-family:system-ui,sans-serif;text-align:center;padding:20px}}a{{color:#f7b733;font-weight:700}}</style></head>
+<body><main><h1>Pagina nu a fost găsită</h1><p>Te ducem la pagina cursului „Introducere în ufologie”…</p><p><a href="{SITE}/">curs.asfan.online</a></p></main></body></html>
+''')
 open(f"{OUT}/assets/favicon.svg","w").write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#06142f"/><ellipse cx="32" cy="30" rx="24" ry="8" fill="#4cc9ff"/><ellipse cx="32" cy="26" rx="11" ry="9" fill="#bfe6ff"/><path d="M22 38l-6 14h32l-6-14z" fill="#f7b733" opacity=".55"/></svg>')
 open(f"{OUT}/robots.txt","w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
 pages = ["index.html"]

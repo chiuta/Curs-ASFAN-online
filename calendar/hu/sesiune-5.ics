@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270224T170000Z
 DTEND:20270224T190000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (5/14)
-DESCRIPTION:A jelenség régi története\n\nA jelenség régi története\, népi hagyományi kapcsolatok\, ielék (román népi tündérek)\, törpék\, Magonia\, mágikus körök és terménykörök\, Vallée.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/sesiune-5.html
+DESCRIPTION:A jelenség régi története\n\nA jelenség régi története\, népi hagyományi kapcsolatok\, ielék (román népi tündérek)\, törpék\, Magonia\, mágikus körök és terménykörök\, Vallée.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s5
 LOCATION:Online\, ZOOM-on
-URL:https://curs.asfan.online/hu/sesiune-5.html
+URL:https://curs.asfan.online/hu/#s5
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

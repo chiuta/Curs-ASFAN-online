@@ -12,6 +12,7 @@ LANGS = ["ro", "en", "fr", "it", "es", "pt", "de", "hu"]
 PAGES = ["index"]
 
 def jpeg_uri(path, maxw=None, q=82):
+    if not os.path.exists(path): path = os.path.join(ROOT, "art", os.path.basename(path))   # imagini doar pentru varianta cu afiș
     im = Image.open(path).convert("RGB")
     if maxw and im.width > maxw: im = im.resize((maxw, round(im.height * maxw / im.width)), Image.LANCZOS)
     b = io.BytesIO(); im.save(b, "JPEG", quality=q, optimize=True, progressive=True)
@@ -66,6 +67,8 @@ idx = rd(f"{SITE}/index.html")
 head = idx.split('<main id="main">')[0]
 tail = idx.split("</main>", 1)[1]
 head = re.sub(r'<link rel="alternate"[^>]*>\n?', '', head)
+head = re.sub(r'<meta http-equiv="Content-Security-Policy"[^>]*>\n?', '', head)
+head = re.sub(r'<meta property="og:(site_name|locale:alternate|image:[a-z]+)"[^>]*>', '', head)
 head = re.sub(r'<link rel="canonical"[^>]*>\n?', '', head)
 head = re.sub(r'<meta property="og:(url|image)"[^>]*>', '', head)
 head = re.sub(r'<script type="application/ld\+json">.*?</script>\n?', '', head, flags=re.S)
@@ -159,8 +162,11 @@ out = out.replace('<canvas id="stars" aria-hidden="true"></canvas>', '<canvas id
 out = out.replace("</head>", "<style>\n" + css + "\n</style>\n</head>")
 out += '<main id="main">\n' + sections + '</main>\n' + tail
 out = out.replace("</body></html>", "")
+_used = set(re.findall(r'data-img="([^"]+)"', sections + head + tail)) | {"a-bottom.jpg", "b-earth.jpg", "favicon.svg", "logo.png", "qr-curs.png", "qr-curs.svg", "qr-asfan.png", "qr-asfan.svg"} | {m for m in re.findall(r'data-dl="([^"]+)"', sections)} | set(re.findall(r'data-poster="([^"]+)"', sections))
+IMG = {k: v for k, v in IMG.items() if k in _used}
 out += "<script>window.__IMG__=" + json.dumps(IMG) + ";window.__I18N__=" + json.dumps(ALL, ensure_ascii=False) + ";window.__ICS__=" + json.dumps(ics, ensure_ascii=False) + ";</script>\n"
 out += "<script>\n" + sessions_js + "\n" + app + "\n" + glue + "\n</script>\n</body></html>\n"
-dst = os.environ.get("DST") or os.path.join(SITE,"curs-asfan-online.html")
+dst = os.environ.get("DST") or os.path.join(os.path.dirname(ROOT), "dist", "curs-asfan-online.html")
+os.makedirs(os.path.dirname(dst), exist_ok=True)
 open(dst, "w", encoding="utf-8").write(out)
 print("OK", dst, round(len(out.encode()) / 1024), "KB")

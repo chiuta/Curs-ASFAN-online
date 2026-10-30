@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20261118T170000Z
 DTEND:20261118T190000Z
 SUMMARY:Curs ASFAN – Introducere în ufologie (1/14)
-DESCRIPTION:Noțiuni de bază: fenomenele aerospațiale/anomale neidentificate (FAN/OZN)\n\nFenomenele aerospațiale/anomale neidentificate (FAN/OZN)\, noțiuni de bază: aeriene\, subacvatice\, spațiul cosmic\, transmedia. Observații diurne\, nocturne\, radar. Însușiri\, aterizări. OZN-uri agresive.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/sesiune-1.html
+DESCRIPTION:Noțiuni de bază: fenomenele aerospațiale/anomale neidentificate (FAN/OZN)\n\nFenomenele aerospațiale/anomale neidentificate (FAN/OZN)\, noțiuni de bază: aeriene\, subacvatice\, spațiul cosmic\, transmedia. Observații diurne\, nocturne\, radar. Însușiri\, aterizări. OZN-uri agresive.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/#s1
 LOCATION:Online\, prin ZOOM
-URL:https://curs.asfan.online/sesiune-1.html
+URL:https://curs.asfan.online/#s1
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

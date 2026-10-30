@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270428T160000Z
 DTEND:20270428T180000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (12/14)
-DESCRIPTION:Autres cas roumains et présentations libres\n\nAutres cas roumains. Présentations libres. Films\, photographies\, etc.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/sesiune-12.html
+DESCRIPTION:Autres cas roumains et présentations libres\n\nAutres cas roumains. Présentations libres. Films\, photographies\, etc.\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s12
 LOCATION:En ligne\, via ZOOM
-URL:https://curs.asfan.online/fr/sesiune-12.html
+URL:https://curs.asfan.online/fr/#s12
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

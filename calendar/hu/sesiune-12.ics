@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270428T160000Z
 DTEND:20270428T180000Z
 SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (12/14)
-DESCRIPTION:További romániai esetek és szabad előadások\n\nTovábbi romániai esetek. Szabad előadások. Filmek\, fényképek stb.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/sesiune-12.html
+DESCRIPTION:További romániai esetek és szabad előadások\n\nTovábbi romániai esetek. Szabad előadások. Filmek\, fényképek stb.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/#s12
 LOCATION:Online\, ZOOM-on
-URL:https://curs.asfan.online/hu/sesiune-12.html
+URL:https://curs.asfan.online/hu/#s12
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

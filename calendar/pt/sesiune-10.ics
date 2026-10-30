@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270407T160000Z
 DTEND:20270407T180000Z
 SUMMARY:Curso ASFAN – Introdução à ufologia (10/14)
-DESCRIPTION:Explicações possíveis\n\nExplicações possíveis: tempónautas? Intraterrestres? Etc. Duas hipóteses extraterrestres\, hipercivilizações\, condições\, autodestruição\, não intervenção. Hipnose cultural\, limites\, possíveis consequências.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-10.html
+DESCRIPTION:Explicações possíveis\n\nExplicações possíveis: tempónautas? Intraterrestres? Etc. Duas hipóteses extraterrestres\, hipercivilizações\, condições\, autodestruição\, não intervenção. Hipnose cultural\, limites\, possíveis consequências.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/#s10
 LOCATION:Online\, via ZOOM
-URL:https://curs.asfan.online/pt/sesiune-10.html
+URL:https://curs.asfan.online/pt/#s10
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

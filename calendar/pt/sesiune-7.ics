@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270310T170000Z
 DTEND:20270310T190000Z
 SUMMARY:Curso ASFAN – Introdução à ufologia (7/14)
-DESCRIPTION:Casos romenos relevantes\n\nCasos romenos relevantes. História\, ufólogos\, associações\, revistas.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-7.html
+DESCRIPTION:Casos romenos relevantes\n\nCasos romenos relevantes. História\, ufólogos\, associações\, revistas.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/#s7
 LOCATION:Online\, via ZOOM
-URL:https://curs.asfan.online/pt/sesiune-7.html
+URL:https://curs.asfan.online/pt/#s7
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

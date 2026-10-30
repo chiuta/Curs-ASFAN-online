@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270526T160000Z
 DTEND:20270526T180000Z
 SUMMARY:ASFAN-Kurs – Einführung in die Ufologie (14/14)
-DESCRIPTION:Schlussfolgerungen\, Fragen und Abschlussdiskussion\n\nSchlussfolgerungen\, Fragen und Abschlussdiskussion.\n\nEine Stunde Vortrag\, eine Stunde Diskussion. Zugelassene erhalten den ZOOM-Link per E-Mail.\nDetails: https://curs.asfan.online/de/sesiune-14.html
+DESCRIPTION:Schlussfolgerungen\, Fragen und Abschlussdiskussion\n\nSchlussfolgerungen\, Fragen und Abschlussdiskussion.\n\nEine Stunde Vortrag\, eine Stunde Diskussion. Zugelassene erhalten den ZOOM-Link per E-Mail.\nDetails: https://curs.asfan.online/de/#s14
 LOCATION:Online\, über ZOOM
-URL:https://curs.asfan.online/de/sesiune-14.html
+URL:https://curs.asfan.online/de/#s14
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

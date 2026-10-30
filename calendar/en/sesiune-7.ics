@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270310T170000Z
 DTEND:20270310T190000Z
 SUMMARY:ASFAN course – Introduction to Ufology (7/14)
-DESCRIPTION:Remarkable Romanian cases\n\nRemarkable Romanian cases. History\, ufologists\, associations\, magazines.\n\nOne hour of presentation\, one hour of discussion. Those admitted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.online/en/sesiune-7.html
+DESCRIPTION:Remarkable Romanian cases\n\nRemarkable Romanian cases. History\, ufologists\, associations\, magazines.\n\nOne hour of presentation\, one hour of discussion. Those admitted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.online/en/#s7
 LOCATION:Online\, via ZOOM
-URL:https://curs.asfan.online/en/sesiune-7.html
+URL:https://curs.asfan.online/en/#s7
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

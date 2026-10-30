@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270310T170000Z
 DTEND:20270310T190000Z
 SUMMARY:Curs ASFAN – Introducere în ufologie (7/14)
-DESCRIPTION:Cazuri românești deosebite\n\nCazuri românești deosebite. Istorie\, ufologi\, asociații\, reviste.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/sesiune-7.html
+DESCRIPTION:Cazuri românești deosebite\n\nCazuri românești deosebite. Istorie\, ufologi\, asociații\, reviste.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/#s7
 LOCATION:Online\, prin ZOOM
-URL:https://curs.asfan.online/sesiune-7.html
+URL:https://curs.asfan.online/#s7
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

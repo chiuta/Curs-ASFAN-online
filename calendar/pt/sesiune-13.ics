@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270512T160000Z
 DTEND:20270512T180000Z
 SUMMARY:Curso ASFAN – Introdução à ufologia (13/14)
-DESCRIPTION:Metodologia de investigação e falsos OVNI\n\nMetodologia\, como investigamos os casos FAN\, recursos da ASFAN (BD\, base de dados\, etc.). Como reconhecemos/distinguimos um OVNI\, falsos OVNI\, aeronaves\, satélites\, fotografias e filmes\, falsificações.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-13.html
+DESCRIPTION:Metodologia de investigação e falsos OVNI\n\nMetodologia\, como investigamos os casos FAN\, recursos da ASFAN (BD\, base de dados\, etc.). Como reconhecemos/distinguimos um OVNI\, falsos OVNI\, aeronaves\, satélites\, fotografias e filmes\, falsificações.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/#s13
 LOCATION:Online\, via ZOOM
-URL:https://curs.asfan.online/pt/sesiune-13.html
+URL:https://curs.asfan.online/pt/#s13
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

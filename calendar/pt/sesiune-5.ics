@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270224T170000Z
 DTEND:20270224T190000Z
 SUMMARY:Curso ASFAN – Introdução à ufologia (5/14)
-DESCRIPTION:A história antiga do fenómeno\n\nA história antiga do fenómeno\, ligações ao folclore\, iele (fadas do folclore romeno)\, duendes\, Magonia\, círculos mágicos e agroglifos\, Vallée.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-5.html
+DESCRIPTION:A história antiga do fenómeno\n\nA história antiga do fenómeno\, ligações ao folclore\, iele (fadas do folclore romeno)\, duendes\, Magonia\, círculos mágicos e agroglifos\, Vallée.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/#s5
 LOCATION:Online\, via ZOOM
-URL:https://curs.asfan.online/pt/sesiune-5.html
+URL:https://curs.asfan.online/pt/#s5
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY

@@ -9,9 +9,9 @@ DTSTAMP:20261030T000000Z
 DTSTART:20270324T170000Z
 DTEND:20270324T190000Z
 SUMMARY:Curso ASFAN – Introdução à ufologia (8/14)
-DESCRIPTION:Ligações religiosas\n\nLigações religiosas\, seitas\, aparições sagradas\, OVNI na Bíblia?\, raptos celestes\, experiências genéticas\, satânicas? Vaticano\, Vallée.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-8.html
+DESCRIPTION:Ligações religiosas\n\nLigações religiosas\, seitas\, aparições sagradas\, OVNI na Bíblia?\, raptos celestes\, experiências genéticas\, satânicas? Vaticano\, Vallée.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/#s8
 LOCATION:Online\, via ZOOM
-URL:https://curs.asfan.online/pt/sesiune-8.html
+URL:https://curs.asfan.online/pt/#s8
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
