@@ -124,6 +124,12 @@ function route(hs){var r=parse(hs),first=!window.__routed;
   if(!found){found=document.querySelector('[data-page="'+r.lang+'/index"]');r.page='index';key=r.lang+'/index'}
   pages.forEach(function(p){p.hidden=p!==found});
   root.lang=r.lang;window.ASFAN_I18N=ALL[r.lang];applyChrome(r.lang);
+  (function(){var C=ALL[r.lang].chrome,SITEU='https://curs.asfan.online/'+(r.lang==='ro'?'':r.lang+'/'),url=SITEU+(r.page==='index'?'':r.page+'.html'),txt=C.share_text,ttl=ALL[r.lang].titles.index,E=encodeURIComponent;
+    document.querySelectorAll('[data-share]').forEach(function(w){w.dataset.shareUrl=url;w.dataset.shareTitle=ttl;w.dataset.shareText=txt;
+      var H={Facebook:'https://www.facebook.com/sharer/sharer.php?u='+E(url),X:'https://twitter.com/intent/tweet?url='+E(url)+'&text='+E(txt),LinkedIn:'https://www.linkedin.com/sharing/share-offsite/?url='+E(url),
+        WhatsApp:'https://wa.me/?text='+E(txt+' '+url),Telegram:'https://t.me/share/url?url='+E(url)+'&text='+E(txt),'E-mail':'mailto:?subject='+E(ttl)+'&body='+E(txt+'\n\n'+url)};
+      w.querySelectorAll('a[data-net]').forEach(function(a){a.href=H[a.dataset.net];a.setAttribute('aria-label',C.share_via.replace('{net}',a.dataset.net))});
+      var cb=w.querySelector('button[data-copy]');if(cb)cb.dataset.copy=url})})();
   document.body.dataset.page=r.page.indexOf('sesiune-')===0?'sesiune':r.page;
   document.title=found.dataset.title;var sr=document.getElementById('sr');if(sr)sr.textContent=found.dataset.title;
   var top=r.page.indexOf('sesiune-')===0?'program':r.page;

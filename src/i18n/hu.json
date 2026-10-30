@@ -215,7 +215,17 @@
   "ics_desc": "Egy óra előadás, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: {url}",
   "ics_loc": "Online, ZOOM-on",
   "ics_alarm": "Egy óra múlva kezdődik az ASFAN-tanfolyam",
-  "ics_cal": "ASFAN-tanfolyam – Bevezetés az ufológiába"
+  "ics_cal": "ASFAN-tanfolyam – Bevezetés az ufológiába",
+  "lang_notice": "Felhívjuk figyelmét: a tanfolyam román nyelven zajlik. Ez a weboldal csupán tájékoztató jelleggel van lefordítva.",
+  "faq_lang_q": "Milyen nyelven zajlik a tanfolyam?",
+  "faq_lang_a": "A tanfolyam román nyelven zajlik (előadások és beszélgetések). Ez a weboldal csupán tájékoztató jelleggel van lefordítva 8 nyelvre.",
+  "f_lang": "A tanfolyam nyelve",
+  "f_lang_v": "Román",
+  "share_h": "Tanfolyam megosztása",
+  "share_native": "Megosztás…",
+  "share_copy": "Link másolása",
+  "share_via": "Megosztás: {net}",
+  "share_text": "Ingyenes online tanfolyam: „Bevezetés az ufológiába” (ASFAN), 2026. november 18. – 2027. május 26., ZOOM-on (román nyelven)"
  },
  "js": {
   "copied": "Másolva ✓",

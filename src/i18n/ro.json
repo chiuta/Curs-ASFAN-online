@@ -215,7 +215,17 @@
   "ics_desc": "O oră prezentare, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: {url}",
   "ics_loc": "Online, prin ZOOM",
   "ics_alarm": "Curs ASFAN începe în o oră",
-  "ics_cal": "Curs ASFAN – Introducere în ufologie"
+  "ics_cal": "Curs ASFAN – Introducere în ufologie",
+  "lang_notice": "Cursul se desfășoară în limba română; site-ul este tradus doar pentru informare.",
+  "faq_lang_q": "În ce limbă se desfășoară cursul?",
+  "faq_lang_a": "Cursul se desfășoară în limba română (prezentări și discuții). Site-ul este tradus în 8 limbi doar cu titlu informativ.",
+  "f_lang": "Limba cursului",
+  "f_lang_v": "Română",
+  "share_h": "Distribuie cursul",
+  "share_native": "Distribuie…",
+  "share_copy": "Copiază linkul",
+  "share_via": "Distribuie pe {net}",
+  "share_text": "Curs gratuit online „Introducere în ufologie” (ASFAN), 18 noiembrie 2026 – 26 mai 2027, prin ZOOM"
  },
  "js": {
   "copied": "Copiat ✓",

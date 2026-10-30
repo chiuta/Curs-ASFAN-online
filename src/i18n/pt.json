@@ -215,7 +215,17 @@
   "ics_desc": "Uma hora de apresentação, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: {url}",
   "ics_loc": "Online, via ZOOM",
   "ics_alarm": "O curso ASFAN começa dentro de uma hora",
-  "ics_cal": "Curso ASFAN – Introdução à ufologia"
+  "ics_cal": "Curso ASFAN – Introdução à ufologia",
+  "lang_notice": "Nota: o curso é lecionado em romeno. Este site está traduzido apenas a título informativo.",
+  "faq_lang_q": "Em que língua é lecionado o curso?",
+  "faq_lang_a": "O curso é lecionado em romeno (apresentações e debates). Este site está traduzido em 8 línguas apenas a título informativo.",
+  "f_lang": "Língua do curso",
+  "f_lang_v": "Romeno",
+  "share_h": "Partilhar o curso",
+  "share_native": "Partilhar…",
+  "share_copy": "Copiar ligação",
+  "share_via": "Partilhar em {net}",
+  "share_text": "Curso online gratuito «Introdução à ufologia» (ASFAN), de 18 de novembro de 2026 a 26 de maio de 2027, via ZOOM (em romeno)"
  },
  "js": {
   "copied": "Copiado ✓",
@@ -345,7 +355,7 @@
     "Segredo, desinformação, tabu, ridicularização",
     "Cumplicidade dos media, mitologia OVNI",
     "Russos, ingleses, franceses, sul-americanos"
-  ]
+   ]
   },
   {
    "title": "Depois de 2017: Congresso, Pentágono, NASA, AARO",

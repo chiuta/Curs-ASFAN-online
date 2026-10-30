@@ -83,4 +83,7 @@ document.querySelectorAll('form.enr').forEach(function(f){
   f.addEventListener('submit',function(ev){ev.preventDefault();if(snd)snd.click()});
   if(cp)cp.addEventListener('click',function(){if(!f.checkValidity()){f.reportValidity();return}var b=build(),j=I().js,o=cp.dataset.orig||(cp.dataset.orig=cp.textContent),t=(j.copy_to||'To')+': '+TO+'\n'+(j.copy_subject||'Subject')+': '+b.sub+'\n\n'+b.body;
     (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){cp.textContent=cp.dataset.copied},function(){cp.textContent=cp.dataset.fail});setTimeout(function(){cp.textContent=o},2200)})});
+/* ---- Share ---- */
+document.querySelectorAll('.share-native').forEach(function(b){if(!navigator.share)return;b.hidden=false;
+  b.addEventListener('click',function(){var w=b.closest('[data-share]');navigator.share({title:w.dataset.shareTitle,text:w.dataset.shareText,url:w.dataset.shareUrl}).catch(function(){})})});
 })();

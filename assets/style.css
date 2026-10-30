@@ -516,3 +516,15 @@ html[lang="es"] .sec h2 .sub,html[lang="fr"] .sec h2 .sub,html[lang="pt"] .sec h
   details.lang summary{padding:0 12px}
   .brand small{display:none}
 }
+
+/* ===== precizare limbă + distribuire ===== */
+.lang-note{background:rgba(247,183,51,.13);border-bottom:1px solid rgba(247,183,51,.4);color:#ffe7ae;font-size:.92rem;line-height:1.4}
+.lang-note .wrap{padding:9px 0;width:min(100% - 28px,1180px);margin:0 auto}
+.share{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding:18px 0 6px;font-family:var(--font)}
+.share-h{font-weight:800;color:var(--gold)}
+.share-btns{display:flex;flex-wrap:wrap;gap:8px}
+.share-b{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:999px;border:1.5px solid var(--line2);background:rgba(76,201,255,.08);color:#e8f1ff;font:inherit;font-size:.9rem;font-weight:700;text-decoration:none;cursor:pointer}
+.share-b:hover{background:rgba(76,201,255,.2)}
+.share-native{background:linear-gradient(135deg,#1c7be0,#35c3ff);color:#001028;border-color:transparent}
+.share-native[hidden]{display:none}
+@media print{.share,.lang-note{display:none!important}}

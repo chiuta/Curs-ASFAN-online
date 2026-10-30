@@ -215,7 +215,17 @@
   "ics_desc": "Eine Stunde Vortrag, eine Stunde Diskussion. Zugelassene erhalten den ZOOM-Link per E-Mail.\nDetails: {url}",
   "ics_loc": "Online, über ZOOM",
   "ics_alarm": "ASFAN-Kurs beginnt in einer Stunde",
-  "ics_cal": "ASFAN-Kurs – Einführung in die Ufologie"
+  "ics_cal": "ASFAN-Kurs – Einführung in die Ufologie",
+  "lang_notice": "Bitte beachten Sie: Der Kurs findet auf Rumänisch statt. Diese Website ist nur zur Information übersetzt.",
+  "faq_lang_q": "In welcher Sprache findet der Kurs statt?",
+  "faq_lang_a": "Der Kurs findet auf Rumänisch statt (Vorträge und Diskussionen). Diese Website ist nur zur Information in 8 Sprachen übersetzt.",
+  "f_lang": "Kurssprache",
+  "f_lang_v": "Rumänisch",
+  "share_h": "Kurs teilen",
+  "share_native": "Teilen…",
+  "share_copy": "Link kopieren",
+  "share_via": "Auf {net} teilen",
+  "share_text": "Kostenloser Online-Kurs „Einführung in die Ufologie“ (ASFAN), 18. November 2026 – 26. Mai 2027, über ZOOM (auf Rumänisch)"
  },
  "js": {
   "copied": "Kopiert ✓",

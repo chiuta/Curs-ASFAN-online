@@ -6,9 +6,45 @@
   "locale": "fr_FR"
  },
  "dates": {
-  "months": ["", "janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
-  "mon3": ["", "janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."],
-  "wd": ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"],
+  "months": [
+   "",
+   "janvier",
+   "février",
+   "mars",
+   "avril",
+   "mai",
+   "juin",
+   "juillet",
+   "août",
+   "septembre",
+   "octobre",
+   "novembre",
+   "décembre"
+  ],
+  "mon3": [
+   "",
+   "janv.",
+   "févr.",
+   "mars",
+   "avr.",
+   "mai",
+   "juin",
+   "juil.",
+   "août",
+   "sept.",
+   "oct.",
+   "nov.",
+   "déc."
+  ],
+  "wd": [
+   "lundi",
+   "mardi",
+   "mercredi",
+   "jeudi",
+   "vendredi",
+   "samedi",
+   "dimanche"
+  ],
   "fmt_long": "{wd} {d} {month} {y}",
   "fmt_short": "{d} {mon3} {y}"
  },
@@ -179,7 +215,17 @@
   "ics_desc": "Une heure d’exposé, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : {url}",
   "ics_loc": "En ligne, via ZOOM",
   "ics_alarm": "Le cours ASFAN commence dans une heure",
-  "ics_cal": "Cours ASFAN – Introduction à l’ufologie"
+  "ics_cal": "Cours ASFAN – Introduction à l’ufologie",
+  "lang_notice": "À noter : le cours se déroule en roumain. Ce site est traduit à titre informatif.",
+  "faq_lang_q": "Dans quelle langue se déroule le cours ?",
+  "faq_lang_a": "Le cours se déroule en roumain (exposés et discussions). Ce site est traduit en 8 langues à titre informatif.",
+  "f_lang": "Langue du cours",
+  "f_lang_v": "Roumain",
+  "share_h": "Partager le cours",
+  "share_native": "Partager…",
+  "share_copy": "Copier le lien",
+  "share_via": "Partager sur {net}",
+  "share_text": "Cours en ligne gratuit « Introduction à l’ufologie » (ASFAN), du 18 novembre 2026 au 26 mai 2027, via ZOOM (en roumain)"
  },
  "js": {
   "copied": "Copié ✓",

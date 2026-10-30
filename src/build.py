@@ -90,7 +90,10 @@ def loc_url(code, path):
     base = SITE + "/" + ("" if code == "ro" else code + "/")
     return base + ("" if path == "index.html" else path)
 
+CURPATH = "index.html"
 def head(title, desc, page, path, extra=""):
+    global CURPATH
+    CURPATH = path
     canon = loc_url(CODE, path)
     alts = "".join(f'<link rel="alternate" hreflang="{l}" href="{loc_url(l, path)}">\n' for l in LANGS) + f'<link rel="alternate" hreflang="x-default" href="{loc_url("ro", path)}">\n'
     langlinks = "".join(f'<li><a lang="{l}" hreflang="{l}" data-lang-link="{l}" href="{lang_href(l, path)}"{" aria-current=\"true\"" if l == CODE else ""}>{E(DATA[l]["meta"]["name"])}</a></li>' for l in LANGS)
@@ -129,6 +132,21 @@ def head(title, desc, page, path, extra=""):
 <main id="main">
 '''
 
+def share_block():
+    url = loc_url(CODE, CURPATH); txt = T("share_text"); ttl = T("title_index")
+    from urllib.parse import quote as q
+    nets = [("Facebook", "https://www.facebook.com/sharer/sharer.php?u=" + q(url, safe="")),
+            ("X", "https://twitter.com/intent/tweet?url=" + q(url, safe="") + "&text=" + q(txt, safe="")),
+            ("LinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + q(url, safe="")),
+            ("WhatsApp", "https://wa.me/?text=" + q(txt + " " + url, safe="")),
+            ("Telegram", "https://t.me/share/url?url=" + q(url, safe="") + "&text=" + q(txt, safe="")),
+            ("E-mail", "mailto:?subject=" + q(ttl, safe="") + "&body=" + q(txt + "\n\n" + url, safe=""))]
+    links = "".join(f'<a class="share-b" data-net="{n}" href="{E(h, quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="{A("share_via", net=n)}">{n}</a>' for n, h in nets)
+    return f'''<div class="wrap share" data-share data-share-url="{url}" data-share-title="{E(ttl, quote=True)}" data-share-text="{E(txt, quote=True)}">
+    <span class="share-h" data-k="share_h">{T("share_h")}</span>
+    <div class="share-btns"><button class="share-b share-native" type="button" hidden data-k="share_native">{T("share_native")}</button>{links}<button class="share-b" type="button" data-copy="{url}" data-copied="{JS("copied")}" data-k="share_copy">{T("share_copy")}</button></div>
+  </div>'''
+
 def foot():
     links = "".join(f'<a data-nav="{r}" data-k="{k}" href="{h}">{T(k)}</a>' for h, k, r in NAV[1:])
     return f'''</main>
@@ -142,6 +160,7 @@ def foot():
       <a class="foot-qr" data-nav="qr" data-k-aria="foot_qr_aria" href="qr.html" aria-label="{A("foot_qr_aria")}"><img src="{P}assets/qr-curs.svg" width="64" height="64" alt="{A("foot_qr_alt")}" data-k-alt="foot_qr_alt"></a>
     </div></div>
   </div>
+  {share_block()}
   <div class="wrap foot-links">{links}<a href="mailto:{MAIL}">{MAIL}</a></div>
 </footer>
 <script src="{P}assets/sessions.js"></script>
@@ -162,13 +181,17 @@ def qr_block():
     <div class="acts"><a class="btn btn-blue" href="{P}assets/qr-asfan.png" download="qr-asfanufo-ro.png">PNG</a><a class="btn btn-ghost" href="{P}assets/qr-asfan.svg" download="qr-asfanufo-ro.svg">SVG</a><button class="btn btn-ghost" type="button" data-copy="{ASFAN}" data-copied="{JS("copied")}">{T("qr_copy")}</button></div></div></div>
 </div>'''
 
+def notice():
+    if CODE == "ro": return ""
+    return f'<div class="lang-note" role="note"><div class="wrap"><span aria-hidden="true">🇷🇴</span> <span data-k="lang_notice">{T("lang_notice")}</span></div></div>\n'
+
 def crumbs(*items):
     return '<div class="crumbs">' + f'<a href="index.html">{T("crumb_home")}</a>' + "".join(" › " + i for i in items) + '</div>'
 
 # ------------------------------------------------------------------ index
 def page_index():
     h = head(T("title_index"), T("desc_index"), "index", "index.html",
-             '<script type="application/ld+json">' + json.dumps({"@context":"https://schema.org","@type":"Course","name":T("ld_name"),"inLanguage":LD["meta"]["html_lang"],
+             '<script type="application/ld+json">' + json.dumps({"@context":"https://schema.org","@type":"Course","name":T("ld_name"),"inLanguage":"ro","availableLanguage":["ro"],
               "description":T("ld_desc"),"provider":{"@type":"Organization","name":"ASFAN","sameAs":ASFAN},
               "hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","startDate":"2026-11-18","endDate":"2027-05-26","instructor":{"@type":"Person","name":"Dan D. Farcaș"}},
               "offers":{"@type":"Offer","price":"0","priceCurrency":"RON"},"url":loc_url(CODE, "index.html")}, ensure_ascii=False) + '</script>')
@@ -176,7 +199,7 @@ def page_index():
     mini = "".join(f"<span>{E(x)}</span>" for x in UI["mini_tags"].split("|"))
     topics = "".join(f'''      <a class="topic" href="sesiune-{TOPIC_SESS[i]}.html"><img class="art-a" src="{P}assets/a-t{i}.jpg" alt="" width="170" height="52" loading="lazy"><img class="art-b" src="{P}assets/b-t{i}.jpg" alt="" width="170" height="52" loading="lazy"><div><h3>{E(t)}</h3><p>{E(s)}</p></div><span class="go" aria-hidden="true">›</span></a>
 ''' for i, (t, s) in enumerate(LD["topics"], 1))
-    b = f'''<div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>{T("cd_start", label=SESS[0]["label"])}</span>
+    b = notice() + f'''<div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>{T("cd_start", label=SESS[0]["label"])}</span>
     <div class="cd" data-next-cd data-countdown="2026-11-18T19:00:00+02:00" data-done="{JS("started")}" aria-live="off"></div></div></div>
 <div class="pst">
 <section class="hero">
@@ -236,7 +259,7 @@ def page_index():
 # ------------------------------------------------------------------ program
 def page_program():
     h = head(T("title_program"), T("desc_program"), "program", "program.html")
-    b = f'''<div class="wrap">
+    b = notice() + f'''<div class="wrap">
   <div class="page-head">{crumbs(T("nav_program"))}
     <h1>{T("prog_h1")}</h1>
     <p class="lead">{T("prog_lead")}</p></div>
@@ -269,7 +292,7 @@ def page_session(s):
     if len(ttl) > 67: ttl = ttl[:66].rstrip(" ,;:–-") + "…"
     h = head(ttl, T("desc_session", label=s["label"], text=s["text"]), "sesiune", f"sesiune-{n}.html")
     rel = "".join(f'<li><a href="index.html#h-st" style="color:inherit;text-decoration:none">{E(LD["topics"][t-1][0])}</a></li>' for t in s["topics"])
-    b = f'''<div class="wrap">
+    b = notice() + f'''<div class="wrap">
   <div class="page-head">{crumbs(f'<a href="program.html">{T("nav_program")}</a>', T("s_crumb", n=n))}
     <h1><em>{n:02d}.</em> {E(s["title"])}</h1>
     <p class="lead">{T("s_lead", label=s["label"])}</p></div>
@@ -301,7 +324,7 @@ def page_session(s):
 # ------------------------------------------------------------------ detalii
 def page_detalii():
     h = head(T("title_about"), T("desc_about"), "detalii", "detalii.html")
-    b = f'''<div class="wrap">
+    b = notice() + f'''<div class="wrap">
   <div class="page-head">{crumbs(T("nav_about"))}
     <h1>{T("about_h1")}</h1>
     <p class="lead">{T("about_lead")}</p></div>
@@ -332,6 +355,7 @@ def page_detalii():
       <div class="fact"><small>{T("f_period")}</small><b>{T("f_period_v")}</b></div>
       <div class="fact"><small>{T("f_day")}</small><b>{T("f_day_v")}</b></div>
       <div class="fact"><small>{T("fact_format")}</small><b>{T("f_format_v")}</b></div>
+      <div class="fact"><small>{T("f_lang")}</small><b>{T("f_lang_v")}</b></div>
       <div class="fact"><small>{T("f_cost")}</small><b>{T("f_cost_v")}</b></div>
       <div class="fact"><small>{T("f_diploma")}</small><b>{T("f_diploma_v")}</b></div>
       <div class="fact"><small>{T("f_seats")}</small><b>{T("f_seats_v")}</b></div>
@@ -340,7 +364,7 @@ def page_detalii():
     </div></section>
   <section class="sec"><h2>{T("faq_h")}</h2>
 '''
-    for q, a in LD["faq"]:
+    for q, a in LD["faq"] + [[UI["faq_lang_q"], UI["faq_lang_a"]]]:
         b += f'    <details class="ac"><summary><span class="tt">{E(q)}</span></summary><div class="body" style="padding-left:16px"><p>{E(rep(a))}</p></div></details>\n'
     b += '''  </section>
 </div>
@@ -351,7 +375,7 @@ def page_detalii():
 def page_inscriere():
     h = head(T("title_enroll"), T("desc_enroll"), "inscriere", "inscriere.html")
     conds = "".join(f"<li>{E(x)}</li>" for x in UI["enr_cond"].split("|"))
-    b = f'''<div class="wrap">
+    b = notice() + f'''<div class="wrap">
   <div class="page-head">{crumbs(T("nav_enroll"))}
     <h1>{T("enr_h1")}</h1>
     <p class="lead">{T("enr_lead")}</p></div>
@@ -382,7 +406,7 @@ def page_inscriere():
 # ------------------------------------------------------------------ qr page
 def page_qr():
     h = head(T("title_qr"), T("desc_qr"), "qr", "qr.html")
-    b = f'''<div class="wrap">
+    b = notice() + f'''<div class="wrap">
   <div class="page-head">{crumbs(T("nav_qr"))}
     <h1>{T("qr_h1")}</h1>
     <p class="lead">{T("qr_lead")}</p>
@@ -405,7 +429,7 @@ for CODE in LANGS:
     if CODE == "ro":   # date independente de limbă
         open(f"{OUT}/assets/sessions.js","w",encoding="utf-8").write("window.ASFAN_SESSIONS="+json.dumps([dict(n=s["n"],start=s["start"],end=s["end"]) for s in SESS])+";\n")
     chrome = {k: UI[k] for k in ("skip","brand_aria","brand_small","logo_alt","menu_btn","nav_aria","nav_home","nav_program","nav_about","nav_enroll","nav_qr","theme_aria","lang_aria",
-              "lb_aria","lb_dl","lb_close","lb_alt","foot_hand","foot_hand2","foot_tag_b","foot_tag_s","foot_qr_aria","foot_qr_alt")}
+              "lb_aria","lb_dl","lb_close","lb_alt","foot_hand","foot_hand2","foot_tag_b","foot_tag_s","foot_qr_aria","foot_qr_alt","share_h","share_native","share_copy","share_via","share_text","lang_notice")}
     open(f"{OUT}/assets/i18n-{CODE}.js","w",encoding="utf-8").write("window.ASFAN_I18N="+json.dumps(dict(lang=CODE,js=LD["js"],labels=[s["label"] for s in SESS],chrome=chrome,
         titles={"index":UI["title_index"],"program":UI["title_program"],"detalii":UI["title_about"],"inscriere":UI["title_enroll"],"qr":UI["title_qr"]},
         cd_start=UI["cd_start"]),ensure_ascii=False)+";\n")

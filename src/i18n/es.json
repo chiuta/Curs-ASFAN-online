@@ -6,9 +6,45 @@
   "locale": "es_ES"
  },
  "dates": {
-  "months": ["", "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
-  "mon3": ["", "ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"],
-  "wd": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"],
+  "months": [
+   "",
+   "enero",
+   "febrero",
+   "marzo",
+   "abril",
+   "mayo",
+   "junio",
+   "julio",
+   "agosto",
+   "septiembre",
+   "octubre",
+   "noviembre",
+   "diciembre"
+  ],
+  "mon3": [
+   "",
+   "ene",
+   "feb",
+   "mar",
+   "abr",
+   "may",
+   "jun",
+   "jul",
+   "ago",
+   "sep",
+   "oct",
+   "nov",
+   "dic"
+  ],
+  "wd": [
+   "lunes",
+   "martes",
+   "miércoles",
+   "jueves",
+   "viernes",
+   "sábado",
+   "domingo"
+  ],
   "fmt_long": "{wd}, {d} de {month} de {y}",
   "fmt_short": "{d} {mon3} {y}"
  },
@@ -179,7 +215,17 @@
   "ics_desc": "Una hora de exposición, una hora de debate. Las personas admitidas reciben el enlace de ZOOM por correo.\nDetalles: {url}",
   "ics_loc": "En línea, por ZOOM",
   "ics_alarm": "El curso de ASFAN empieza en una hora",
-  "ics_cal": "Curso de ASFAN – Introducción a la ufología"
+  "ics_cal": "Curso de ASFAN – Introducción a la ufología",
+  "lang_notice": "Importante: el curso se imparte en rumano. Este sitio está traducido solo con fines informativos.",
+  "faq_lang_q": "¿En qué idioma se imparte el curso?",
+  "faq_lang_a": "El curso se imparte en rumano (presentaciones y debates). Este sitio está traducido a 8 idiomas solo con fines informativos.",
+  "f_lang": "Idioma del curso",
+  "f_lang_v": "Rumano",
+  "share_h": "Comparte el curso",
+  "share_native": "Compartir…",
+  "share_copy": "Copiar enlace",
+  "share_via": "Compartir en {net}",
+  "share_text": "Curso en línea gratuito «Introducción a la ufología» (ASFAN), del 18 de noviembre de 2026 al 26 de mayo de 2027, por ZOOM (en rumano)"
  },
  "js": {
   "copied": "Copiado ✓",
@@ -201,29 +247,92 @@
   "mail_ok": "Listo"
  },
  "faq": [
-  ["¿Cuánto cuesta participar?", "La participación es gratuita."],
-  ["¿Cómo recibo el enlace de ZOOM?", "Las personas admitidas reciben por correo electrónico el enlace de ZOOM de cada sesión."],
-  ["¿Cómo me inscribo?", "Enviando un correo a {MAIL} hasta el 17 de noviembre de 2026. También puedes usar el formulario de la página de inscripción, que prepara el correo por ti."],
-  ["¿En qué orden se admite a los participantes?", "El número de plazas es limitado; se admite a los participantes, en principio, por orden de solicitud."],
-  ["¿Puedo obtener un diploma?", "Sí. Al terminar el curso, quienes hayan tenido como máximo tres ausencias pueden solicitar un diploma."],
-  ["¿Cuánto dura una sesión y cuándo se celebra?", "Los miércoles, de 19 a 21 h (hora de Rumanía): una hora de exposición y una hora de debate. Las sesiones se celebran, en principio, cada dos semanas, evitando los festivos y las sesiones de exámenes."],
-  ["¿Qué temas se tratan?", "Aspectos políticos y militares de última hora, desinformación, abducciones, conexiones folclóricas, religiosas y paranormales, chamanes, intentos de explicación, metodología de investigación, falsos OVNI, organizaciones internacionales del ámbito y más."]
+  [
+   "¿Cuánto cuesta participar?",
+   "La participación es gratuita."
+  ],
+  [
+   "¿Cómo recibo el enlace de ZOOM?",
+   "Las personas admitidas reciben por correo electrónico el enlace de ZOOM de cada sesión."
+  ],
+  [
+   "¿Cómo me inscribo?",
+   "Enviando un correo a {MAIL} hasta el 17 de noviembre de 2026. También puedes usar el formulario de la página de inscripción, que prepara el correo por ti."
+  ],
+  [
+   "¿En qué orden se admite a los participantes?",
+   "El número de plazas es limitado; se admite a los participantes, en principio, por orden de solicitud."
+  ],
+  [
+   "¿Puedo obtener un diploma?",
+   "Sí. Al terminar el curso, quienes hayan tenido como máximo tres ausencias pueden solicitar un diploma."
+  ],
+  [
+   "¿Cuánto dura una sesión y cuándo se celebra?",
+   "Los miércoles, de 19 a 21 h (hora de Rumanía): una hora de exposición y una hora de debate. Las sesiones se celebran, en principio, cada dos semanas, evitando los festivos y las sesiones de exámenes."
+  ],
+  [
+   "¿Qué temas se tratan?",
+   "Aspectos políticos y militares de última hora, desinformación, abducciones, conexiones folclóricas, religiosas y paranormales, chamanes, intentos de explicación, metodología de investigación, falsos OVNI, organizaciones internacionales del ámbito y más."
+  ]
  ],
  "topics": [
-  ["Fenómenos aeroespaciales no identificados (OVNI/FANI)", "¿Qué sabemos y qué sigue siendo un misterio?"],
-  ["Aspectos políticos y militares de última hora", "Contexto actual, proyectos secretos, documentos."],
-  ["Desinformación y falsos OVNI", "¿Cómo reconocerlos?"],
-  ["Abducciones y experiencias extrañas", "Casos, testimonios, interpretaciones."],
-  ["Conexiones folclóricas e históricas", "De las leyendas a los casos modernos."],
-  ["Conexiones religiosas, paranormales y chamanes", "Creencias, tradiciones, experiencias."],
-  ["Intentos de explicación", "Hipótesis científicas, teorías alternativas."],
-  ["Metodología de investigación", "¿Cómo analizamos un caso?"],
-  ["Organizaciones internacionales del ámbito", "¿Quién se ocupa del fenómeno en el mundo?"],
-  ["Casos famosos y recientes", "Análisis y debates críticos."],
-  ["Falsas pistas y manipulación", "Cómo distinguir la realidad de la desinformación."],
-  ["Los OVNI en la cultura", "En la ciencia, el arte, el cine y la sociedad."],
-  ["Implicaciones para el futuro", "¿Qué aprendemos del fenómeno?"],
-  ["Debate abierto y conclusiones", "Vuestras preguntas importan."]
+  [
+   "Fenómenos aeroespaciales no identificados (OVNI/FANI)",
+   "¿Qué sabemos y qué sigue siendo un misterio?"
+  ],
+  [
+   "Aspectos políticos y militares de última hora",
+   "Contexto actual, proyectos secretos, documentos."
+  ],
+  [
+   "Desinformación y falsos OVNI",
+   "¿Cómo reconocerlos?"
+  ],
+  [
+   "Abducciones y experiencias extrañas",
+   "Casos, testimonios, interpretaciones."
+  ],
+  [
+   "Conexiones folclóricas e históricas",
+   "De las leyendas a los casos modernos."
+  ],
+  [
+   "Conexiones religiosas, paranormales y chamanes",
+   "Creencias, tradiciones, experiencias."
+  ],
+  [
+   "Intentos de explicación",
+   "Hipótesis científicas, teorías alternativas."
+  ],
+  [
+   "Metodología de investigación",
+   "¿Cómo analizamos un caso?"
+  ],
+  [
+   "Organizaciones internacionales del ámbito",
+   "¿Quién se ocupa del fenómeno en el mundo?"
+  ],
+  [
+   "Casos famosos y recientes",
+   "Análisis y debates críticos."
+  ],
+  [
+   "Falsas pistas y manipulación",
+   "Cómo distinguir la realidad de la desinformación."
+  ],
+  [
+   "Los OVNI en la cultura",
+   "En la ciencia, el arte, el cine y la sociedad."
+  ],
+  [
+   "Implicaciones para el futuro",
+   "¿Qué aprendemos del fenómeno?"
+  ],
+  [
+   "Debate abierto y conclusiones",
+   "Vuestras preguntas importan."
+  ]
  ],
  "sessions": [
   {
