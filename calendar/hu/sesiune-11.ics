@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//HU
+CALSCALE:GREGORIAN
+X-WR-CALNAME:ASFAN-tanfolyam – Bevezetés az ufológiába
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s11-hu@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270421T160000Z
+DTEND:20270421T180000Z
+SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (11/14)
+DESCRIPTION:Leleplezési kísérletek\n\nLeleplezési kísérletek. Titkosítás-feloldások. Lesz kapcsolatfelvétel? Hogyan fog kinézni? Milyen feltételekkel? A jelenlegi hozzáállás a leleplezéshez: katonák\, kutatók\, vallásos emberek\, a nagyközönség.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/sesiune-11.html
+LOCATION:Online\, ZOOM-on
+URL:https://curs.asfan.online/hu/sesiune-11.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Egy óra múlva kezdődik az ASFAN-tanfolyam
+END:VALARM
+END:VEVENT
+END:VCALENDAR

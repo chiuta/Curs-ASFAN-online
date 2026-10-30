@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//PT
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Curso ASFAN – Introdução à ufologia
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s12-pt@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270428T160000Z
+DTEND:20270428T180000Z
+SUMMARY:Curso ASFAN – Introdução à ufologia (12/14)
+DESCRIPTION:Outros casos romenos e apresentações livres\n\nOutros casos romenos. Apresentações livres. Filmes\, fotografias\, etc.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-12.html
+LOCATION:Online\, via ZOOM
+URL:https://curs.asfan.online/pt/sesiune-12.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:O curso ASFAN começa dentro de uma hora
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//ES
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Curso de ASFAN – Introducción a la ufología
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s5-es@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270224T170000Z
+DTEND:20270224T190000Z
+SUMMARY:Curso de ASFAN – Introducción a la ufología (5/14)
+DESCRIPTION:La historia antigua del fenómeno\n\nLa historia antigua del fenómeno\, conexiones folclóricas\, ielele (hadas del folclore rumano)\, enanos\, Magonia\, círculos mágicos y agroglifos\, Vallée.\n\nUna hora de exposición\, una hora de debate. Las personas admitidas reciben el enlace de ZOOM por correo.\nDetalles: https://curs.asfan.online/es/sesiune-5.html
+LOCATION:En línea\, por ZOOM
+URL:https://curs.asfan.online/es/sesiune-5.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:El curso de ASFAN empieza en una hora
+END:VALARM
+END:VEVENT
+END:VCALENDAR

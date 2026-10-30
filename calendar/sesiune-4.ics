@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//RO
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Curs ASFAN – Introducere în ufologie
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s4-ro@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270113T170000Z
+DTEND:20270113T190000Z
+SUMMARY:Curs ASFAN – Introducere în ufologie (4/14)
+DESCRIPTION:Întâlniri de gradul 3–4\n\nÎntâlniri de gradul 3-4. Contacte\, contactați\, răpiri\, scenariu\, experimente genetice\, îndoctrinare\, caracteristici speciale\, dovezi\, răpiri fără întoarcere. Hopkins\, Mack etc. Mutilări\, criptozoologie\, rezervații?\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/sesiune-4.html
+LOCATION:Online\, prin ZOOM
+URL:https://curs.asfan.online/sesiune-4.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Curs ASFAN începe în o oră
+END:VALARM
+END:VEVENT
+END:VCALENDAR

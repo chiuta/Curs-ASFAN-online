@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//FR
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Cours ASFAN – Introduction à l’ufologie
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s4-fr@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270113T170000Z
+DTEND:20270113T190000Z
+SUMMARY:Cours ASFAN – Introduction à l’ufologie (4/14)
+DESCRIPTION:Rencontres du 3e et 4e type\n\nRencontres du 3e et 4e type. Contacts\, contactés\, enlèvements\, scénario\, expériences génétiques\, endoctrinement\, caractéristiques particulières\, preuves\, enlèvements sans retour. Hopkins\, Mack\, etc. Mutilations\, cryptozoologie\, réserves ?\n\nUne heure d’exposé\, une heure de discussion. Les personnes admises reçoivent le lien ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/sesiune-4.html
+LOCATION:En ligne\, via ZOOM
+URL:https://curs.asfan.online/fr/sesiune-4.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Le cours ASFAN commence dans une heure
+END:VALARM
+END:VEVENT
+END:VCALENDAR

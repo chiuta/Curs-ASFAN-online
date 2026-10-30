@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//ES
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Curso de ASFAN – Introducción a la ufología
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s1-es@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20261118T170000Z
+DTEND:20261118T190000Z
+SUMMARY:Curso de ASFAN – Introducción a la ufología (1/14)
+DESCRIPTION:Nociones básicas: fenómenos aeroespaciales/anómalos no identificados (FANI/OVNI)\n\nFenómenos aeroespaciales/anómalos no identificados (FANI/OVNI)\, nociones básicas: aéreos\, subacuáticos\, espacio exterior\, transmedio. Observaciones diurnas\, nocturnas\, por radar. Características\, aterrizajes. OVNI agresivos.\n\nUna hora de exposición\, una hora de debate. Las personas admitidas reciben el enlace de ZOOM por correo.\nDetalles: https://curs.asfan.online/es/sesiune-1.html
+LOCATION:En línea\, por ZOOM
+URL:https://curs.asfan.online/es/sesiune-1.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:El curso de ASFAN empieza en una hora
+END:VALARM
+END:VEVENT
+END:VCALENDAR

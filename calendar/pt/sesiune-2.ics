@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//PT
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Curso ASFAN – Introdução à ufologia
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s2-pt@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20261202T170000Z
+DTEND:20261202T190000Z
+SUMMARY:Curso ASFAN – Introdução à ufologia (2/14)
+DESCRIPTION:História político-militar 1942–2017\n\nHistória político-militar 1942-2017\, ligações nucleares\, quedas\, conflitos\, projetos\, Blue Book\, Hynek\, regulamentos. Segredo\, desinformação\, tabu\, ridicularização\, cumplicidade dos media\, mitologia OVNI. E também entre russos\, ingleses\, franceses\, sul-americanos\, etc.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-2.html
+LOCATION:Online\, via ZOOM
+URL:https://curs.asfan.online/pt/sesiune-2.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:O curso ASFAN começa dentro de uma hora
+END:VALARM
+END:VEVENT
+END:VCALENDAR

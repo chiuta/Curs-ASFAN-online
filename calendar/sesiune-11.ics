@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//RO
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Curs ASFAN – Introducere în ufologie
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s11-ro@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270421T160000Z
+DTEND:20270421T180000Z
+SUMMARY:Curs ASFAN – Introducere în ufologie (11/14)
+DESCRIPTION:Încercări de dezvăluire\n\nÎncercări de dezvăluire. Desecretizări. Va fi un contact? Cum va arăta? În ce condiții? Atitudinea actuală față de o dezvăluire: militari\, cercetători\, religioși\, marele public.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/sesiune-11.html
+LOCATION:Online\, prin ZOOM
+URL:https://curs.asfan.online/sesiune-11.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Curs ASFAN începe în o oră
+END:VALARM
+END:VEVENT
+END:VCALENDAR

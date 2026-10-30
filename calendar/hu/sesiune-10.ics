@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//HU
+CALSCALE:GREGORIAN
+X-WR-CALNAME:ASFAN-tanfolyam – Bevezetés az ufológiába
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s10-hu@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270407T160000Z
+DTEND:20270407T180000Z
+SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (10/14)
+DESCRIPTION:Lehetséges magyarázatok\n\nLehetséges magyarázatok: időnauták? Intraterresztriálisok? Stb. Két földönkívüli hipotézis\, hipercivilizációk\, feltételek\, önpusztítás\, be nem avatkozás. Kulturális hipnózis\, korlátok\, lehetséges következmények.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/sesiune-10.html
+LOCATION:Online\, ZOOM-on
+URL:https://curs.asfan.online/hu/sesiune-10.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Egy óra múlva kezdődik az ASFAN-tanfolyam
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//DE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:ASFAN-Kurs – Einführung in die Ufologie
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s14-de@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270526T160000Z
+DTEND:20270526T180000Z
+SUMMARY:ASFAN-Kurs – Einführung in die Ufologie (14/14)
+DESCRIPTION:Schlussfolgerungen\, Fragen und Abschlussdiskussion\n\nSchlussfolgerungen\, Fragen und Abschlussdiskussion.\n\nEine Stunde Vortrag\, eine Stunde Diskussion. Zugelassene erhalten den ZOOM-Link per E-Mail.\nDetails: https://curs.asfan.online/de/sesiune-14.html
+LOCATION:Online\, über ZOOM
+URL:https://curs.asfan.online/de/sesiune-14.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:ASFAN-Kurs beginnt in einer Stunde
+END:VALARM
+END:VEVENT
+END:VCALENDAR

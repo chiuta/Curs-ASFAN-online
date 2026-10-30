@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//PT
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Curso ASFAN – Introdução à ufologia
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s3-pt@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20261216T170000Z
+DTEND:20261216T190000Z
+SUMMARY:Curso ASFAN – Introdução à ufologia (3/14)
+DESCRIPTION:Depois de 2017: Congresso\, Pentágono\, NASA\, AARO\n\nDepois de 2017\, o Congresso\, o Pentágono\, a NASA\, a AARO\, etc. Iniciativas privadas. A indústria militar americana usou destroços de OVNI? Rússia\, China e ICER\, outras associações. Estruturas oficiais OVNI. As últimas desclassificações.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-3.html
+LOCATION:Online\, via ZOOM
+URL:https://curs.asfan.online/pt/sesiune-3.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:O curso ASFAN começa dentro de uma hora
+END:VALARM
+END:VEVENT
+END:VCALENDAR

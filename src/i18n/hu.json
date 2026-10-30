@@ -1,0 +1,478 @@
+{
+ "meta": {
+  "code": "hu",
+  "name": "Magyar",
+  "html_lang": "hu",
+  "locale": "hu_HU"
+ },
+ "dates": {
+  "months": [
+   "",
+   "január",
+   "február",
+   "március",
+   "április",
+   "május",
+   "június",
+   "július",
+   "augusztus",
+   "szeptember",
+   "október",
+   "november",
+   "december"
+  ],
+  "mon3": [
+   "",
+   "jan.",
+   "febr.",
+   "márc.",
+   "ápr.",
+   "máj.",
+   "jún.",
+   "júl.",
+   "aug.",
+   "szept.",
+   "okt.",
+   "nov.",
+   "dec."
+  ],
+  "wd": [
+   "hétfő",
+   "kedd",
+   "szerda",
+   "csütörtök",
+   "péntek",
+   "szombat",
+   "vasárnap"
+  ],
+  "fmt_long": "{y}. {month} {d}., {wd}",
+  "fmt_short": "{y}. {mon3} {d}."
+ },
+ "ui": {
+  "nav_home": "Főoldal",
+  "nav_program": "Program",
+  "nav_about": "A tanfolyamról",
+  "nav_enroll": "Jelentkezés",
+  "nav_qr": "QR-kód",
+  "brand_small": "Tanfolyam: Bevezetés az ufológiába",
+  "brand_aria": "ASFAN – Tanfolyam: Bevezetés az ufológiába, főoldal",
+  "menu_btn": "Menü ☰",
+  "nav_aria": "Főnavigáció",
+  "theme_aria": "Válasszon megjelenést",
+  "skip": "Ugrás a tartalomra",
+  "lang_aria": "Válasszon nyelvet",
+  "crumb_home": "Főoldal",
+  "title_index": "Bevezetés az ufológiába – ASFAN-tanfolyam, negyedik sorozat",
+  "desc_index": "Ingyenes online tanfolyam ZOOM-on, 2026. november 18. – 2027. május 26., szerdánként 19:00–21:00 (romániai idő). 14 téma az azonosítatlan légi és űrbeli jelenségekről. Vezető: Dan D. Farcaș, az ASFAN elnöke.",
+  "ld_name": "Bevezetés az ufológiába (negyedik sorozat)",
+  "ld_desc": "Ingyenes online tanfolyam az azonosítatlan légi és űrbeli jelenségekről.",
+  "title_program": "A tanfolyam programja – Bevezetés az ufológiába · ASFAN",
+  "desc_program": "Az ASFAN „Bevezetés az ufológiába” tanfolyamának (negyedik sorozat) 14 alkalma, 2026. november 18. – 2027. május 26., szerdánként 19:00–21:00, ZOOM-on.",
+  "title_about": "A tanfolyamról – Bevezetés az ufológiába (negyedik sorozat) · ASFAN",
+  "desc_about": "Hogyan zajlik a tanfolyam, ki vezeti, mi kell az oklevélhez, korlátozott létszám és gyakori kérdések.",
+  "title_enroll": "Jelentkezés a tanfolyamra – Bevezetés az ufológiába · ASFAN",
+  "desc_enroll": "Jelentkezni e-mailben lehet a {MAIL} címen, 2026. november 17-ig. A részvétel ingyenes, a létszám korlátozott.",
+  "title_qr": "QR-kód – curs.asfan.online · ASFAN",
+  "desc_qr": "QR-kódok a tanfolyam weboldalához (curs.asfan.online) és a www.asfanufo.ro oldalhoz, nyomtatásra készen.",
+  "title_session": "{n}. alkalom: {title}",
+  "desc_session": "{label}, 19:00–21:00, online, ZOOM-on. {text}",
+  "hero_sub": "Bevezetés az",
+  "hero_main": "UFOLÓGIÁBA",
+  "hero_h1_pre": "Bevezetés az ",
+  "hero_h1_post": " – ASFAN-tanfolyam, negyedik sorozat",
+  "hero_curs": "ASFAN-tanfolyam",
+  "hero_serie": "(negyedik sorozat)",
+  "hero_date": "2026. november – 2027. május",
+  "hero_line": "Utazás a világ titkai között, a horizonton túlra.",
+  "hero_tags": "UFO/AAP|EMBEREK|ESZMÉK|BIZONYÍTÉKOK|MAGYARÁZATOK",
+  "cta_enroll": "Jelentkezzen ingyen",
+  "cta_program": "Tekintse meg a programot",
+  "mini_tags": "TUDOMÁNY|TÖRTÉNELEM|KULTÚRA|EMBEREK|KÉRDÉSEK|JÖVŐ",
+  "hand_l": "Tudomány<br>Történelem<br>Kultúra<br>Emberek<br>Kérdések<br>Jövő",
+  "hand_r": "Titkok.<br>Emberek.<br>Eszmék.<br>A horizonton túl.",
+  "logo_alt": "ASFAN Románia",
+  "motto": "Felfedezünk<br>Megismerünk<br>Megosztunk",
+  "about_assoc": "Az azonosítatlan légi és űrbeli jelenségeket kutató egyesület",
+  "coord_role1": "A tanfolyam vezetője",
+  "coord_role2": "Az ASFAN elnöke",
+  "cd_start": "A tanfolyam indul – {label}, 19:00 (romániai idő)",
+  "cd_done": "Az alkalom elkezdődött!",
+  "card_when": "Mikor?",
+  "card_when_v": "2026. november 18. –<br>2027. május 26.",
+  "card_when_n": "Elvileg kéthetente,<br>szerdánként<br>(kerüljük az ünnepnapokat<br>és a vizsgaidőszakokat)",
+  "card_time": "Hánykor?",
+  "card_time_v": "19:00 – 21:00",
+  "card_time_n": "(egy óra előadás,<br>egy óra beszélgetés)",
+  "card_where": "Hol?",
+  "card_where_v": "Online,<br>ZOOM-on",
+  "card_who": "Kinek?",
+  "card_who_v": "Mindenkinek, akit érdekelnek a szokatlan jelenségek, a tudomány, a történelem, a kultúra és a világ titkai.",
+  "h_study": "Mit fogunk tanulmányozni?",
+  "h_study_sub": "Az <span class=\"oval\">UFO/AAP</span>-októl az emberiség nagy kérdéseiig.",
+  "box_free_t": "Ingyenes részvétel",
+  "box_free_p": "A részvétel ingyenes, de a tanfolyam végén azok, akik legfeljebb háromszor hiányoztak, oklevelet kérhetnek.",
+  "box_seats_t": "Korlátozott létszám",
+  "box_seats_p": "A helyek száma korlátozott. A felvettek minden előadáshoz e-mailben megkapják a ZOOM-linket.",
+  "box_enroll_t": "Jelentkezés",
+  "box_enroll_p": "Jelentkezni e-mailben lehet<br>a következő címen: <a class=\"mail\" href=\"mailto:{MAIL}\">{MAIL}</a><br>2026. <b>november 17-ig</b>.<br>A felvettekről elvileg<br>a jelentkezés sorrendjében értesítünk.",
+  "foot_tag_b": "ASFAN – Együtt a megismerés felé.",
+  "foot_tag_s": "KÍVÁNCSISÁG · MEGISMERÉS · KÖZÖSSÉG · FÉNYESEBB JÖVŐ",
+  "foot_hand": "Valódi kérdések.<br>Lehetséges világok.",
+  "foot_hand2": "Ugyanaz az ég.<br>Több válasz.",
+  "foot_qr_aria": "QR-kódok – curs.asfan.online",
+  "foot_qr_alt": "QR-kód: curs.asfan.online",
+  "lb_aria": "Nagyított plakát",
+  "lb_dl": "Plakát letöltése",
+  "lb_close": "Bezár ✕",
+  "lb_alt": "A tanfolyam plakátja",
+  "prog_h1": "A tanfolyam <em>programja</em>",
+  "prog_lead": "14 alkalom, szerdánként 19:00–21:00 (romániai idő), ZOOM-on: egy óra előadás és egy óra beszélgetés. A felépítés a tanfolyamra javasolt terv szerinti.",
+  "prog_expand": "Összes kinyitása",
+  "prog_cal_all": "📅 Az egész tanfolyam naptárba",
+  "prog_filter_ph": "Keressen témát (pl.: Vallée, CRV, AARO)…",
+  "prog_filter_aria": "Keresés a programban",
+  "prog_session_page": "Az alkalom oldala →",
+  "prog_cal": "📅 Naptár",
+  "prog_note": "Az időpontok romániai idő szerint értendők (EET/EEST). A ZOOM-linket az egyes előadásokhoz e-mailben küldjük a felvetteknek.",
+  "s_crumb": "{n}. alkalom",
+  "s_lead": "{label}, 19:00–21:00 · online, ZOOM-on",
+  "fact_date": "Dátum",
+  "fact_time": "Idő (Románia)",
+  "fact_format": "Forma",
+  "fact_place": "Helyszín",
+  "s_format_v": "1 óra előadás + 1 óra beszélgetés",
+  "s_place_v": "Online, ZOOM",
+  "s_cd_label": "Ennek az alkalomnak a kezdetéig",
+  "s_cd_done": "Az alkalom elkezdődött vagy véget ért",
+  "s_about": "Miről lesz szó",
+  "s_topics": "A plakát témáiból",
+  "s_add_cal": "📅 Hozzáadás a naptárhoz",
+  "s_enroll": "Jelentkezzen a tanfolyamra",
+  "s_note": "Az alkalom ZOOM-linkjét e-mailben küldjük a felvett résztvevőknek. A részvétel ingyenes; oklevelet legfeljebb három hiányzással lehet kérni.",
+  "s_all": "Az összes alkalom",
+  "about_h1": "A <em>tanfolyamról</em>",
+  "about_lead": "Az ASFAN – az azonosítatlan légi és űrbeli jelenségeket kutató egyesület – szeretettel meghívja Önt a „Bevezetés az ufológiába” című tanfolyamra (negyedik sorozat).",
+  "about_invite": "Meghívó",
+  "about_p1": "A tanfolyam az azonosítatlan légi és űrbeli jelenségek alapfogalmait tárgyalja: a legfrissebb politikai és katonai vonatkozásokat, a dezinformációt, az elrablásokat, a népi hagyománnyal, a vallással és a paranormálissal való kapcsolatokat, a samanokat, a magyarázati kísérleteket, a vizsgálati módszertant, a hamis UFO-kat, a nemzetközi szakmai szervezeteket és egyebeket.",
+  "about_p2": "A tanfolyam ZOOM-on zajlik, elvileg kéthetente, szerdánként 19–21 óra között, egy óra előadással és egy óra beszélgetéssel, 2026. november 18. és 2027. május 26. között, az ünnepnapokat és a vizsgaidőszakokat elkerülve.",
+  "about_p3": "A részvétel ingyenes, de a tanfolyam végén azok, akik legfeljebb háromszor hiányoztak, oklevelet kérhetnek.",
+  "about_p4": "A létszám korlátozott. Jelentkezni a <a href=\"mailto:{MAIL}\">{MAIL}</a> címre küldött e-mailben lehet, 2026. november 17-ig. A felvettek (elvileg a jelentkezés sorrendjében) minden előadáshoz e-mailben megkapják a ZOOM-linket.",
+  "about_btn_enroll": "Jelentkezés",
+  "about_btn_program": "A program",
+  "posters_h": "A tanfolyam plakátjai",
+  "posters_sub": "kattintson a nagyításhoz",
+  "posters_note": "Az eredeti plakátok román nyelvűek.",
+  "poster_moai_alt": "Plakát – Moai változat",
+  "poster_anzi_alt": "Plakát – Anzi változat",
+  "poster_moai": "Moai változat",
+  "poster_anzi": "Anzi változat",
+  "brief_h": "Röviden",
+  "f_period": "Időszak",
+  "f_period_v": "2026. nov. 18. – 2027. máj. 26.",
+  "f_day": "Nap és időpont",
+  "f_day_v": "Szerda, 19:00–21:00",
+  "f_format_v": "ZOOM · 1 óra + 1 óra beszélgetés",
+  "f_cost": "Díj",
+  "f_cost_v": "Ingyenes",
+  "f_diploma": "Oklevél",
+  "f_diploma_v": "Legfeljebb 3 hiányzás",
+  "f_seats": "Helyek",
+  "f_seats_v": "Korlátozott",
+  "f_deadline": "Jelentkezési határidő",
+  "f_deadline_v": "2026. november 17.",
+  "f_sessions": "Alkalmak",
+  "faq_h": "Gyakori kérdések",
+  "enr_h1": "<em>Jelentkezés</em> a tanfolyamra",
+  "enr_lead": "Ingyenes részvétel · korlátozott létszám · határidő: <b>2026. november 17.</b> A felvettek (elvileg a jelentkezés sorrendjében) e-mailben kapják meg a ZOOM-linket.",
+  "enr_cd_label": "A jelentkezés lezárásáig",
+  "enr_cd_done": "A jelentkezési határidő (2026. november 17.) lejárt. Ennek ellenére megírhatja a szervezőknek.",
+  "enr_form_h": "Űrlap",
+  "enr_note1": "Az űrlap kitöltése előkészít egy e-mailt a szervezőknek az Ön e-mail-alkalmazásában; el is kell küldenie. Az adatokat nem tároljuk ezen az oldalon.",
+  "enr_name": "Családi és utónév *",
+  "enr_email": "E-mail a ZOOM-linkekhez *",
+  "enr_loc": "Település (nem kötelező)",
+  "enr_motiv": "Néhány szó az érdeklődéséről (nem kötelező)",
+  "enr_send": "✉️ Küldés",
+  "enr_copy": "Az e-mail szövegének másolása",
+  "enr_note2": "Kattintson a „Küldés” gombra: megnyílik az e-mail-alkalmazás, a címzettel, a tárggyal és a szöveggel már kitöltve. Már csak el kell küldenie az üzenetet. Az e-mail a szervezők számára román nyelven készül.",
+  "enr_ok": "Ha az e-mail-alkalmazás nem nyílt meg, kattintson az „Az e-mail szövegének másolása” gombra, és küldje el a {MAIL} címre.",
+  "enr_direct_h": "Közvetlenül e-mailben",
+  "enr_write": "Írjon ide:",
+  "enr_copy_addr": "Cím másolása",
+  "enr_cond_h": "Feltételek",
+  "enr_cond": "Ingyenes részvétel|Korlátozott létszám|Oklevél kérésre, legfeljebb három hiányzással|Alkalmak szerdánként 19:00–21:00, ZOOM-on",
+  "qr_h1": "<em>QR</em>-kódok",
+  "qr_lead": "Plakátokhoz, bejegyzésekhez és nyomtatott anyagokhoz. A kódok PNG (nagy) vagy SVG (vektoros, nyomtatáshoz) formátumban tölthetők le.",
+  "qr_print": "🖨️ Oldal nyomtatása",
+  "qr_note": "Az első kód a {SITE}/ oldalra visz, a második a {ASFAN} oldalra.",
+  "qr_course_h": "A tanfolyam weboldala",
+  "qr_course_p": "Olvassa be a programért, a részletekért és a jelentkezéshez.",
+  "qr_asfan_h": "Az ASFAN weboldala",
+  "qr_asfan_p": "Az azonosítatlan légi és űrbeli jelenségeket kutató egyesület.",
+  "qr_copy": "Link másolása",
+  "qr_alt": "QR-kód: {url}",
+  "ics_summary": "ASFAN-tanfolyam – Bevezetés az ufológiába ({n}/14)",
+  "ics_desc": "Egy óra előadás, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: {url}",
+  "ics_loc": "Online, ZOOM-on",
+  "ics_alarm": "Egy óra múlva kezdődik az ASFAN-tanfolyam",
+  "ics_cal": "ASFAN-tanfolyam – Bevezetés az ufológiába"
+ },
+ "js": {
+  "copied": "Másolva ✓",
+  "copy_manual": "Másolja kézzel",
+  "copy_fail": "Nem sikerült másolni",
+  "expand": "Összes kinyitása",
+  "collapse": "Összes összecsukása",
+  "course_over": "A tanfolyam véget ért. Köszönjük minden résztvevőnek!",
+  "course_starts": "A tanfolyam indul – {label}",
+  "next_session": "Következő alkalom ({n}/14) – {label}",
+  "started": "Az alkalom elkezdődött!",
+  "u_d": "nap",
+  "u_h": "óra",
+  "u_m": "perc",
+  "u_s": "mp",
+  "copy_to": "Címzett",
+  "copy_subject": "Tárgy",
+  "copy_label": "Az e-mail szövegének másolása",
+  "mail_ok": "Kész"
+ },
+ "faq": [
+  [
+   "Mennyibe kerül a részvétel?",
+   "A részvétel ingyenes."
+  ],
+  [
+   "Hogyan kapom meg a ZOOM-linket?",
+   "A felvettek minden előadáshoz e-mailben megkapják a ZOOM-linket."
+  ],
+  [
+   "Hogyan jelentkezhetek?",
+   "E-mailben, a {MAIL} címre küldött üzenettel, 2026. november 17-ig. Használhatja a jelentkezési oldal űrlapját is, amely előkészíti Önnek az e-mailt."
+  ],
+  [
+   "Milyen sorrendben veszik fel a résztvevőket?",
+   "A helyek száma korlátozott; a felvétel elvileg a jelentkezés sorrendjében történik."
+  ],
+  [
+   "Kaphatok oklevelet?",
+   "Igen. A tanfolyam végén azok, akik legfeljebb háromszor hiányoztak, oklevelet kérhetnek."
+  ],
+  [
+   "Mennyi ideig tart egy alkalom, és mikor van?",
+   "Szerdánként 19 és 21 óra között: egy óra előadás és egy óra beszélgetés. Az alkalmak elvileg kéthetente vannak, az ünnepnapokat és a vizsgaidőszakokat elkerülve."
+  ],
+  [
+   "Milyen témákat érint a tanfolyam?",
+   "A legfrissebb politikai és katonai vonatkozásokat, a dezinformációt, az elrablásokat, a népi hagyománnyal, a vallással és a paranormálissal való kapcsolatokat, a samanokat, a magyarázati kísérleteket, a vizsgálati módszertant, a hamis UFO-kat, a nemzetközi szakmai szervezeteket és egyebeket."
+  ]
+ ],
+ "topics": [
+  [
+   "Azonosítatlan légi és űrbeli jelenségek (UFO/AAP)",
+   "Mit tudunk, és mi marad rejtély?"
+  ],
+  [
+   "A legfrissebb politikai és katonai vonatkozások",
+   "Mai helyzet, titkos projektek, dokumentumok."
+  ],
+  [
+   "Dezinformáció és hamis UFO-k",
+   "Hogyan ismerjük fel őket?"
+  ],
+  [
+   "Elrablások és különös élmények",
+   "Esetek, tanúvallomások, értelmezések."
+  ],
+  [
+   "Népi hagyományi és történelmi kapcsolatok",
+   "A legendáktól a modern esetekig."
+  ],
+  [
+   "Vallási, paranormális kapcsolatok és samanok",
+   "Hiedelmek, hagyományok, élmények."
+  ],
+  [
+   "Magyarázati kísérletek",
+   "Tudományos hipotézisek, alternatív elméletek."
+  ],
+  [
+   "Vizsgálati módszertan",
+   "Hogyan elemzünk egy esetet?"
+  ],
+  [
+   "Nemzetközi szakmai szervezetek",
+   "Ki foglalkozik a jelenséggel a világban?"
+  ],
+  [
+   "Híres és újabb esetek",
+   "Elemzés és kritikus megbeszélés."
+  ],
+  [
+   "Hamis nyomok és manipuláció",
+   "Hogyan választjuk el a valóságot a dezinformációtól?"
+  ],
+  [
+   "UFO-k a kultúrában",
+   "Tudományban, művészetben, filmben és a társadalomban."
+  ],
+  [
+   "Következmények a jövőre nézve",
+   "Mit tanulunk a jelenségből?"
+  ],
+  [
+   "Szabad beszélgetés és következtetések",
+   "Az Ön kérdései számítanak."
+  ]
+ ],
+ "sessions": [
+  {
+   "title": "Alapfogalmak: azonosítatlan légi/anomális jelenségek (AAP/UFO)",
+   "text": "Azonosítatlan légi/anomális jelenségek (AAP/UFO), alapfogalmak: légi, víz alatti, világűr, transzmédia. Nappali, éjszakai, radarmegfigyelések. Tulajdonságok, leszállások. Agresszív UFO-k.",
+   "chips": [
+    "Légi, víz alatti, világűr, transzmédia",
+    "Nappali, éjszakai, radarmegfigyelések",
+    "Tulajdonságok, leszállások",
+    "Agresszív UFO-k"
+   ]
+  },
+  {
+   "title": "Politikai-katonai történet 1942–2017",
+   "text": "Politikai-katonai történet 1942–2017, nukleáris kapcsolatok, lezuhanások, konfliktusok, projektek, Blue Book, Hynek, szabályzatok. Titkolózás, dezinformáció, tabu, nevetségessé tétel, a média cinkossága, UFO-mitológia. Oroszoknál, briteknél, franciáknál, dél-amerikaiaknál stb. is.",
+   "chips": [
+    "Nukleáris kapcsolatok",
+    "Lezuhanások, konfliktusok, projektek",
+    "Blue Book, Hynek, szabályzatok",
+    "Titkolózás, dezinformáció, tabu, nevetségessé tétel",
+    "A média cinkossága, UFO-mitológia",
+    "Oroszok, britek, franciák, dél-amerikaiak"
+   ]
+  },
+  {
+   "title": "2017 után: Kongresszus, Pentagon, NASA, AARO",
+   "text": "2017 után: a Kongresszus, a Pentagon, a NASA, az AARO stb. Magánkezdeményezések. Használt-e az amerikai hadiipar UFO-maradványokat? Oroszország, Kína és az ICER, más egyesületek. Hivatalos UFO-struktúrák. A legújabb titkosítás-feloldások.",
+   "chips": [
+    "Kongresszus, Pentagon, NASA, AARO",
+    "Magánkezdeményezések",
+    "UFO-maradványok az amerikai hadiiparban?",
+    "Oroszország, Kína, ICER, más egyesületek",
+    "Hivatalos UFO-struktúrák",
+    "A legújabb titkosítás-feloldások"
+   ]
+  },
+  {
+   "title": "Harmadik–negyedik típusú találkozások",
+   "text": "Harmadik–negyedik típusú találkozások. Kapcsolatfelvételek, kapcsolatba kerültek, elrablások, forgatókönyv, genetikai kísérletek, átprogramozás, különleges jellemzők, bizonyítékok, vissza nem térő elrablások. Hopkins, Mack stb. Megcsonkítások, kriptozoológia, rezervátumok?",
+   "chips": [
+    "Kapcsolatfelvételek, kapcsolatba kerültek",
+    "Elrablások, forgatókönyv, genetikai kísérletek",
+    "Átprogramozás, különleges jellemzők, bizonyítékok",
+    "Vissza nem térő elrablások",
+    "Hopkins, Mack",
+    "Megcsonkítások, kriptozoológia, rezervátumok?"
+   ]
+  },
+  {
+   "title": "A jelenség régi története",
+   "text": "A jelenség régi története, népi hagyományi kapcsolatok, ielék (román népi tündérek), törpék, Magonia, mágikus körök és terménykörök, Vallée.",
+   "chips": [
+    "Népi hagyományi kapcsolatok",
+    "Ielék (román népi tündérek), törpék",
+    "Magonia",
+    "Mágikus körök és terménykörök",
+    "Vallée"
+   ]
+  },
+  {
+   "title": "Kapcsolat a paranormálissal",
+   "text": "Kapcsolat a paranormálissal. CRV távolbalátási technika, csatornázás, Akasha, reinkarnáció? Spirituális vonatkozások, a szellem utazásai, samanok, technikák, Mack.",
+   "chips": [
+    "CRV távolbalátás",
+    "Csatornázás, Akasha",
+    "Reinkarnáció?",
+    "Spirituális vonatkozások, a szellem utazásai",
+    "Samanok, technikák",
+    "Mack"
+   ]
+  },
+  {
+   "title": "Különleges romániai esetek",
+   "text": "Különleges romániai esetek. Történet, ufológusok, egyesületek, folyóiratok.",
+   "chips": [
+    "Történet",
+    "Ufológusok",
+    "Egyesületek",
+    "Folyóiratok"
+   ]
+  },
+  {
+   "title": "Vallási kapcsolatok",
+   "text": "Vallási kapcsolatok, szekták, szent megjelenések, UFO-k a Bibliában?, égi elrablások, genetikai, sátáni kísérletek? Vatikán, Vallée.",
+   "chips": [
+    "Szekták, szent megjelenések",
+    "UFO-k a Bibliában?",
+    "Égi elrablások",
+    "Genetikai, sátáni kísérletek?",
+    "Vatikán",
+    "Vallée"
+   ]
+  },
+  {
+   "title": "Ókori civilizációk",
+   "text": "Ókori civilizációk, szilur, Atlantisz, Nibiru, Anunnakik, plejádiak, reptiliánok. Paleoasztronautika, ooparts (időszerűtlen leletek), küklopszi építmények, múmiák.",
+   "chips": [
+    "Szilur, Atlantisz",
+    "Nibiru, Anunnakik",
+    "Plejádiak, reptiliánok",
+    "Paleoasztronautika, ooparts",
+    "Küklopszi építmények, múmiák"
+   ]
+  },
+  {
+   "title": "Lehetséges magyarázatok",
+   "text": "Lehetséges magyarázatok: időnauták? Intraterresztriálisok? Stb. Két földönkívüli hipotézis, hipercivilizációk, feltételek, önpusztítás, be nem avatkozás. Kulturális hipnózis, korlátok, lehetséges következmények.",
+   "chips": [
+    "Időnauták? Intraterresztriálisok?",
+    "Két földönkívüli hipotézis",
+    "Hipercivilizációk, önpusztítás, be nem avatkozás",
+    "Kulturális hipnózis, korlátok, következmények"
+   ]
+  },
+  {
+   "title": "Leleplezési kísérletek",
+   "text": "Leleplezési kísérletek. Titkosítás-feloldások. Lesz kapcsolatfelvétel? Hogyan fog kinézni? Milyen feltételekkel? A jelenlegi hozzáállás a leleplezéshez: katonák, kutatók, vallásos emberek, a nagyközönség.",
+   "chips": [
+    "Titkosítás-feloldások",
+    "Lesz kapcsolatfelvétel? Hogyan fog kinézni?",
+    "Hozzáállás a leleplezéshez: katonák, kutatók, vallásosak, nagyközönség"
+   ]
+  },
+  {
+   "title": "További romániai esetek és szabad előadások",
+   "text": "További romániai esetek. Szabad előadások. Filmek, fényképek stb.",
+   "chips": [
+    "További romániai esetek",
+    "Szabad előadások",
+    "Filmek, fényképek"
+   ]
+  },
+  {
+   "title": "Vizsgálati módszertan és hamis UFO-k",
+   "text": "Módszertan, hogyan vizsgáljuk az AAP-eseteket, ASFAN-források (adatbázis, adattár stb.). Hogyan ismerünk fel/különböztetünk meg egy UFO-t, hamis UFO-k, repülőgépek, műholdak, fényképek és filmek, hamisítványok.",
+   "chips": [
+    "Hogyan vizsgáljuk az AAP-eseteket",
+    "ASFAN-források (adatbázis, adattár)",
+    "Hamis UFO-k: repülőgépek, műholdak",
+    "Fényképek, filmek, hamisítványok"
+   ]
+  },
+  {
+   "title": "Következtetések, kérdések és záró beszélgetés",
+   "text": "Következtetések, kérdések és záró beszélgetés.",
+   "chips": [
+    "Következtetések",
+    "Kérdések",
+    "Záró beszélgetés"
+   ]
+  }
+ ]
+}

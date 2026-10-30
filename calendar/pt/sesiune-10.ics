@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//PT
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Curso ASFAN – Introdução à ufologia
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s10-pt@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270407T160000Z
+DTEND:20270407T180000Z
+SUMMARY:Curso ASFAN – Introdução à ufologia (10/14)
+DESCRIPTION:Explicações possíveis\n\nExplicações possíveis: tempónautas? Intraterrestres? Etc. Duas hipóteses extraterrestres\, hipercivilizações\, condições\, autodestruição\, não intervenção. Hipnose cultural\, limites\, possíveis consequências.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-10.html
+LOCATION:Online\, via ZOOM
+URL:https://curs.asfan.online/pt/sesiune-10.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:O curso ASFAN começa dentro de uma hora
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//PT
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Curso ASFAN – Introdução à ufologia
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s13-pt@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270512T160000Z
+DTEND:20270512T180000Z
+SUMMARY:Curso ASFAN – Introdução à ufologia (13/14)
+DESCRIPTION:Metodologia de investigação e falsos OVNI\n\nMetodologia\, como investigamos os casos FAN\, recursos da ASFAN (BD\, base de dados\, etc.). Como reconhecemos/distinguimos um OVNI\, falsos OVNI\, aeronaves\, satélites\, fotografias e filmes\, falsificações.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-13.html
+LOCATION:Online\, via ZOOM
+URL:https://curs.asfan.online/pt/sesiune-13.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:O curso ASFAN começa dentro de uma hora
+END:VALARM
+END:VEVENT
+END:VCALENDAR

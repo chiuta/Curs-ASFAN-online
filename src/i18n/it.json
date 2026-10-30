@@ -1,0 +1,478 @@
+{
+ "meta": {
+  "code": "it",
+  "name": "Italiano",
+  "html_lang": "it",
+  "locale": "it_IT"
+ },
+ "dates": {
+  "months": [
+   "",
+   "gennaio",
+   "febbraio",
+   "marzo",
+   "aprile",
+   "maggio",
+   "giugno",
+   "luglio",
+   "agosto",
+   "settembre",
+   "ottobre",
+   "novembre",
+   "dicembre"
+  ],
+  "mon3": [
+   "",
+   "gen",
+   "feb",
+   "mar",
+   "apr",
+   "mag",
+   "giu",
+   "lug",
+   "ago",
+   "set",
+   "ott",
+   "nov",
+   "dic"
+  ],
+  "wd": [
+   "lunedì",
+   "martedì",
+   "mercoledì",
+   "giovedì",
+   "venerdì",
+   "sabato",
+   "domenica"
+  ],
+  "fmt_long": "{wd} {d} {month} {y}",
+  "fmt_short": "{d} {mon3} {y}"
+ },
+ "ui": {
+  "nav_home": "Home",
+  "nav_program": "Programma",
+  "nav_about": "Il corso",
+  "nav_enroll": "Iscrizione",
+  "nav_qr": "Codice QR",
+  "brand_small": "Corso: Introduzione all'ufologia",
+  "brand_aria": "ASFAN – Corso: Introduzione all'ufologia, pagina principale",
+  "menu_btn": "Menu ☰",
+  "nav_aria": "Navigazione principale",
+  "theme_aria": "Scegli il design",
+  "skip": "Vai al contenuto",
+  "lang_aria": "Scegli la lingua",
+  "crumb_home": "Home",
+  "title_index": "Introduzione all'ufologia – corso ASFAN, quarta serie",
+  "desc_index": "Corso gratuito online su ZOOM, dal 18 novembre 2026 al 26 maggio 2027, il mercoledì dalle 19:00 alle 21:00. 14 temi sui fenomeni aerospaziali non identificati. Coordinatore: Dan D. Farcaș, presidente ASFAN.",
+  "ld_name": "Introduzione all'ufologia (quarta serie)",
+  "ld_desc": "Corso gratuito online sui fenomeni aerospaziali non identificati.",
+  "title_program": "Programma del corso – Introduzione all'ufologia · ASFAN",
+  "desc_program": "Le 14 sessioni del corso ASFAN «Introduzione all'ufologia» (quarta serie), dal 18 novembre 2026 al 26 maggio 2027, il mercoledì dalle 19:00 alle 21:00 su ZOOM.",
+  "title_about": "Il corso – Introduzione all'ufologia (quarta serie) · ASFAN",
+  "desc_about": "Come si svolge il corso, chi lo coordina, condizioni per l'attestato, posti limitati e domande frequenti.",
+  "title_enroll": "Iscrizione al corso – Introduzione all'ufologia · ASFAN",
+  "desc_enroll": "Le iscrizioni si fanno via e-mail a {MAIL} entro il 17 novembre 2026. Partecipazione gratuita, posti limitati.",
+  "title_qr": "Codice QR – curs.asfan.online · ASFAN",
+  "desc_qr": "Codici QR per il sito del corso (curs.asfan.online) e per www.asfanufo.ro, pronti da stampare.",
+  "title_session": "Sessione {n}: {title}",
+  "desc_session": "{label}, 19:00–21:00, online su ZOOM. {text}",
+  "hero_sub": "Introduzione all'",
+  "hero_main": "UFOLOGIA",
+  "hero_h1_pre": "Introduzione all'",
+  "hero_h1_post": " – corso ASFAN, quarta serie",
+  "hero_curs": "corso ASFAN",
+  "hero_serie": "(quarta serie)",
+  "hero_date": "Novembre 2026 – Maggio 2027",
+  "hero_line": "Un viaggio tra i misteri del mondo, oltre l'orizzonte.",
+  "hero_tags": "UFO/UAP|PERSONE|IDEE|PROVE|SPIEGAZIONI",
+  "cta_enroll": "Iscriviti gratis",
+  "cta_program": "Vedi il programma",
+  "mini_tags": "SCIENZA|STORIA|CULTURA|PERSONE|DOMANDE|FUTURO",
+  "hand_l": "Scienza<br>Storia<br>Cultura<br>Persone<br>Domande<br>Futuro",
+  "hand_r": "Misteri.<br>Persone.<br>Idee.<br>Oltre l'orizzonte.",
+  "logo_alt": "ASFAN Romania",
+  "motto": "Esploriamo<br>Conosciamo<br>Condividiamo",
+  "about_assoc": "Associazione per lo studio dei fenomeni aerospaziali non identificati",
+  "coord_role1": "Coordinatore del corso",
+  "coord_role2": "Presidente ASFAN",
+  "cd_start": "Il corso inizia – {label}, ore 19:00 (ora della Romania)",
+  "cd_done": "La sessione è iniziata!",
+  "card_when": "Quando?",
+  "card_when_v": "18 novembre 2026 –<br>26 maggio 2027",
+  "card_when_n": "In linea di massima ogni due<br>settimane, di mercoledì<br>(evitando i giorni festivi<br>e le sessioni d'esame)",
+  "card_time": "A che ora?",
+  "card_time_v": "19:00 – 21:00",
+  "card_time_n": "(un'ora di relazione,<br>un'ora di discussione)",
+  "card_where": "Dove?",
+  "card_where_v": "Online<br>su ZOOM",
+  "card_who": "Per chi?",
+  "card_who_v": "Per tutti gli interessati a fenomeni insoliti, scienza, storia, cultura e misteri del mondo.",
+  "h_study": "Cosa studieremo?",
+  "h_study_sub": "Dagli <span class=\"oval\">UFO/UAP</span> alle grandi domande dell'umanità.",
+  "box_free_t": "Partecipazione gratuita",
+  "box_free_p": "La partecipazione è gratuita; al termine del corso, chi ha fatto al massimo tre assenze può richiedere un attestato.",
+  "box_seats_t": "Posti limitati",
+  "box_seats_p": "I posti sono limitati. Gli ammessi riceveranno per e-mail il link ZOOM per ogni incontro.",
+  "box_enroll_t": "Iscrizioni",
+  "box_enroll_p": "Le iscrizioni si fanno con un'e-mail<br>all'indirizzo: <a class=\"mail\" href=\"mailto:{MAIL}\">{MAIL}</a><br>entro il <b>17 novembre 2026</b>.<br>Gli ammessi saranno avvisati<br>in linea di massima in ordine di richiesta.",
+  "foot_tag_b": "ASFAN – Insieme verso la conoscenza.",
+  "foot_tag_s": "CURIOSITÀ · CONOSCENZA · COMUNITÀ · UN FUTURO PIÙ LUMINOSO",
+  "foot_hand": "Domande vere.<br>Mondi possibili.",
+  "foot_hand2": "Lo stesso cielo.<br>Più risposte.",
+  "foot_qr_aria": "Codici QR – curs.asfan.online",
+  "foot_qr_alt": "Codice QR curs.asfan.online",
+  "lb_aria": "Locandina ingrandita",
+  "lb_dl": "Scarica la locandina",
+  "lb_close": "Chiudi ✕",
+  "lb_alt": "Locandina del corso",
+  "prog_h1": "Programma del <em>corso</em>",
+  "prog_lead": "14 sessioni, il mercoledì, 19:00–21:00 (ora della Romania), su ZOOM: un'ora di relazione e un'ora di discussione. La struttura è quella proposta per il corso.",
+  "prog_expand": "Espandi tutto",
+  "prog_cal_all": "📅 Aggiungi tutto il corso al calendario",
+  "prog_filter_ph": "Cerca un argomento (es.: Vallée, CRV, AARO)…",
+  "prog_filter_aria": "Cerca nel programma",
+  "prog_session_page": "Pagina della sessione →",
+  "prog_cal": "📅 Calendario",
+  "prog_note": "Gli orari sono in ora della Romania (EET/EEST). Il link ZOOM per ogni incontro viene inviato per e-mail agli ammessi.",
+  "s_crumb": "Sessione {n}",
+  "s_lead": "{label}, ore 19:00–21:00 · online su ZOOM",
+  "fact_date": "Data",
+  "fact_time": "Ora (Romania)",
+  "fact_format": "Formato",
+  "fact_place": "Luogo",
+  "s_format_v": "1 h di relazione + 1 h di discussione",
+  "s_place_v": "Online, ZOOM",
+  "s_cd_label": "Mancano a questa sessione",
+  "s_cd_done": "La sessione è iniziata o si è conclusa",
+  "s_about": "Di cosa parliamo",
+  "s_topics": "Dai temi della locandina",
+  "s_add_cal": "📅 Aggiungi al calendario",
+  "s_enroll": "Iscriviti al corso",
+  "s_note": "Il link ZOOM della sessione viene inviato per e-mail ai partecipanti ammessi. La partecipazione è gratuita; l'attestato si può richiedere con al massimo tre assenze.",
+  "s_all": "Tutte le sessioni",
+  "about_h1": "Il <em>corso</em>",
+  "about_lead": "ASFAN – Associazione per lo studio dei fenomeni aerospaziali non identificati – ti invita al corso «Introduzione all'ufologia» (quarta serie).",
+  "about_invite": "Invito",
+  "about_p1": "Il corso offre nozioni di base sui fenomeni aerospaziali non identificati: ultimi sviluppi politici e militari, disinformazione, rapimenti, legami con folclore, religione e paranormale, sciamani, tentativi di spiegazione, metodologia d'indagine, falsi UFO, organizzazioni internazionali del settore e altro.",
+  "about_p2": "Il corso si svolge su ZOOM, in linea di massima ogni due settimane, il mercoledì dalle 19 alle 21, con un'ora di relazione e un'ora di discussione, dal 18 novembre 2026 al 26 maggio 2027, evitando i giorni festivi e le sessioni d'esame.",
+  "about_p3": "La partecipazione è gratuita; al termine del corso, chi ha fatto al massimo tre assenze può richiedere un attestato.",
+  "about_p4": "I posti sono limitati. Le iscrizioni si fanno con un'e-mail inviata a <a href=\"mailto:{MAIL}\">{MAIL}</a> entro il 17 novembre 2026. Gli ammessi (in linea di massima in ordine di richiesta) riceveranno per e-mail il link ZOOM per ogni incontro.",
+  "about_btn_enroll": "Iscriviti",
+  "about_btn_program": "Il programma",
+  "posters_h": "Le locandine del corso",
+  "posters_sub": "tocca per ingrandire",
+  "posters_note": "Le locandine originali sono in romeno.",
+  "poster_moai_alt": "Locandina – versione Moai",
+  "poster_anzi_alt": "Locandina – versione Anzi",
+  "poster_moai": "Versione Moai",
+  "poster_anzi": "Versione Anzi",
+  "brief_h": "In breve",
+  "f_period": "Periodo",
+  "f_period_v": "18 nov. 2026 – 26 mag. 2027",
+  "f_day": "Giorno e ora",
+  "f_day_v": "Mercoledì, 19:00–21:00",
+  "f_format_v": "ZOOM · 1 h + 1 h di discussione",
+  "f_cost": "Costo",
+  "f_cost_v": "Gratuito",
+  "f_diploma": "Attestato",
+  "f_diploma_v": "Al massimo 3 assenze",
+  "f_seats": "Posti",
+  "f_seats_v": "Limitati",
+  "f_deadline": "Scadenza iscrizioni",
+  "f_deadline_v": "17 novembre 2026",
+  "f_sessions": "Sessioni",
+  "faq_h": "Domande frequenti",
+  "enr_h1": "<em>Iscrizione</em> al corso",
+  "enr_lead": "Partecipazione gratuita · posti limitati · scadenza: <b>17 novembre 2026</b>. Gli ammessi (in linea di massima in ordine di richiesta) ricevono il link ZOOM per e-mail.",
+  "enr_cd_label": "Alla chiusura delle iscrizioni",
+  "enr_cd_done": "Il termine di iscrizione (17 novembre 2026) è scaduto. Puoi comunque scrivere agli organizzatori.",
+  "enr_form_h": "Modulo",
+  "enr_note1": "Compilando il modulo si prepara un'e-mail per gli organizzatori nella tua app di posta; devi poi anche inviarla. I dati non vengono salvati su questo sito.",
+  "enr_name": "Nome e cognome *",
+  "enr_email": "E-mail per i link ZOOM *",
+  "enr_loc": "Località (facoltativo)",
+  "enr_motiv": "Due parole sul tuo interesse (facoltativo)",
+  "enr_send": "✉️ Invia",
+  "enr_copy": "Copia il testo dell'e-mail",
+  "enr_note2": "Premi «Invia»: si apre la tua app di posta, con destinatario, oggetto e testo già compilati. Ti resta solo da inviare il messaggio. L'e-mail è scritta in romeno, per gli organizzatori.",
+  "enr_ok": "Se l'app di posta non si è aperta, premi «Copia il testo dell'e-mail» e inviala a {MAIL}.",
+  "enr_direct_h": "Direttamente per e-mail",
+  "enr_write": "Scrivi a",
+  "enr_copy_addr": "Copia l'indirizzo",
+  "enr_cond_h": "Condizioni",
+  "enr_cond": "Partecipazione gratuita|Numero limitato di posti|Attestato su richiesta, con al massimo tre assenze|Sessioni il mercoledì, 19:00–21:00, su ZOOM",
+  "qr_h1": "Codici <em>QR</em>",
+  "qr_lead": "Per locandine, post e materiali stampati. I codici si scaricano in PNG (grande) o SVG (vettoriale, per la stampa).",
+  "qr_print": "🖨️ Stampa la pagina",
+  "qr_note": "Il primo codice porta a {SITE}/, il secondo a {ASFAN}.",
+  "qr_course_h": "Sito del corso",
+  "qr_course_p": "Scansiona per programma, dettagli e iscrizione.",
+  "qr_asfan_h": "Sito ASFAN",
+  "qr_asfan_p": "Associazione per lo studio dei fenomeni aerospaziali non identificati.",
+  "qr_copy": "Copia il link",
+  "qr_alt": "Codice QR per {url}",
+  "ics_summary": "Corso ASFAN – Introduzione all'ufologia ({n}/14)",
+  "ics_desc": "Un'ora di relazione, un'ora di discussione. Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: {url}",
+  "ics_loc": "Online, su ZOOM",
+  "ics_alarm": "Il corso ASFAN inizia tra un'ora",
+  "ics_cal": "Corso ASFAN – Introduzione all'ufologia"
+ },
+ "js": {
+  "copied": "Copiato ✓",
+  "copy_manual": "Copia a mano",
+  "copy_fail": "Impossibile copiare",
+  "expand": "Espandi tutto",
+  "collapse": "Comprimi tutto",
+  "course_over": "Il corso è concluso. Grazie a tutti i partecipanti!",
+  "course_starts": "Il corso inizia – {label}",
+  "next_session": "Prossima sessione ({n}/14) – {label}",
+  "started": "La sessione è iniziata!",
+  "u_d": "giorni",
+  "u_h": "ore",
+  "u_m": "min",
+  "u_s": "sec",
+  "copy_to": "A",
+  "copy_subject": "Oggetto",
+  "copy_label": "Copia il testo dell'e-mail",
+  "mail_ok": "Fatto"
+ },
+ "faq": [
+  [
+   "Quanto costa partecipare?",
+   "La partecipazione è gratuita."
+  ],
+  [
+   "Come ricevo il link ZOOM?",
+   "Gli ammessi ricevono per e-mail il link ZOOM per ogni incontro."
+  ],
+  [
+   "Come mi iscrivo?",
+   "Con un'e-mail inviata a {MAIL} entro il 17 novembre 2026. Puoi usare anche il modulo nella pagina di iscrizione, che prepara l'e-mail per te."
+  ],
+  [
+   "In che ordine vengono ammessi i partecipanti?",
+   "I posti sono limitati; gli ammessi sono, in linea di massima, in ordine di richiesta."
+  ],
+  [
+   "Posso ottenere un attestato?",
+   "Sì. Al termine del corso, chi ha fatto al massimo tre assenze può richiedere un attestato."
+  ],
+  [
+   "Quanto dura una sessione e quando si svolge?",
+   "Il mercoledì, dalle 19 alle 21: un'ora di relazione e un'ora di discussione. Le sessioni si tengono, in linea di massima, ogni due settimane, evitando i giorni festivi e le sessioni d'esame."
+  ],
+  [
+   "Quali argomenti vengono trattati?",
+   "Ultimi sviluppi politici e militari, disinformazione, rapimenti, legami con folclore, religione e paranormale, sciamani, tentativi di spiegazione, metodologia d'indagine, falsi UFO, organizzazioni internazionali del settore e altro."
+  ]
+ ],
+ "topics": [
+  [
+   "I fenomeni aerospaziali non identificati (UFO/UAP)",
+   "Cosa sappiamo e cosa resta un mistero?"
+  ],
+  [
+   "Ultimi sviluppi politici e militari",
+   "Contesto attuale, progetti segreti, documenti."
+  ],
+  [
+   "Disinformazione e falsi UFO",
+   "Come riconoscerli?"
+  ],
+  [
+   "Rapimenti ed esperienze strane",
+   "Casi, testimonianze, interpretazioni."
+  ],
+  [
+   "Legami con folclore e storia",
+   "Dalle leggende ai casi moderni."
+  ],
+  [
+   "Religione, paranormale e sciamani",
+   "Credenze, tradizioni, esperienze."
+  ],
+  [
+   "Tentativi di spiegazione",
+   "Ipotesi scientifiche, teorie alternative."
+  ],
+  [
+   "Metodologia d'indagine",
+   "Come analizzare un caso?"
+  ],
+  [
+   "Organizzazioni internazionali del settore",
+   "Chi si occupa del fenomeno nel mondo?"
+  ],
+  [
+   "Casi celebri e recenti",
+   "Analisi e discussione critica."
+  ],
+  [
+   "False piste e manipolazione",
+   "Come distinguere la realtà dalla disinformazione."
+  ],
+  [
+   "Gli UFO nella cultura",
+   "Nella scienza, nell'arte, nel cinema e nella società."
+  ],
+  [
+   "Implicazioni per il futuro",
+   "Cosa impariamo dal fenomeno?"
+  ],
+  [
+   "Discussione libera e conclusioni",
+   "Le vostre domande contano."
+  ]
+ ],
+ "sessions": [
+  {
+   "title": "Nozioni di base: fenomeni aerospaziali/anomali non identificati (UAP/UFO)",
+   "text": "Fenomeni aerospaziali/anomali non identificati (UAP/UFO), nozioni di base: aerei, subacquei, spazio cosmico, transmedium. Osservazioni diurne, notturne, radar. Caratteristiche, atterraggi. UFO aggressivi.",
+   "chips": [
+    "Aerei, subacquei, spazio cosmico, transmedium",
+    "Osservazioni diurne, notturne, radar",
+    "Caratteristiche, atterraggi",
+    "UFO aggressivi"
+   ]
+  },
+  {
+   "title": "Storia politico-militare 1942–2017",
+   "text": "Storia politico-militare 1942-2017, legami nucleari, precipitazioni, conflitti, progetti, Blue Book, Hynek, regolamenti. Segreto, disinformazione, tabù, ridicolizzazione, complicità dei media, mitologia UFO. E presso russi, inglesi, francesi, sudamericani ecc.",
+   "chips": [
+    "Legami nucleari",
+    "Precipitazioni, conflitti, progetti",
+    "Blue Book, Hynek, regolamenti",
+    "Segreto, disinformazione, tabù, ridicolizzazione",
+    "Complicità dei media, mitologia UFO",
+    "Russi, inglesi, francesi, sudamericani"
+   ]
+  },
+  {
+   "title": "Dopo il 2017: Congresso, Pentagono, NASA, AARO",
+   "text": "Dopo il 2017, il Congresso, il Pentagono, la NASA, AARO ecc. Iniziative private. L'industria militare americana ha usato resti di UFO? Russia, Cina e ICER, altre associazioni. Strutture ufficiali UFO. Ultime declassificazioni.",
+   "chips": [
+    "Congresso, Pentagono, NASA, AARO",
+    "Iniziative private",
+    "Resti di UFO nell'industria militare americana?",
+    "Russia, Cina, ICER, altre associazioni",
+    "Strutture ufficiali UFO",
+    "Ultime declassificazioni"
+   ]
+  },
+  {
+   "title": "Incontri ravvicinati del 3° e 4° tipo",
+   "text": "Incontri ravvicinati del 3° e 4° tipo. Contatti, contattisti, rapimenti, scenario, esperimenti genetici, indottrinamento, caratteristiche speciali, prove, rapimenti senza ritorno. Hopkins, Mack ecc. Mutilazioni, criptozoologia, riserve?",
+   "chips": [
+    "Contatti, contattisti",
+    "Rapimenti, scenario, esperimenti genetici",
+    "Indottrinamento, caratteristiche speciali, prove",
+    "Rapimenti senza ritorno",
+    "Hopkins, Mack",
+    "Mutilazioni, criptozoologia, riserve?"
+   ]
+  },
+  {
+   "title": "La storia antica del fenomeno",
+   "text": "La storia antica del fenomeno, legami con il folclore, iele (fate del folclore romeno), nani, Magonia, cerchi magici e crop circle, Vallée.",
+   "chips": [
+    "Legami con il folclore",
+    "Iele (fate romene), nani",
+    "Magonia",
+    "Cerchi magici e crop circle",
+    "Vallée"
+   ]
+  },
+  {
+   "title": "Il legame con il paranormale",
+   "text": "Il legame con il paranormale. Tecnica di visione remota CRV, channeling, Akasha, reincarnazioni? Aspetti spirituali, viaggi dello spirito, sciamani, tecniche, Mack.",
+   "chips": [
+    "Visione remota CRV",
+    "Channeling, Akasha",
+    "Reincarnazioni?",
+    "Aspetti spirituali, viaggi dello spirito",
+    "Sciamani, tecniche",
+    "Mack"
+   ]
+  },
+  {
+   "title": "Casi romeni di rilievo",
+   "text": "Casi romeni di rilievo. Storia, ufologi, associazioni, riviste.",
+   "chips": [
+    "Storia",
+    "Ufologi",
+    "Associazioni",
+    "Riviste"
+   ]
+  },
+  {
+   "title": "Legami con la religione",
+   "text": "Legami con la religione, sette, apparizioni sacre, UFO nella Bibbia?, rapimenti celesti, esperimenti genetici, satanici? Vaticano, Vallée.",
+   "chips": [
+    "Sette, apparizioni sacre",
+    "UFO nella Bibbia?",
+    "Rapimenti celesti",
+    "Esperimenti genetici, satanici?",
+    "Vaticano",
+    "Vallée"
+   ]
+  },
+  {
+   "title": "Civiltà antichissime",
+   "text": "Civiltà antichissime, Siluriano, Atlantide, Nibiru, Anunnaki, pleiadiani, rettiliani. Paleoastronautica, ooparts, costruzioni ciclopiche, mummie.",
+   "chips": [
+    "Siluriano, Atlantide",
+    "Nibiru, Anunnaki",
+    "Pleiadiani, rettiliani",
+    "Paleoastronautica, ooparts",
+    "Costruzioni ciclopiche, mummie"
+   ]
+  },
+  {
+   "title": "Spiegazioni possibili",
+   "text": "Spiegazioni possibili: temponauti? Intraterrestri? Ecc. Due ipotesi extraterrestri, iperciviltà, condizioni, autodistruzione, non intervento. Ipnosi culturale, limiti, possibili conseguenze.",
+   "chips": [
+    "Temponauti? Intraterrestri?",
+    "Due ipotesi extraterrestri",
+    "Iperciviltà, autodistruzione, non intervento",
+    "Ipnosi culturale, limiti, conseguenze"
+   ]
+  },
+  {
+   "title": "Tentativi di rivelazione",
+   "text": "Tentativi di rivelazione. Declassificazioni. Ci sarà un contatto? Come sarà? A quali condizioni? L'atteggiamento attuale verso una rivelazione: militari, ricercatori, religiosi, grande pubblico.",
+   "chips": [
+    "Declassificazioni",
+    "Ci sarà un contatto? Come sarà?",
+    "Atteggiamento verso la rivelazione: militari, ricercatori, religiosi, grande pubblico"
+   ]
+  },
+  {
+   "title": "Altri casi romeni e presentazioni libere",
+   "text": "Altri casi romeni. Presentazioni libere. Film, fotografie ecc.",
+   "chips": [
+    "Altri casi romeni",
+    "Presentazioni libere",
+    "Film, fotografie"
+   ]
+  },
+  {
+   "title": "Metodologia d'indagine e falsi UFO",
+   "text": "Metodologia, come indagare i casi UAP, risorse ASFAN (banca dati, archivio ecc.). Come riconoscere/distinguere un UFO, falsi UFO, aeromobili, satelliti, fotografie e filmati, contraffazioni.",
+   "chips": [
+    "Come indagare i casi UAP",
+    "Risorse ASFAN (banca dati, archivio)",
+    "Falsi UFO: aeromobili, satelliti",
+    "Fotografie, filmati, contraffazioni"
+   ]
+  },
+  {
+   "title": "Conclusioni, domande e discussione finale",
+   "text": "Conclusioni, domande e discussione finale.",
+   "chips": [
+    "Conclusioni",
+    "Domande",
+    "Discussione finale"
+   ]
+  }
+ ]
+}

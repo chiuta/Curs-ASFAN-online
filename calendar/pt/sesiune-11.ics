@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//PT
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Curso ASFAN – Introdução à ufologia
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s11-pt@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270421T160000Z
+DTEND:20270421T180000Z
+SUMMARY:Curso ASFAN – Introdução à ufologia (11/14)
+DESCRIPTION:Tentativas de divulgação\n\nTentativas de divulgação. Desclassificações. Haverá um contacto? Como será? Em que condições? A atitude atual perante uma divulgação: militares\, investigadores\, religiosos\, grande público.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-11.html
+LOCATION:Online\, via ZOOM
+URL:https://curs.asfan.online/pt/sesiune-11.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:O curso ASFAN começa dentro de uma hora
+END:VALARM
+END:VEVENT
+END:VCALENDAR

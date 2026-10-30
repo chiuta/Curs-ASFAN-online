@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//IT
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Corso ASFAN – Introduzione all'ufologia
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s7-it@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270310T170000Z
+DTEND:20270310T190000Z
+SUMMARY:Corso ASFAN – Introduzione all'ufologia (7/14)
+DESCRIPTION:Casi romeni di rilievo\n\nCasi romeni di rilievo. Storia\, ufologi\, associazioni\, riviste.\n\nUn'ora di relazione\, un'ora di discussione. Gli ammessi ricevono il link ZOOM per e-mail.\nDettagli: https://curs.asfan.online/it/sesiune-7.html
+LOCATION:Online\, su ZOOM
+URL:https://curs.asfan.online/it/sesiune-7.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Il corso ASFAN inizia tra un'ora
+END:VALARM
+END:VEVENT
+END:VCALENDAR

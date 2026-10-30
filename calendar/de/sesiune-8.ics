@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//DE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:ASFAN-Kurs – Einführung in die Ufologie
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s8-de@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270324T170000Z
+DTEND:20270324T190000Z
+SUMMARY:ASFAN-Kurs – Einführung in die Ufologie (8/14)
+DESCRIPTION:Religiöse Bezüge\n\nReligiöse Bezüge\, Sekten\, Marienerscheinungen und Heiligenvisionen\, UFOs in der Bibel?\, Entrückungen\, genetische Experimente\, satanisch? Vatikan\, Vallée.\n\nEine Stunde Vortrag\, eine Stunde Diskussion. Zugelassene erhalten den ZOOM-Link per E-Mail.\nDetails: https://curs.asfan.online/de/sesiune-8.html
+LOCATION:Online\, über ZOOM
+URL:https://curs.asfan.online/de/sesiune-8.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:ASFAN-Kurs beginnt in einer Stunde
+END:VALARM
+END:VEVENT
+END:VCALENDAR

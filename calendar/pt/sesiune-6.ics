@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//PT
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Curso ASFAN – Introdução à ufologia
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s6-pt@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270303T170000Z
+DTEND:20270303T190000Z
+SUMMARY:Curso ASFAN – Introdução à ufologia (6/14)
+DESCRIPTION:A ligação ao paranormal\n\nA ligação ao paranormal. Técnica de visão remota CRV\, channeling\, Akasha\, reencarnações? Aspetos espirituais\, viagens do espírito\, xamãs\, técnicas\, Mack.\n\nUma hora de apresentação\, uma hora de debate. O link ZOOM é enviado por e-mail aos admitidos.\nDetalhes: https://curs.asfan.online/pt/sesiune-6.html
+LOCATION:Online\, via ZOOM
+URL:https://curs.asfan.online/pt/sesiune-6.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:O curso ASFAN começa dentro de uma hora
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//HU
+CALSCALE:GREGORIAN
+X-WR-CALNAME:ASFAN-tanfolyam – Bevezetés az ufológiába
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s13-hu@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270512T160000Z
+DTEND:20270512T180000Z
+SUMMARY:ASFAN-tanfolyam – Bevezetés az ufológiába (13/14)
+DESCRIPTION:Vizsgálati módszertan és hamis UFO-k\n\nMódszertan\, hogyan vizsgáljuk az AAP-eseteket\, ASFAN-források (adatbázis\, adattár stb.). Hogyan ismerünk fel/különböztetünk meg egy UFO-t\, hamis UFO-k\, repülőgépek\, műholdak\, fényképek és filmek\, hamisítványok.\n\nEgy óra előadás\, egy óra beszélgetés. A ZOOM-linket a felvettek e-mailben kapják meg.\nRészletek: https://curs.asfan.online/hu/sesiune-13.html
+LOCATION:Online\, ZOOM-on
+URL:https://curs.asfan.online/hu/sesiune-13.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Egy óra múlva kezdődik az ASFAN-tanfolyam
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASFAN//Curs Ufologie 4//RO
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Curs ASFAN – Introducere în ufologie
+BEGIN:VEVENT
+UID:asfan-ufologie-4-s9-ro@curs.asfan.online
+DTSTAMP:20261030T000000Z
+DTSTART:20270331T160000Z
+DTEND:20270331T180000Z
+SUMMARY:Curs ASFAN – Introducere în ufologie (9/14)
+DESCRIPTION:Civilizații străvechi\n\nCivilizații străvechi\, Silurian\, Atlantida\, Nibiru\, Anunnaki\, pleiadieni\, reptilieni. Paleoastronautică\, ooparts\, construcții ciclopice\, mumii.\n\nO oră prezentare\, o oră discuții. Link-ul ZOOM se primește pe e-mail de către cei admiși.\nDetalii: https://curs.asfan.online/sesiune-9.html
+LOCATION:Online\, prin ZOOM
+URL:https://curs.asfan.online/sesiune-9.html
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Curs ASFAN începe în o oră
+END:VALARM
+END:VEVENT
+END:VCALENDAR
