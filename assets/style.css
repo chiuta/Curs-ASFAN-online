@@ -610,3 +610,13 @@ html.enr-closed .bar-cta,html.enr-closed .top-cta,html.enr-closed .hero-cta .btn
 .lang-sug{background:rgba(247,183,51,.12);border-bottom:1px solid rgba(247,183,51,.4);font-size:.92rem}
 .lang-sug .wrap{display:flex;gap:12px;align-items:center;justify-content:center;padding:8px 14px}
 .lang-sug a{color:var(--gold);font-weight:800}.lang-sug button{background:none;border:0;color:var(--txt);font-size:1.3rem;line-height:1;cursor:pointer;min-width:32px;min-height:32px}
+
+/* --- remedieri runda 2 --- */
+.lang-sug{position:fixed;left:0;right:0;bottom:0;z-index:60;border-top:1px solid rgba(247,183,51,.5);border-bottom:0;background:rgba(3,10,28,.97);padding-bottom:env(safe-area-inset-bottom)}
+html:not(.js) .expand-all,html:not(.js) .sess-filter{display:none}
+.no-res{padding:16px;border:1px dashed var(--line2);border-radius:var(--radius);text-align:center;color:var(--mut)}
+.sess-filter{min-width:0;max-width:100%}
+details.ac summary .dt,details.ac summary .tt,.foot-bar .tag,.foot-bar .site{overflow-wrap:anywhere}
+.foot-bar .wrap{flex-wrap:wrap}
+@media print{.lang-sug,.topbar,.count.slim,.share,#stars,.expand-all,.sess-filter{display:none!important}}
+.foot-links{flex-wrap:wrap;overflow-wrap:anywhere}.foot-links a{overflow-wrap:anywhere}

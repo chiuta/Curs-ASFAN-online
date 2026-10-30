@@ -63,7 +63,7 @@
   "lang_aria": "Válasszon nyelvet",
   "crumb_home": "Főoldal",
   "title_index": "Bevezetés az ufológiába – ASFAN-tanfolyam, negyedik sorozat",
-  "desc_index": "Ingyenes online tanfolyam ZOOM-on, 2026. november 18. – 2027. május 26., szerdánként 19:00–21:00 (romániai idő). 14 téma az azonosítatlan légi és űrbeli jelenségekről. Vezető: Dan D. Farcaș, az ASFAN elnöke.",
+  "desc_index": "Ingyenes online tanfolyam ZOOM-on, 2026.11.18–2027.05.26, szerdánként 19–21 (Románia). 14 téma az azonosítatlan légköri jelenségekről. Román nyelven.",
   "ld_name": "Bevezetés az ufológiába (negyedik sorozat)",
   "ld_desc": "Ingyenes online tanfolyam az azonosítatlan légi és űrbeli jelenségekről.",
   "title_program": "A tanfolyam programja – Bevezetés az ufológiába · ASFAN",
@@ -243,7 +243,8 @@
   "enr_gmail": "Megnyitás Gmailben",
   "enr_copy_msg": "Üzenet másolása",
   "enr_alt": "Nincs e-mail alkalmazás?",
-  "og_alt": "„Bevezetés az ufológiába” tanfolyam plakátja – UFO, moai szobor és Dan D. Farcaș portréja"
+  "og_alt": "„Bevezetés az ufológiába” tanfolyam plakátja – UFO, moai szobor és Dan D. Farcaș portréja",
+  "prog_none": "Nincs a keresésnek megfelelő téma."
  },
  "js": {
   "copied": "Másolva ✓",

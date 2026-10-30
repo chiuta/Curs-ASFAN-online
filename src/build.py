@@ -25,6 +25,8 @@ assert all(dt.date(*d).weekday() == 2 for d, _ in SDATES), 'toate sesiunile treb
 assert [d for d, _ in SDATES] == sorted(d for d, _ in SDATES)
 
 E = html.escape
+import hashlib
+def av(rel): return hashlib.md5(open(f"{OUT}/assets/{rel}","rb").read()).hexdigest()[:8]
 CODE = "ro"; LD = DATA["ro"]; UI = LD["ui"]; P = ""; CAL = "calendar/"; SESS = []
 
 def rep(s, **kw):
@@ -122,7 +124,7 @@ def head(title, desc, page, path, extra=""):
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="twitter:card" content="summary_large_image">
 <script>document.documentElement.classList.add('js');try{{var t=new URLSearchParams(location.search).get('tema')||localStorage.getItem('asfan-theme-v3');if(t==='anzi'||t==='moai')document.documentElement.setAttribute('data-theme',t)}}catch(e){{}}</script>
-<link rel="stylesheet" href="{P}assets/style.css">
+<link rel="stylesheet" href="{P}assets/style.css?v={av("style.css")}">
 {extra}
 </head>
 <body data-page="{page}">
@@ -172,9 +174,9 @@ def foot():
   {share_block()}
   <div class="wrap foot-links">{links}<a href="mailto:{MAIL}">{MAIL}</a></div>
 </footer>
-<script src="{P}assets/sessions.js"></script>
-<script src="{P}assets/i18n-{CODE}.js"></script>
-<script src="{P}assets/app.js"></script>
+<script src="{P}assets/sessions.js?v={av("sessions.js")}"></script>
+<script src="{P}assets/i18n-{CODE}.js?v={av(f"i18n-{CODE}.js")}"></script>
+<script src="{P}assets/app.js?v={av("app.js")}"></script>
 </body></html>'''
 
 def write(path, content):
@@ -317,7 +319,8 @@ def page_index():
       <a class="btn btn-gold" href="{P}{CAL}curs-complet.ics" data-ics="curs-complet" download>{T("prog_cal_all")}</a>
       <input class="sess-filter" type="search" placeholder="{A("prog_filter_ph")}" aria-label="{A("prog_filter_aria")}">
     </div>
-{acs}    <p class="note">{T("prog_note")}</p>
+{acs}    <p class="no-res" role="status" hidden>{T("prog_none")}</p>
+    <p class="note">{T("prog_note")}</p>
   </div>
 </section>'''
     b = notice() + f'''<div class="count slim" data-next-wrap><div class="wrap"><span class="lbl" data-next-label>{T("cd_start", label=SESS[0]["label"])}</span>
@@ -403,9 +406,9 @@ open(f"{OUT}/404.html","w",encoding="utf-8").write(f'''<!DOCTYPE html>
 <body><main><h1>Pagina nu a fost găsită</h1><p>Te ducem la pagina cursului „Introducere în ufologie”…</p><p><a href="{SITE}/">curs.asfan.online</a></p></main></body></html>
 ''')
 open(f"{OUT}/assets/favicon.svg","w").write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#06142f"/><ellipse cx="32" cy="30" rx="24" ry="8" fill="#4cc9ff"/><ellipse cx="32" cy="26" rx="11" ry="9" fill="#bfe6ff"/><path d="M22 38l-6 14h32l-6-14z" fill="#f7b733" opacity=".55"/></svg>')
-open(f"{OUT}/robots.txt","w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
+open(f"{OUT}/robots.txt","w").write(f"User-agent: *\nAllow: /\nDisallow: /src/\nSitemap: {SITE}/sitemap.xml\n")
 pages = ["index.html"]
 def alt(p): return "".join(f'<xhtml:link rel="alternate" hreflang="{l}" href="{loc_url(l, p)}"/>' for l in LANGS) + f'<xhtml:link rel="alternate" hreflang="x-default" href="{loc_url("ro", p)}"/>'
 open(f"{OUT}/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
-    + "".join(f"<url><loc>{loc_url(l, p)}</loc>{alt(p)}</url>\n" for p in pages for l in LANGS) + "</urlset>\n")
+    + "".join(f"<url><loc>{loc_url(l, p)}</loc><lastmod>{dt.date.today().isoformat()}</lastmod>{alt(p)}</url>\n" for p in pages for l in LANGS) + "</urlset>\n")
 print("OK", len(LANGS), "limbi;", len(pages) * len(LANGS), "pagini")

@@ -63,7 +63,7 @@
   "lang_aria": "Sprache wählen",
   "crumb_home": "Start",
   "title_index": "Einführung in die Ufologie – ASFAN-Kurs, vierte Staffel",
-  "desc_index": "Kostenloser Online-Kurs über ZOOM, 18. November 2026 – 26. Mai 2027, mittwochs 19:00–21:00 Uhr (rumänische Zeit). 14 Themen zu unidentifizierten Aerospace-Phänomenen. Leitung: Dan D. Farcaș, Präsident von ASFAN.",
+  "desc_index": "Kostenloser Online-Kurs per ZOOM, 18.11.2026–26.05.2027, mittwochs 19–21 Uhr (Rumänien). 14 Themen zu unidentifizierten Luftraumphänomenen. Auf Rumänisch.",
   "ld_name": "Einführung in die Ufologie (vierte Staffel)",
   "ld_desc": "Kostenloser Online-Kurs über unidentifizierte Aerospace-Phänomene.",
   "title_program": "Kursprogramm – Einführung in die Ufologie · ASFAN",
@@ -243,7 +243,8 @@
   "enr_gmail": "In Gmail öffnen",
   "enr_copy_msg": "Nachricht kopieren",
   "enr_alt": "Keine E-Mail-App?",
-  "og_alt": "Plakat des Kurses „Einführung in die Ufologie“ – UFO, Moai-Statue und Porträt von Dan D. Farcaș"
+  "og_alt": "Plakat des Kurses „Einführung in die Ufologie“ – UFO, Moai-Statue und Porträt von Dan D. Farcaș",
+  "prog_none": "Kein Thema passt zur Suche."
  },
  "js": {
   "copied": "Kopiert ✓",

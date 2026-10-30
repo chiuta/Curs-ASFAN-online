@@ -63,7 +63,7 @@
   "lang_aria": "Scegli la lingua",
   "crumb_home": "Home",
   "title_index": "Introduzione all'ufologia – corso ASFAN, quarta serie",
-  "desc_index": "Corso gratuito online su ZOOM, dal 18 novembre 2026 al 26 maggio 2027, il mercoledì dalle 19:00 alle 21:00. 14 temi sui fenomeni aerospaziali non identificati. Coordinatore: Dan D. Farcaș, presidente ASFAN.",
+  "desc_index": "Corso gratuito online su ZOOM, 18 nov 2026 – 26 mag 2027, mercoledì 19:00–21:00 (Romania). 14 temi sui fenomeni aerospaziali non identificati. In romeno.",
   "ld_name": "Introduzione all'ufologia (quarta serie)",
   "ld_desc": "Corso gratuito online sui fenomeni aerospaziali non identificati.",
   "title_program": "Programma del corso – Introduzione all'ufologia · ASFAN",
@@ -243,7 +243,8 @@
   "enr_gmail": "Apri in Gmail",
   "enr_copy_msg": "Copia il messaggio",
   "enr_alt": "Nessuna app di posta?",
-  "og_alt": "Locandina del corso «Introduzione all’ufologia» – UFO, statua Moai e ritratto di Dan D. Farcaș"
+  "og_alt": "Locandina del corso «Introduzione all’ufologia» – UFO, statua Moai e ritratto di Dan D. Farcaș",
+  "prog_none": "Nessun argomento corrisponde alla ricerca."
  },
  "js": {
   "copied": "Copiato ✓",
