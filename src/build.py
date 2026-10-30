@@ -51,8 +51,8 @@ def build_sess():
 # ------------------------------------------------------------------ QR
 def make_qr(url, name):
     q = segno.make(url, error="m", boost_error=True)
-    q.save(f"{OUT}/assets/{name}.svg", scale=10, border=2, dark="#06142f", light="#ffffff", xmldecl=False, svgns=True)
-    q.save(f"{OUT}/assets/{name}.png", scale=24, border=3, dark="#06142f", light="#ffffff")
+    q.save(f"{OUT}/assets/{name}.svg", scale=10, border=4, dark="#000000", light="#ffffff", xmldecl=False, svgns=True)
+    q.save(f"{OUT}/assets/{name}.png", scale=24, border=4, dark="#000000", light="#ffffff")
 make_qr(SITE + "/", "qr-curs"); make_qr(ASFAN, "qr-asfan")
 
 # ------------------------------------------------------------------ ICS (per limbă)
@@ -174,10 +174,10 @@ def write(path, content):
 
 def qr_block():
     return f'''<div class="qrs">
-  <div class="qr"><div class="code"><img src="{P}assets/qr-curs.svg" width="150" height="150" alt="{A("qr_alt", url=SITE + "/")}"></div>
+  <div class="qr"><div class="code"><img src="{P}assets/qr-curs.svg" width="210" height="210" alt="{A("qr_alt", url=SITE + "/")}"></div>
     <div><h2>{T("qr_course_h")}</h2><p>{T("qr_course_p")}</p><div class="url">curs.asfan.online</div>
     <div class="acts"><a class="btn btn-blue" href="{P}assets/qr-curs.png" download="qr-curs-asfan-online.png">PNG</a><a class="btn btn-ghost" href="{P}assets/qr-curs.svg" download="qr-curs-asfan-online.svg">SVG</a><button class="btn btn-ghost" type="button" data-copy="{SITE}/" data-copied="{JS("copied")}">{T("qr_copy")}</button></div></div></div>
-  <div class="qr"><div class="code"><img src="{P}assets/qr-asfan.svg" width="150" height="150" alt="{A("qr_alt", url=ASFAN)}"></div>
+  <div class="qr"><div class="code"><img src="{P}assets/qr-asfan.svg" width="210" height="210" alt="{A("qr_alt", url=ASFAN)}"></div>
     <div><h2>{T("qr_asfan_h")}</h2><p>{T("qr_asfan_p")}</p><div class="url">www.asfanufo.ro</div>
     <div class="acts"><a class="btn btn-blue" href="{P}assets/qr-asfan.png" download="qr-asfanufo-ro.png">PNG</a><a class="btn btn-ghost" href="{P}assets/qr-asfan.svg" download="qr-asfanufo-ro.svg">SVG</a><button class="btn btn-ghost" type="button" data-copy="{ASFAN}" data-copied="{JS("copied")}">{T("qr_copy")}</button></div></div></div>
 </div>'''
