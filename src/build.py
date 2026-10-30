@@ -140,7 +140,6 @@ def head(title, desc, page, path, extra=""):
 <meta name="twitter:card" content="summary_large_image">
 <script>document.documentElement.classList.add('js');try{{var t=new URLSearchParams(location.search).get('tema')||localStorage.getItem('asfan-theme-v3');if(t==='anzi'||t==='moai')document.documentElement.setAttribute('data-theme',t)}}catch(e){{}}</script>
 <link rel="preload" href="{P}assets/fonts/mont-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{P}assets/fonts/ss-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{P}assets/style.css?v={av("style.css")}">
 {extra}
 </head>

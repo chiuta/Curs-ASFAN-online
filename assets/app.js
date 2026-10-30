@@ -20,7 +20,7 @@ if(bm){bm.addEventListener('click',function(e){e.stopPropagation();var o=nav.cla
   function render(t){x.clearRect(0,0,w,h);for(var i=0;i<st.length;i++){var s=st[i];x.globalAlpha=.35+.65*Math.abs(Math.sin(s.p+t*s.s));x.fillStyle=i%9===0?'#9fd8ff':'#fff';x.fillRect(s.x,s.y,s.r,s.r)}x.globalAlpha=1}
   function rs(){var d=Math.min(devicePixelRatio||1,2);w=c.width=innerWidth*d;h=c.height=innerHeight*d;st=[];var n=Math.min(140,Math.round(innerWidth*innerHeight/11000));
     for(var i=0;i<n;i++)st.push({x:Math.random()*w,y:Math.random()*h,r:(Math.random()*1.3+.6)*d,p:Math.random()*6.28,s:Math.random()*.02+.004});render(0)}
-  function loop(n){raf=requestAnimationFrame(loop);if(n-last<50)return;last=n;render(n/16)}
+  function loop(n){raf=requestAnimationFrame(loop);if(n-last<90)return;last=n;render(n/16)}
   function run(){if(rm||raf)return;raf=requestAnimationFrame(loop)}
   function stop(){if(raf){cancelAnimationFrame(raf);raf=0}}
   document.addEventListener('visibilitychange',function(){document.hidden?stop():run()});
@@ -34,18 +34,20 @@ document.querySelectorAll('[data-sess]').forEach(function(el){var n=+el.dataset.
   if(new Date(s.end).getTime()<Date.now())el.classList.add('past');else if(n-1===nextIdxNow())el.classList.add('next')});
 var cds=[].slice.call(document.querySelectorAll('[data-countdown]'));
 function paint(el){var d=new Date(el.dataset.countdown).getTime()-Date.now(),j=I().js;
-  if(d<=0){el.innerHTML='<span class="ok">'+(el.dataset.done||j.started||'')+'</span>';return}
-  var D=Math.floor(d/864e5),H=Math.floor(d%864e5/36e5),M=Math.floor(d%36e5/6e4),Sx=Math.floor(d%6e4/1e3);
-  el.innerHTML='<div><b>'+D+'</b><small>'+j.u_d+'</small></div><div><b>'+H+'</b><small>'+j.u_h+'</small></div><div><b>'+M+'</b><small>'+j.u_m+'</small></div><div><b>'+Sx+'</b><small>'+j.u_s+'</small></div>'}
+  if(d<=0){el._b=null;el.innerHTML='<span class="ok">'+(el.dataset.done||j.started||'')+'</span>';return}
+  var v=[Math.floor(d/864e5),Math.floor(d%864e5/36e5),Math.floor(d%36e5/6e4),Math.floor(d%6e4/1e3)];
+  if(!el._b||el._l!==j.u_d){el.innerHTML='<div><b></b><small>'+j.u_d+'</small></div><div><b></b><small>'+j.u_h+'</small></div><div><b></b><small>'+j.u_m+'</small></div><div><b></b><small>'+j.u_s+'</small></div>';el._b=el.querySelectorAll('b');el._l=j.u_d;el._v=[]}
+  for(var i=0;i<4;i++){if(el._v[i]!==v[i]){el._v[i]=v[i];el._b[i].textContent=v[i]}}}
 function nextBar(){var ni=nextIdxNow(),i18=I();
-  document.querySelectorAll('[data-next-wrap]').forEach(function(w){if(w.offsetParent===null&&w.style.display!=='none')return;
+  document.querySelectorAll('[data-next-wrap]').forEach(function(w){
     var lab=w.querySelector('[data-next-label]'),cd=w.querySelector('[data-next-cd]');if(!lab)return;
     if(ni<0){lab.textContent=i18.js.course_over||'';if(cd)cd.style.display='none';return}
     var lb=(i18.labels||[])[ni]||'';
     lab.textContent=ni===0?fmt(i18.js.course_starts,{label:lb}):fmt(i18.js.next_session,{n:ni+1,label:lb});
     if(cd){cd.style.display='';cd.dataset.countdown=S[ni].start}})}
-function tick(){nextBar();cds.forEach(function(el){if(el.offsetParent!==null)paint(el)})}
-window.__asfanTick=tick;tick();setInterval(function(){if(!document.hidden)tick()},1000);
+var vis=new Set();if('IntersectionObserver' in window){var cio=new IntersectionObserver(function(es){es.forEach(function(e){e.isIntersecting?vis.add(e.target):vis.delete(e.target)})},{rootMargin:'200px'});cds.forEach(function(el){cio.observe(el)})}
+function tick(f){nextBar();cds.forEach(function(el){if(f===true||!window.IntersectionObserver||vis.has(el))paint(el)})}
+window.__asfanTick=function(){tick(true)};tick(true);setInterval(function(){if(!document.hidden)tick()},1000);
 /* ---- Copy ---- */
 document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){var t=b.dataset.copy,o=b.textContent,ok=b.dataset.copied||'OK';
   (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent=ok},function(){var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy');b.textContent=ok}catch(e){b.textContent=t}a.remove()});

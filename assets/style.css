@@ -638,3 +638,6 @@ html.course-over .course-over-note{display:block}
 details.ac summary h3.sh .tt{display:block}
 html.course-over .count.slim{display:none}
 .priv{max-width:62rem;margin:.6rem auto 1.4rem;padding:0 16px;font-size:.82rem;opacity:.8;text-align:center}
+
+/* performanță: secțiunile de sub primul ecran se randează la nevoie */
+.doc,footer{content-visibility:auto;contain-intrinsic-size:auto 720px}
