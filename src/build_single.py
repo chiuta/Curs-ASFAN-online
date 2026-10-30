@@ -136,7 +136,7 @@ function route(hs){var r=parse(hs),first=!window.__routed;
   document.querySelectorAll('[data-nav]').forEach(function(a){var t=a.dataset.nav||'index';a.setAttribute('href',hash(r.lang,t));
     if(a.classList.contains('lnk')){if(t===top)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')}});
   document.querySelectorAll('a[data-lang-link]').forEach(function(a){var l=a.dataset.langLink;a.setAttribute('href',hash(l,r.page));if(l===r.lang)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current')});
-  document.querySelectorAll('details.lang').forEach(function(d){d.open=false;var b=d.querySelector('summary b');if(b)b.textContent=r.lang.toUpperCase()});
+  document.querySelectorAll('details.lang').forEach(function(d){d.open=false;var b=d.querySelector('summary b'),sm=d.querySelector('summary');if(b)b.textContent=r.lang.toUpperCase();if(sm)sm.setAttribute('aria-label',r.lang.toUpperCase()+' – '+ALL[r.lang].chrome.lang_aria)});
   if(nav){nav.classList.remove('open');if(bm)bm.setAttribute('aria-expanded','false')}
   window.scrollTo(0,0);if(window.__asfanTick)window.__asfanTick();
   var mm=document.getElementById('main');if(mm&&window.__routed){mm.setAttribute('tabindex','-1');try{mm.focus({preventScroll:true})}catch(e){}}window.__routed=true}

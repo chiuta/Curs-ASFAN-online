@@ -120,7 +120,7 @@ def head(title, desc, page, path, extra=""):
 <canvas id="stars" aria-hidden="true"></canvas>
 <header class="topbar"><a class="skip" href="#main" data-k="skip">{T("skip")}</a><div class="wrap">
   <a class="brand" data-nav="" data-k-aria="brand_aria" href="index.html" aria-label="{A("brand_aria")}"><img src="{P}assets/logo.png" alt="{A("logo_alt")}" data-k-alt="logo_alt" width="108" height="40"><small data-k="brand_small">{T("brand_small")}</small></a>
-  <details class="lang"><summary data-k-aria="lang_aria" aria-label="{A("lang_aria")}"><span aria-hidden="true">🌐</span> <b>{CODE.upper()}</b></summary><ul>{langlinks}</ul></details>
+  <details class="lang"><summary data-lang-aria aria-label="{CODE.upper()} – {A("lang_aria")}"><span aria-hidden="true">🌐</span> <b>{CODE.upper()}</b></summary><ul>{langlinks}</ul></details>
   <button class="btn-menu" type="button" aria-expanded="false" aria-controls="nav" data-k="menu_btn">{T("menu_btn")}</button>
   <nav class="main" id="nav" aria-label="{A("nav_aria")}" data-k-aria="nav_aria">
 {navl}    <span class="theme-switch" role="group" aria-label="{A("theme_aria")}" data-k-aria="theme_aria">
