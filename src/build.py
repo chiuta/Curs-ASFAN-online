@@ -7,6 +7,8 @@ import segno
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT") or os.path.join(ROOT, "site")
 POSTER = os.environ.get("POSTER") == "1"
+import datetime as _dt
+BUILD = _dt.datetime.now(_dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
 SIMPLE = os.environ.get("SIMPLE") == "1"   # fără titluri/etichete derivate: doar textul din plan
 SITE = "https://curs.asfan.online"
 ASFAN = "https://www.asfanufo.ro"
@@ -134,6 +136,7 @@ def head(title, desc, page, path, extra=""):
 {"".join(f'<meta property="og:locale:alternate" content="{DATA[l]["meta"]["locale"]}">' for l in LANGS if l != CODE)}
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="build" content="{BUILD}">
 <meta name="twitter:card" content="summary_large_image">
 <script>document.documentElement.classList.add('js');try{{var t=new URLSearchParams(location.search).get('tema')||localStorage.getItem('asfan-theme-v3');if(t==='anzi'||t==='moai')document.documentElement.setAttribute('data-theme',t)}}catch(e){{}}</script>
 <link rel="preload" href="{P}assets/fonts/mont-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -186,6 +189,7 @@ def foot():
   </div>
   {share_block()}
   <div class="wrap foot-links">{links}<a href="mailto:{MAIL}">{MAIL}</a></div>
+  <p class="wrap priv" data-k="foot_priv">{T("foot_priv")}</p>
 </footer>
 <script src="{P}assets/sessions.js?v={av("sessions.js")}"></script>
 <script src="{P}assets/i18n-{CODE}.js?v={av(f"i18n-{CODE}.js")}"></script>
@@ -414,6 +418,7 @@ for CODE in LANGS:
 ''')
 
 open(f"{OUT}/CNAME","w").write("curs.asfan.online\n")
+open(f"{OUT}/version.txt","w").write(BUILD+"\n")
 open(f"{OUT}/404.html","w",encoding="utf-8").write(f'''<!DOCTYPE html>
 <html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pagina nu există · curs.asfan.online</title><meta name="robots" content="noindex">
 <meta http-equiv="refresh" content="0;url={SITE}/"><style>body{{margin:0;min-height:100vh;display:grid;place-items:center;background:#030a1c;color:#eaf2ff;font-family:system-ui,sans-serif;text-align:center;padding:20px}}a{{color:#f7b733;font-weight:700}}</style></head>
