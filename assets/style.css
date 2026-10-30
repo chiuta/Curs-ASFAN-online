@@ -528,3 +528,18 @@ html[lang="es"] .sec h2 .sub,html[lang="fr"] .sec h2 .sub,html[lang="pt"] .sec h
 .share-native{background:linear-gradient(135deg,#1c7be0,#35c3ff);color:#001028;border-color:transparent}
 .share-native[hidden]{display:none}
 @media print{.share,.lang-note{display:none!important}}
+/* ===== cronometru compact (lasă loc descrierii din antet) ===== */
+.count.slim .wrap{padding:4px 0;gap:2px 14px;min-height:0}
+.count.slim .lbl{font-size:.86rem;line-height:1.25}
+.count.slim .cd{gap:5px}
+.count.slim .cd div{padding:1px 7px;min-width:44px;border-radius:8px}
+.count.slim .cd b{font-size:1rem;line-height:1.15}
+.count.slim .cd small{font-size:.54rem;letter-spacing:.06em}
+.lang-note .wrap{padding:5px 0}.lang-note{font-size:.84rem}
+@media (min-width:900px){
+  .hero .hero-cta{bottom:calc(100% + 5px)}
+  .hero .hero-cta .btn{min-height:34px;padding:5px 12px;font-size:.8rem}
+  html[data-theme="anzi"]{--who-t:85.2%}
+  html[data-theme="moai"]{--who-t:83.8%}
+}
+.count.slim{padding:0}
