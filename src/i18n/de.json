@@ -63,9 +63,9 @@
   "lang_aria": "Sprache wählen",
   "crumb_home": "Start",
   "title_index": "Einführung in die Ufologie – ASFAN-Kurs, vierte Staffel",
-  "desc_index": "Kostenloser Online-Kurs per ZOOM, 18.11.2026–26.05.2027, mittwochs 19–21 Uhr (Rumänien). 14 Themen zu unidentifizierten Luftraumphänomenen. Auf Rumänisch.",
+  "desc_index": "Kostenloser Online-Kurs per ZOOM, 18.11.2026–26.05.2027, mittwochs 19–21 Uhr (Rumänien). 14 Themen zu unidentifizierten Luft- und Weltraumphänomenen. Auf Rumänisch.",
   "ld_name": "Einführung in die Ufologie (vierte Staffel)",
-  "ld_desc": "Kostenloser Online-Kurs über unidentifizierte Aerospace-Phänomene.",
+  "ld_desc": "Kostenloser Online-Kurs über unidentifizierte Luft- und Weltraumphänomene.",
   "title_program": "Kursprogramm – Einführung in die Ufologie · ASFAN",
   "desc_program": "Die 14 Sitzungen des ASFAN-Kurses „Einführung in die Ufologie“ (vierte Staffel), 18. November 2026 – 26. Mai 2027, mittwochs 19:00–21:00 Uhr über ZOOM.",
   "title_about": "Über den Kurs – Einführung in die Ufologie (vierte Staffel) · ASFAN",
@@ -92,7 +92,7 @@
   "hand_r": "Rätsel.<br>Menschen.<br>Ideen.<br>Jenseits des Horizonts.",
   "logo_alt": "ASFAN Rumänien",
   "motto": "Wir erforschen<br>Wir verstehen<br>Wir teilen",
-  "about_assoc": "Verein zur Erforschung unidentifizierter Aerospace-Phänomene",
+  "about_assoc": "Verein zur Erforschung unidentifizierter Luft- und Weltraumphänomene",
   "coord_role1": "Kursleitung",
   "coord_role2": "Präsident von ASFAN",
   "cd_start": "Der Kurs beginnt – {label}, 19:00 Uhr (rumänische Zeit)",
@@ -107,7 +107,7 @@
   "card_where_v": "Online<br>über ZOOM",
   "card_who": "Für wen?",
   "card_who_v": "Für alle, die sich für ungewöhnliche Phänomene, Wissenschaft, Geschichte, Kultur und die Rätsel der Welt interessieren.",
-  "h_study": "Was erwartet Sie?",
+  "h_study": "Was behandeln wir?",
   "h_study_sub": "Von <span class=\"oval\">UFO/UAP</span> bis zu den großen Fragen der Menschheit.",
   "box_free_t": "Kostenlose Teilnahme",
   "box_free_p": "Die Teilnahme ist kostenlos. Wer höchstens dreimal gefehlt hat, kann nach Kursende ein Zertifikat beantragen.",
@@ -151,9 +151,9 @@
   "s_note": "Den ZOOM-Link der Sitzung erhalten die zugelassenen Teilnehmenden per E-Mail. Die Teilnahme ist kostenlos; ein Zertifikat ist mit höchstens drei Fehlterminen möglich.",
   "s_all": "Alle Sitzungen",
   "about_h1": "Über den <em>Kurs</em>",
-  "about_lead": "ASFAN – der Verein zur Erforschung unidentifizierter Aerospace-Phänomene – lädt Sie zum Kurs „Einführung in die Ufologie“ (vierte Staffel) ein.",
+  "about_lead": "ASFAN – der Verein zur Erforschung unidentifizierter Luft- und Weltraumphänomene – lädt Sie zum Kurs „Einführung in die Ufologie“ (vierte Staffel) ein.",
   "about_invite": "Einladung",
-  "about_p1": "Der Kurs vermittelt Grundlagen zu unidentifizierten Aerospace-Phänomenen: aktuelle politische und militärische Aspekte, Desinformation, Entführungen, Bezüge zu Folklore, Religion und Paranormalem, Schamanen, Erklärungsversuche, Untersuchungsmethodik, falsche UFOs, internationale Organisationen u. v. m.",
+  "about_p1": "Der Kurs vermittelt Grundlagen zu unidentifizierten Luft- und Weltraumphänomenen: aktuelle politische und militärische Aspekte, Desinformation, Entführungen, Bezüge zu Folklore, Religion und Paranormalem, Schamanen, Erklärungsversuche, Untersuchungsmethodik, falsche UFOs, einschlägige internationale Organisationen u. v. m.",
   "about_p2": "Der Kurs findet über ZOOM statt, in der Regel alle zwei Wochen mittwochs von 19 bis 21 Uhr, mit einer Stunde Vortrag und einer Stunde Diskussion, vom 18. November 2026 bis 26. Mai 2027, ohne gesetzliche Feiertage und Prüfungszeiten.",
   "about_p3": "Die Teilnahme ist kostenlos. Wer höchstens dreimal gefehlt hat, kann nach Kursende ein Zertifikat beantragen.",
   "about_p4": "Die Platzzahl ist begrenzt. Die Anmeldung erfolgt per E-Mail an <a href=\"mailto:{MAIL}\">{MAIL}</a> bis zum 17. November 2026. Zugelassene (in der Regel in der Reihenfolge der Anfragen) erhalten für jeden Vortrag den ZOOM-Link per E-Mail.",
@@ -208,7 +208,7 @@
   "qr_course_h": "Kurswebsite",
   "qr_course_p": "Scannen für Programm, Details und Anmeldung.",
   "qr_asfan_h": "ASFAN-Website",
-  "qr_asfan_p": "Verein zur Erforschung unidentifizierter Aerospace-Phänomene.",
+  "qr_asfan_p": "Verein zur Erforschung unidentifizierter Luft- und Weltraumphänomene.",
   "qr_copy": "Link kopieren",
   "qr_alt": "QR-Code für {url}",
   "ics_summary": "ASFAN-Kurs – Einführung in die Ufologie ({n}/14)",
@@ -227,9 +227,9 @@
   "share_via": "Auf {net} teilen",
   "share_text": "Kostenloser Online-Kurs „Einführung in die Ufologie“ (ASFAN), 18. November 2026 – 26. Mai 2027, über ZOOM (auf Rumänisch)",
   "inv_h": "EINLADUNG",
-  "inv_lead": "Die ASFAN lädt Sie zu einem Kurs ein mit dem Titel",
+  "inv_lead": "ASFAN lädt Sie zur Teilnahme an einem Kurs mit dem Titel",
   "inv_title": "EINFÜHRUNG IN DIE UFOLOGIE",
-  "inv_sign": "Kursleiter, Präsident der ASFAN",
+  "inv_sign": "Kursleiter, Präsident von ASFAN",
   "plan_h": "Einführung in die Ufologie",
   "plan_sub": "ASFAN-Kurs, Nov. 2026 – Mai 2027",
   "plan_kind": "Strukturvorschlag",
@@ -293,17 +293,17 @@
   ],
   [
    "Welche Themen werden behandelt?",
-   "Aktuelle politische und militärische Aspekte, Desinformation, Entführungen, Bezüge zu Folklore, Religion und Paranormalem, Schamanen, Erklärungsversuche, Untersuchungsmethodik, falsche UFOs, internationale Organisationen und mehr."
+   "Aktuelle politische und militärische Aspekte, Desinformation, Entführungen, Bezüge zu Folklore, Religion und Paranormalem, Schamanen, Erklärungsversuche, Untersuchungsmethodik, falsche UFOs, einschlägige internationale Organisationen und mehr."
   ]
  ],
  "topics": [
   [
-   "Unidentifizierte Aerospace-Phänomene (UFO/UAP)",
+   "Unidentifizierte Luft- und Weltraumphänomene (UFO/UAP)",
    "Was wissen wir, und was bleibt ein Rätsel?"
   ],
   [
    "Aktuelle politische und militärische Aspekte",
-   "Heutiger Kontext, geheime Projekte, Dokumente."
+   "Aktueller Kontext, geheime Projekte, Dokumente."
   ],
   [
    "Desinformation und falsche UFOs",
@@ -311,7 +311,7 @@
   ],
   [
    "Entführungen und seltsame Erlebnisse",
-   "Fälle, Zeugnisse, Deutungen."
+   "Fälle, Zeugenaussagen, Deutungen."
   ],
   [
    "Folkloristische und historische Bezüge",
@@ -330,7 +330,7 @@
    "Wie analysieren wir einen Fall?"
   ],
   [
-   "Internationale Organisationen",
+   "Einschlägige internationale Organisationen",
    "Wer befasst sich weltweit mit dem Phänomen?"
   ],
   [
@@ -356,8 +356,8 @@
  ],
  "sessions": [
   {
-   "title": "Grundlagen: unidentifizierte Aerospace-/anomale Phänomene (UAP/UFO)",
-   "text": "Unidentifizierte Aerospace-/anomale Phänomene (UAP/UFO), Grundlagen: in der Luft, unter Wasser, im Weltraum, Transmedium. Beobachtungen bei Tag, bei Nacht, per Radar. Eigenschaften, Landungen. Aggressive UFOs.",
+   "title": "Grundlagen: unidentifizierte Luft- und Weltraumphänomene bzw. anomale Phänomene (UAP/UFO)",
+   "text": "Unidentifizierte Luft- und Weltraumphänomene bzw. anomale Phänomene (UAP/UFO), Grundlagen: in der Luft, unter Wasser, im Weltraum, Transmedium. Beobachtungen bei Tag, bei Nacht, per Radar. Eigenschaften, Landungen. Aggressive UFOs.",
    "chips": [
     "In der Luft, unter Wasser, im Weltraum, Transmedium",
     "Beobachtungen bei Tag, bei Nacht, per Radar",
@@ -367,9 +367,9 @@
   },
   {
    "title": "Politisch-militärische Geschichte 1942–2017",
-   "text": "Politisch-militärische Geschichte 1942–2017, Verbindungen zu Atomwaffen, Abstürze, Konflikte, Projekte, Blue Book, Hynek, Vorschriften. Geheimhaltung, Desinformation, Tabu, Lächerlichmachung, Komplizenschaft der Medien, UFO-Mythologie. Auch bei Russen, Briten, Franzosen, Südamerikanern usw.",
+   "text": "Politisch-militärische Geschichte 1942–2017, nukleare Verbindungen, Abstürze, Konflikte, Projekte, Blue Book, Hynek, Vorschriften. Geheimhaltung, Desinformation, Tabu, Lächerlichmachung, Komplizenschaft der Medien, UFO-Mythologie. Auch bei Russen, Briten, Franzosen, Südamerikanern usw.",
    "chips": [
-    "Verbindungen zu Atomwaffen",
+    "Nukleare Verbindungen",
     "Abstürze, Konflikte, Projekte",
     "Blue Book, Hynek, Vorschriften",
     "Geheimhaltung, Desinformation, Tabu, Lächerlichmachung",
@@ -436,7 +436,7 @@
   },
   {
    "title": "Religiöse Bezüge",
-   "text": "Religiöse Bezüge, Sekten, Marienerscheinungen und Heiligenvisionen, UFOs in der Bibel?, Entrückungen, genetische Experimente, satanisch? Vatikan, Vallée.",
+   "text": "Religiöse Bezüge, Sekten, Heiligenerscheinungen, UFOs in der Bibel?, Entrückungen, genetische Experimente, satanisch? Vatikan, Vallée.",
    "chips": [
     "Sekten, Heiligenerscheinungen",
     "UFOs in der Bibel?",
@@ -448,20 +448,20 @@
   },
   {
    "title": "Uralte Zivilisationen",
-   "text": "Uralte Zivilisationen, Silurier, Atlantis, Nibiru, Anunnaki, Plejadier, Reptiloide. Paläo-SETI, Ooparts, zyklopische Bauten, Mumien.",
+   "text": "Uralte Zivilisationen, Silurier, Atlantis, Nibiru, Anunnaki, Plejadier, Reptiloide. Paläoastronautik, OOParts, zyklopische Bauten, Mumien.",
    "chips": [
     "Silurier, Atlantis",
     "Nibiru, Anunnaki",
     "Plejadier, Reptiloide",
-    "Paläo-SETI, Ooparts",
+    "Paläoastronautik, OOParts",
     "Zyklopische Bauten, Mumien"
    ]
   },
   {
    "title": "Mögliche Erklärungen",
-   "text": "Mögliche Erklärungen: Zeitnauten? Intraterrestrische? Usw. Zwei extraterrestrische Hypothesen, Hyperzivilisationen, Bedingungen, Selbstzerstörung, Nichteinmischung. Kulturelle Hypnose, Grenzen, mögliche Folgen.",
+   "text": "Mögliche Erklärungen: Zeitnauten? Intraterrestrier? Usw. Zwei extraterrestrische Hypothesen, Hyperzivilisationen, Bedingungen, Selbstzerstörung, Nichteinmischung. Kulturelle Hypnose, Grenzen, mögliche Folgen.",
    "chips": [
-    "Zeitnauten? Intraterrestrische?",
+    "Zeitnauten? Intraterrestrier?",
     "Zwei extraterrestrische Hypothesen",
     "Hyperzivilisationen, Selbstzerstörung, Nichteinmischung",
     "Kulturelle Hypnose, Grenzen, Folgen"

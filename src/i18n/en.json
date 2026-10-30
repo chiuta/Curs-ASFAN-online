@@ -58,12 +58,12 @@
   "brand_aria": "ASFAN – Course: Introduction to Ufology, home page",
   "menu_btn": "Menu ☰",
   "nav_aria": "Main navigation",
-  "theme_aria": "Choose the design",
+  "theme_aria": "Choose a theme",
   "skip": "Skip to content",
   "lang_aria": "Choose language",
   "crumb_home": "Home",
   "title_index": "Introduction to Ufology – ASFAN course, fourth series",
-  "desc_index": "Free online course via ZOOM, 18 Nov 2026 – 26 May 2027, Wednesdays 19:00–21:00 (Romania). 14 topics on unidentified aerospace phenomena. Taught in Romanian.",
+  "desc_index": "Free online course via ZOOM, 18 Nov 2026 – 26 May 2027, Wednesdays 19:00–21:00 (Romania time). 14 topics on unidentified aerospace phenomena. Coordinator: Dan D. Farcaș. Taught in Romanian.",
   "ld_name": "Introduction to Ufology (fourth series)",
   "ld_desc": "Free online course on unidentified aerospace phenomena.",
   "title_program": "Course programme – Introduction to Ufology · ASFAN",
@@ -112,13 +112,13 @@
   "box_free_t": "Free participation",
   "box_free_p": "Participation is free, and at the end of the course, participants with no more than three absences may request a diploma.",
   "box_seats_t": "Limited places",
-  "box_seats_p": "Places are limited. Those admitted will receive the ZOOM link for each talk at their e-mail address.",
+  "box_seats_p": "Places are limited. Those admitted will receive the ZOOM link for each talk by e-mail.",
   "box_enroll_t": "Enrolment",
   "box_enroll_p": "Enrol by sending an e-mail<br>to: <a class=\"mail\" href=\"mailto:{MAIL}\">{MAIL}</a><br>by <b>17 November 2026</b>.<br>Those admitted will be notified<br>generally in order of application.",
   "foot_tag_b": "ASFAN – Together towards knowledge.",
   "foot_tag_s": "CURIOSITY · KNOWLEDGE · COMMUNITY · A BRIGHTER FUTURE",
   "foot_hand": "Real questions.<br>Possible worlds.",
-  "foot_hand2": "Same sky.<br>More answers.",
+  "foot_hand2": "The same sky.<br>More answers.",
   "foot_qr_aria": "QR codes – curs.asfan.online",
   "foot_qr_alt": "QR code curs.asfan.online",
   "lb_aria": "Enlarged poster",
@@ -133,7 +133,7 @@
   "prog_filter_aria": "Search the programme",
   "prog_session_page": "Session page →",
   "prog_cal": "📅 Calendar",
-  "prog_note": "Times are Romania time (EET/EEST). The ZOOM link for each talk is e-mailed to those admitted.",
+  "prog_note": "Times are in Romanian time (EET/EEST). The ZOOM link for each talk is e-mailed to those admitted.",
   "s_crumb": "Session {n}",
   "s_lead": "{label}, 19:00–21:00 · online via ZOOM",
   "fact_date": "Date",
@@ -156,7 +156,7 @@
   "about_p1": "The course covers the basics of unidentified aerospace phenomena: the latest political and military developments, disinformation, abductions, folkloric, religious and paranormal connections, shamans, attempts at explanation, investigation methodology, false UFOs, international organisations in the field, and more.",
   "about_p2": "The course runs via ZOOM, generally every two weeks on Wednesdays from 19:00 to 21:00, with one hour of presentation and one hour of discussion, between 18 November 2026 and 26 May 2027, avoiding public holidays and student exam periods.",
   "about_p3": "Participation is free, and at the end of the course, participants with no more than three absences may request a diploma.",
-  "about_p4": "Places are limited. Enrol by sending an e-mail to <a href=\"mailto:{MAIL}\">{MAIL}</a> by 17 November 2026. Those admitted (generally in order of application) will receive the ZOOM link for each talk at their e-mail address.",
+  "about_p4": "Places are limited. Enrol by sending an e-mail to <a href=\"mailto:{MAIL}\">{MAIL}</a> by 17 November 2026. Those admitted (generally in order of application) will receive the ZOOM link for each talk by e-mail.",
   "about_btn_enroll": "Enrol",
   "about_btn_program": "Programme",
   "posters_h": "Course posters",
@@ -230,7 +230,7 @@
   "inv_lead": "ASFAN invites you to take part in a course entitled",
   "inv_title": "INTRODUCTION TO UFOLOGY",
   "inv_sign": "Course coordinator, ASFAN president",
-  "plan_h": "Introduction to ufology",
+  "plan_h": "Introduction to Ufology",
   "plan_sub": "ASFAN course, Nov 2026 – May 2027",
   "plan_kind": "proposed structure",
   "plan_cal": "📅 Add the whole course to your calendar",
@@ -239,11 +239,11 @@
   "nav_top": "Top",
   "nav_inv": "Invitation",
   "plan_ics": "Calendar",
-  "tz_note": "Times are Romanian time. In London: 17:00–19:00; in Paris/Berlin: 18:00–20:00.",
+  "tz_note": "Times are in Romanian time. In London: 17:00–19:00; in Paris/Berlin: 18:00–20:00.",
   "enr_gmail": "Open in Gmail",
   "enr_copy_msg": "Copy the message",
   "enr_alt": "No e-mail app?",
-  "og_alt": "Poster of the course “Introduction to ufology” – UFO, Moai statue and portrait of Dan D. Farcaș",
+  "og_alt": "Poster of the course “Introduction to Ufology” – UFO, Moai statue and portrait of Dan D. Farcaș",
   "prog_none": "No topic matches your search.",
   "over_note": "The course has ended. Thank you to all participants! News and the next series: www.asfanufo.ro"
  },
@@ -273,7 +273,7 @@
   ],
   [
    "How do I get the ZOOM link?",
-   "Those admitted receive the ZOOM link for each talk at their e-mail address."
+   "Those admitted receive the ZOOM link for each talk by e-mail."
   ],
   [
    "How do I enrol?",
@@ -281,7 +281,7 @@
   ],
   [
    "In what order are participants admitted?",
-   "Places are limited; those admitted are, in principle, chosen in order of application."
+   "Places are limited; those admitted are generally chosen in order of application."
   ],
   [
    "Can I get a diploma?",
@@ -289,7 +289,7 @@
   ],
   [
    "How long is a session and when does it take place?",
-   "On Wednesdays, between 19:00 and 21:00: one hour of presentation and one hour of discussion. Sessions take place, in principle, every two weeks, avoiding public holidays and student exam periods."
+   "On Wednesdays, between 19:00 and 21:00: one hour of presentation and one hour of discussion. Sessions generally take place every two weeks, avoiding public holidays and student exam periods."
   ],
   [
    "What topics are covered?",
@@ -357,9 +357,9 @@
  "sessions": [
   {
    "title": "The basics: unidentified aerospace/anomalous phenomena (UAP/UFO)",
-   "text": "Unidentified aerospace/anomalous phenomena (UAP/UFO), the basics: aerial, underwater, outer space, transmedium. Daytime, nighttime and radar sightings. Characteristics, landings. Aggressive UFOs.",
+   "text": "Unidentified aerospace/anomalous phenomena (UAP/UFO), the basics: aerial, underwater, outer space, trans-medium. Daytime, nighttime and radar sightings. Characteristics, landings. Aggressive UFOs.",
    "chips": [
-    "Aerial, underwater, outer space, transmedium",
+    "Aerial, underwater, outer space, trans-medium",
     "Daytime, nighttime, radar sightings",
     "Characteristics, landings",
     "Aggressive UFOs"
@@ -367,14 +367,14 @@
   },
   {
    "title": "Political-military history 1942–2017",
-   "text": "Political-military history 1942-2017, nuclear connections, crashes, conflicts, projects, Blue Book, Hynek, regulations. Secrecy, disinformation, taboo, ridicule, media complicity, the UFO mythology. Also among the Russians, British, French, South Americans etc.",
+   "text": "Political-military history 1942–2017, nuclear connections, crashes, conflicts, projects, Blue Book, Hynek, regulations. Secrecy, disinformation, taboo, ridicule, media complicity, UFO mythology. Also in Russia, Britain, France, South America etc.",
    "chips": [
     "Nuclear connections",
     "Crashes, conflicts, projects",
     "Blue Book, Hynek, regulations",
     "Secrecy, disinformation, taboo, ridicule",
     "Media complicity, UFO mythology",
-    "Russians, British, French, South Americans"
+    "Russia, Britain, France, South America"
    ]
   },
   {
@@ -391,7 +391,7 @@
   },
   {
    "title": "Close encounters of the 3rd–4th kind",
-   "text": "Close encounters of the 3rd-4th kind. Contacts, contactees, abductions, scenario, genetic experiments, indoctrination, special characteristics, evidence, abductions without return. Hopkins, Mack etc. Mutilations, cryptozoology, reservations?",
+   "text": "Close encounters of the 3rd–4th kind. Contacts, contactees, abductions, scenario, genetic experiments, indoctrination, special characteristics, evidence, abductions without return. Hopkins, Mack etc. Mutilations, cryptozoology, reservations?",
    "chips": [
     "Contacts, contactees",
     "Abductions, scenario, genetic experiments",
@@ -403,7 +403,7 @@
   },
   {
    "title": "The ancient history of the phenomenon",
-   "text": "The ancient history of the phenomenon, folkloric connections, iele (Romanian folklore fairies), dwarves, Magonia, magic circles and crop circles, Vallée.",
+   "text": "The ancient history of the phenomenon, folkloric connections, iele (fairy-like female beings of Romanian folklore), dwarves, Magonia, magic circles and crop circles, Vallée.",
    "chips": [
     "Folkloric connections",
     "Iele (fairies), dwarves",
@@ -414,7 +414,7 @@
   },
   {
    "title": "The connection with the paranormal",
-   "text": "The connection with the paranormal. The CRV remote viewing technique, channeling, Akasha, reincarnations? Spiritual aspects, journeys of the spirit, shamans, techniques, Mack.",
+   "text": "The connection with the paranormal. The CRV (Controlled Remote Viewing) technique, channeling, Akasha, reincarnations? Spiritual aspects, journeys of the spirit, shamans, techniques, Mack.",
    "chips": [
     "CRV remote viewing",
     "Channeling, Akasha",
@@ -436,7 +436,7 @@
   },
   {
    "title": "Religious connections",
-   "text": "Religious connections, sects, holy apparitions, UFOs in the Bible?, heavenly abductions, genetic experiments, satanic? Vatican, Vallée.",
+   "text": "Religious connections, sects, holy apparitions, UFOs in the Bible? Heavenly abductions, genetic experiments, satanic? Vatican, Vallée.",
    "chips": [
     "Sects, holy apparitions",
     "UFOs in the Bible?",
@@ -448,12 +448,12 @@
   },
   {
    "title": "Ancient civilisations",
-   "text": "Ancient civilisations, Silurian, Atlantis, Nibiru, Anunnaki, Pleiadians, reptilians. Paleocontact, ooparts, cyclopean constructions, mummies.",
+   "text": "Ancient civilisations, Silurian, Atlantis, Nibiru, Anunnaki, Pleiadians, reptilians. Paleoastronautics, OOPArts, cyclopean constructions, mummies.",
    "chips": [
     "Silurian, Atlantis",
     "Nibiru, Anunnaki",
     "Pleiadians, reptilians",
-    "Paleocontact, ooparts",
+    "Paleoastronautics, OOPArts",
     "Cyclopean constructions, mummies"
    ]
   },
@@ -469,10 +469,10 @@
   },
   {
    "title": "Attempts at disclosure",
-   "text": "Attempts at disclosure. Declassifications. Will there be a contact? What will it look like? Under what conditions? The current attitude towards disclosure: military, researchers, religious people, the general public.",
+   "text": "Attempts at disclosure. Declassifications. Will there be contact? What will it look like? Under what conditions? The current attitude towards disclosure: military, researchers, religious people, the general public.",
    "chips": [
     "Declassifications",
-    "Will there be a contact? What will it look like?",
+    "Will there be contact? What will it look like?",
     "Attitudes to disclosure: military, researchers, religious people, the general public"
    ]
   },

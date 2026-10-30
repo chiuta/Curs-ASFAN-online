@@ -63,7 +63,7 @@
   "lang_aria": "Choisir la langue",
   "crumb_home": "Accueil",
   "title_index": "Introduction à l’ufologie – cours ASFAN, quatrième série",
-  "desc_index": "Cours gratuit en ligne (ZOOM), 18 nov. 2026 – 26 mai 2027, mercredis 19 h–21 h (Roumanie). 14 thèmes sur les phénomènes aérospatiaux non identifiés. En roumain.",
+  "desc_index": "Cours gratuit en ligne (ZOOM), 18 nov. 2026 – 26 mai 2027, mercredis 19 h–21 h (Roumanie). 14 thèmes sur les phénomènes aérospatiaux non identifiés. Coordinateur : Dan D. Farcaș. En roumain.",
   "ld_name": "Introduction à l’ufologie (quatrième série)",
   "ld_desc": "Cours gratuit en ligne sur les phénomènes aérospatiaux non identifiés.",
   "title_program": "Programme du cours – Introduction à l’ufologie · ASFAN",
@@ -107,7 +107,7 @@
   "card_where_v": "En ligne<br>via ZOOM",
   "card_who": "Pour qui ?",
   "card_who_v": "Pour tous ceux qui s’intéressent aux phénomènes inhabituels, à la science, à l’histoire, à la culture et aux mystères du monde.",
-  "h_study": "Que vais-je étudier ?",
+  "h_study": "Qu’allons-nous étudier ?",
   "h_study_sub": "Des <span class=\"oval\">OVNI/PAN</span> aux grandes questions de l’humanité.",
   "box_free_t": "Participation gratuite",
   "box_free_p": "La participation est gratuite ; à la fin du cours, les participants comptant au plus trois absences peuvent demander un diplôme.",
@@ -233,12 +233,12 @@
   "plan_h": "Introduction à l’ufologie",
   "plan_sub": "cours ASFAN, nov. 2026 – mai 2027",
   "plan_kind": "proposition de structure",
-  "plan_cal": "📅 Ajouter tout le cours à votre agenda",
+  "plan_cal": "📅 Ajouter tout le cours au calendrier",
   "enr_btn": "✉️ S’inscrire par e-mail",
   "enr_hint": "Votre application de messagerie s’ouvre avec le destinataire, l’objet et le message déjà remplis ; ajoutez votre nom et envoyez. Le message est rédigé en roumain, pour les organisateurs.",
   "nav_top": "Haut",
   "nav_inv": "Invitation",
-  "plan_ics": "Agenda",
+  "plan_ics": "Calendrier",
   "tz_note": "Heure de Roumanie. À Paris : 18 h–20 h ; à Londres : 17 h–19 h.",
   "enr_gmail": "Ouvrir dans Gmail",
   "enr_copy_msg": "Copier le message",
@@ -299,7 +299,7 @@
  "topics": [
   [
    "Phénomènes aérospatiaux non identifiés (OVNI/PAN)",
-   "Que savons-nous, que reste-t-il de mystère ?"
+   "Que savons-nous, et que reste-t-il à élucider ?"
   ],
   [
    "Aspects politiques et militaires récents",
@@ -436,9 +436,9 @@
   },
   {
    "title": "Liens avec la religion",
-   "text": "Liens avec la religion, sectes, apparitions saintes, OVNI dans la Bible ?, enlèvements célestes, expériences génétiques, sataniques ? Vatican, Vallée.",
+   "text": "Liens avec la religion, sectes, apparitions religieuses, OVNI dans la Bible ?, enlèvements célestes, expériences génétiques, sataniques ? Vatican, Vallée.",
    "chips": [
-    "Sectes, apparitions saintes",
+    "Sectes, apparitions religieuses",
     "OVNI dans la Bible ?",
     "Enlèvements célestes",
     "Expériences génétiques, sataniques ?",
@@ -448,11 +448,11 @@
   },
   {
    "title": "Civilisations anciennes",
-   "text": "Civilisations anciennes, Silurien, Atlantide, Nibiru, Anunnaki, Pléiadiens, reptiliens. Paléoastronautique, ooparts, constructions cyclopéennes, momies.",
+   "text": "Civilisations anciennes, Silurien, Atlantide, Nibiru, Anunnaki, pléiadiens, reptiliens. Paléoastronautique, ooparts, constructions cyclopéennes, momies.",
    "chips": [
     "Silurien, Atlantide",
     "Nibiru, Anunnaki",
-    "Pléiadiens, reptiliens",
+    "pléiadiens, reptiliens",
     "Paléoastronautique, ooparts",
     "Constructions cyclopéennes, momies"
    ]

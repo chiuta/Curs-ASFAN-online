@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:ASFAN course – Introduction to Ufology
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s1-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20261118T170000Z
@@ -13,10 +13,10 @@ DTEND:20261118T190000Z
 SUMMARY:ASFAN course – Introduction to Ufology (1/14)
 DESCRIPTION:The basics: unidentified aerospace/anomalous phenomena (UAP/UFO
  )\n\nUnidentified aerospace/anomalous phenomena (UAP/UFO)\, the basics: ae
- rial\, underwater\, outer space\, transmedium. Daytime\, nighttime and rad
- ar sightings. Characteristics\, landings. Aggressive UFOs.\n\nOne hour of 
- presentation\, one hour of discussion. Those admitted receive the ZOOM lin
- k by e-mail.\nDetails: https://curs.asfan.online/en/#s1
+ rial\, underwater\, outer space\, trans-medium. Daytime\, nighttime and ra
+ dar sightings. Characteristics\, landings. Aggressive UFOs.\n\nOne hour of
+  presentation\, one hour of discussion. Those admitted receive the ZOOM li
+ nk by e-mail.\nDetails: https://curs.asfan.online/en/#s1
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/en/#s1
 BEGIN:VALARM
@@ -27,19 +27,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s2-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20261202T170000Z
 DTEND:20261202T190000Z
 SUMMARY:ASFAN course – Introduction to Ufology (2/14)
 DESCRIPTION:Political-military history 1942–2017\n\nPolitical-military hi
- story 1942-2017\, nuclear connections\, crashes\, conflicts\, projects\, B
- lue Book\, Hynek\, regulations. Secrecy\, disinformation\, taboo\, ridicul
- e\, media complicity\, the UFO mythology. Also among the Russians\, Britis
- h\, French\, South Americans etc.\n\nOne hour of presentation\, one hour o
- f discussion. Those admitted receive the ZOOM link by e-mail.\nDetails: ht
- tps://curs.asfan.online/en/#s2
+ story 1942–2017\, nuclear connections\, crashes\, conflicts\, projects\,
+  Blue Book\, Hynek\, regulations. Secrecy\, disinformation\, taboo\, ridic
+ ule\, media complicity\, UFO mythology. Also in Russia\, Britain\, France\
+ , South America etc.\n\nOne hour of presentation\, one hour of discussion.
+  Those admitted receive the ZOOM link by e-mail.\nDetails: https://curs.as
+ fan.online/en/#s2
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/en/#s2
 BEGIN:VALARM
@@ -50,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s3-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20261216T170000Z
@@ -72,19 +72,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s4-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270113T170000Z
 DTEND:20270113T190000Z
 SUMMARY:ASFAN course – Introduction to Ufology (4/14)
 DESCRIPTION:Close encounters of the 3rd–4th kind\n\nClose encounters of t
- he 3rd-4th kind. Contacts\, contactees\, abductions\, scenario\, genetic e
- xperiments\, indoctrination\, special characteristics\, evidence\, abducti
- ons without return. Hopkins\, Mack etc. Mutilations\, cryptozoology\, rese
- rvations?\n\nOne hour of presentation\, one hour of discussion. Those admi
- tted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.online/
- en/#s4
+ he 3rd–4th kind. Contacts\, contactees\, abductions\, scenario\, genetic
+  experiments\, indoctrination\, special characteristics\, evidence\, abduc
+ tions without return. Hopkins\, Mack etc. Mutilations\, cryptozoology\, re
+ servations?\n\nOne hour of presentation\, one hour of discussion. Those ad
+ mitted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.onlin
+ e/en/#s4
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/en/#s4
 BEGIN:VALARM
@@ -95,17 +95,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s5-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270224T170000Z
 DTEND:20270224T190000Z
 SUMMARY:ASFAN course – Introduction to Ufology (5/14)
 DESCRIPTION:The ancient history of the phenomenon\n\nThe ancient history of
-  the phenomenon\, folkloric connections\, iele (Romanian folklore fairies)
- \, dwarves\, Magonia\, magic circles and crop circles\, Vallée.\n\nOne ho
- ur of presentation\, one hour of discussion. Those admitted receive the ZO
- OM link by e-mail.\nDetails: https://curs.asfan.online/en/#s5
+  the phenomenon\, folkloric connections\, iele (fairy-like female beings o
+ f Romanian folklore)\, dwarves\, Magonia\, magic circles and crop circles\
+ , Vallée.\n\nOne hour of presentation\, one hour of discussion. Those adm
+ itted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.online
+ /en/#s5
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/en/#s5
 BEGIN:VALARM
@@ -116,18 +117,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s6-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270303T170000Z
 DTEND:20270303T190000Z
 SUMMARY:ASFAN course – Introduction to Ufology (6/14)
 DESCRIPTION:The connection with the paranormal\n\nThe connection with the p
- aranormal. The CRV remote viewing technique\, channeling\, Akasha\, reinca
- rnations? Spiritual aspects\, journeys of the spirit\, shamans\, technique
- s\, Mack.\n\nOne hour of presentation\, one hour of discussion. Those admi
- tted receive the ZOOM link by e-mail.\nDetails: https://curs.asfan.online/
- en/#s6
+ aranormal. The CRV (Controlled Remote Viewing) technique\, channeling\, Ak
+ asha\, reincarnations? Spiritual aspects\, journeys of the spirit\, shaman
+ s\, techniques\, Mack.\n\nOne hour of presentation\, one hour of discussio
+ n. Those admitted receive the ZOOM link by e-mail.\nDetails: https://curs.
+ asfan.online/en/#s6
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/en/#s6
 BEGIN:VALARM
@@ -138,7 +139,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s7-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270310T170000Z
@@ -158,17 +159,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s8-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270324T170000Z
 DTEND:20270324T190000Z
 SUMMARY:ASFAN course – Introduction to Ufology (8/14)
 DESCRIPTION:Religious connections\n\nReligious connections\, sects\, holy a
- pparitions\, UFOs in the Bible?\, heavenly abductions\, genetic experiment
- s\, satanic? Vatican\, Vallée.\n\nOne hour of presentation\, one hour of 
- discussion. Those admitted receive the ZOOM link by e-mail.\nDetails: http
- s://curs.asfan.online/en/#s8
+ pparitions\, UFOs in the Bible? Heavenly abductions\, genetic experiments\
+ , satanic? Vatican\, Vallée.\n\nOne hour of presentation\, one hour of di
+ scussion. Those admitted receive the ZOOM link by e-mail.\nDetails: https:
+ //curs.asfan.online/en/#s8
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/en/#s8
 BEGIN:VALARM
@@ -179,17 +180,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s9-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270331T160000Z
 DTEND:20270331T180000Z
 SUMMARY:ASFAN course – Introduction to Ufology (9/14)
 DESCRIPTION:Ancient civilisations\n\nAncient civilisations\, Silurian\, Atl
- antis\, Nibiru\, Anunnaki\, Pleiadians\, reptilians. Paleocontact\, oopart
- s\, cyclopean constructions\, mummies.\n\nOne hour of presentation\, one h
- our of discussion. Those admitted receive the ZOOM link by e-mail.\nDetail
- s: https://curs.asfan.online/en/#s9
+ antis\, Nibiru\, Anunnaki\, Pleiadians\, reptilians. Paleoastronautics\, O
+ OPArts\, cyclopean constructions\, mummies.\n\nOne hour of presentation\, 
+ one hour of discussion. Those admitted receive the ZOOM link by e-mail.\nD
+ etails: https://curs.asfan.online/en/#s9
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/en/#s9
 BEGIN:VALARM
@@ -200,7 +201,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s10-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270407T160000Z
@@ -222,18 +223,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s11-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270421T160000Z
 DTEND:20270421T180000Z
 SUMMARY:ASFAN course – Introduction to Ufology (11/14)
 DESCRIPTION:Attempts at disclosure\n\nAttempts at disclosure. Declassificat
- ions. Will there be a contact? What will it look like? Under what conditio
- ns? The current attitude towards disclosure: military\, researchers\, reli
- gious people\, the general public.\n\nOne hour of presentation\, one hour 
- of discussion. Those admitted receive the ZOOM link by e-mail.\nDetails: h
- ttps://curs.asfan.online/en/#s11
+ ions. Will there be contact? What will it look like? Under what conditions
+ ? The current attitude towards disclosure: military\, researchers\, religi
+ ous people\, the general public.\n\nOne hour of presentation\, one hour of
+  discussion. Those admitted receive the ZOOM link by e-mail.\nDetails: htt
+ ps://curs.asfan.online/en/#s11
 LOCATION:Online\, via ZOOM
 URL:https://curs.asfan.online/en/#s11
 BEGIN:VALARM
@@ -244,7 +245,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s12-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270428T160000Z
@@ -264,7 +265,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s13-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270512T160000Z
@@ -286,7 +287,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s14-en@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270526T160000Z

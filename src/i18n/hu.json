@@ -63,7 +63,7 @@
   "lang_aria": "Válasszon nyelvet",
   "crumb_home": "Főoldal",
   "title_index": "Bevezetés az ufológiába – ASFAN-tanfolyam, negyedik sorozat",
-  "desc_index": "Ingyenes online tanfolyam ZOOM-on, 2026.11.18–2027.05.26, szerdánként 19–21 (Románia). 14 téma az azonosítatlan légköri jelenségekről. Román nyelven.",
+  "desc_index": "Ingyenes online tanfolyam ZOOM-on, 2026. nov. 18. – 2027. máj. 26., szerdánként 19–21 óra (romániai idő). 14 téma az azonosítatlan légi és űrbeli jelenségekről. Vezető: Dan D. Farcaș. Román nyelven.",
   "ld_name": "Bevezetés az ufológiába (negyedik sorozat)",
   "ld_desc": "Ingyenes online tanfolyam az azonosítatlan légi és űrbeli jelenségekről.",
   "title_program": "A tanfolyam programja – Bevezetés az ufológiába · ASFAN",
@@ -84,7 +84,7 @@
   "hero_serie": "(negyedik sorozat)",
   "hero_date": "2026. november – 2027. május",
   "hero_line": "Utazás a világ titkai között, a horizonton túlra.",
-  "hero_tags": "UFO/AAP|EMBEREK|ESZMÉK|BIZONYÍTÉKOK|MAGYARÁZATOK",
+  "hero_tags": "UFO/UAP|EMBEREK|ESZMÉK|BIZONYÍTÉKOK|MAGYARÁZATOK",
   "cta_enroll": "Jelentkezzen ingyen",
   "cta_program": "Tekintse meg a programot",
   "mini_tags": "TUDOMÁNY|TÖRTÉNELEM|KULTÚRA|EMBEREK|KÉRDÉSEK|JÖVŐ",
@@ -108,13 +108,13 @@
   "card_who": "Kinek?",
   "card_who_v": "Mindenkinek, akit érdekelnek a szokatlan jelenségek, a tudomány, a történelem, a kultúra és a világ titkai.",
   "h_study": "Mit fogunk tanulmányozni?",
-  "h_study_sub": "Az <span class=\"oval\">UFO/AAP</span>-októl az emberiség nagy kérdéseiig.",
+  "h_study_sub": "Az <span class=\"oval\">UFO/UAP</span>-októl az emberiség nagy kérdéseiig.",
   "box_free_t": "Ingyenes részvétel",
   "box_free_p": "A részvétel ingyenes, de a tanfolyam végén azok, akik legfeljebb háromszor hiányoztak, oklevelet kérhetnek.",
   "box_seats_t": "Korlátozott létszám",
   "box_seats_p": "A helyek száma korlátozott. A felvettek minden előadáshoz e-mailben megkapják a ZOOM-linket.",
   "box_enroll_t": "Jelentkezés",
-  "box_enroll_p": "Jelentkezni e-mailben lehet<br>a következő címen: <a class=\"mail\" href=\"mailto:{MAIL}\">{MAIL}</a><br>2026. <b>november 17-ig</b>.<br>A felvettekről elvileg<br>a jelentkezés sorrendjében értesítünk.",
+  "box_enroll_p": "Jelentkezni e-mailben lehet<br>a következő címen: <a class=\"mail\" href=\"mailto:{MAIL}\">{MAIL}</a><br><b>2026. november 17-ig</b>.<br>A felvettekről elvileg<br>a jelentkezés sorrendjében értesítünk.",
   "foot_tag_b": "ASFAN – Együtt a megismerés felé.",
   "foot_tag_s": "KÍVÁNCSISÁG · MEGISMERÉS · KÖZÖSSÉG · FÉNYESEBB JÖVŐ",
   "foot_hand": "Valódi kérdések.<br>Lehetséges világok.",
@@ -126,9 +126,9 @@
   "lb_close": "Bezár ✕",
   "lb_alt": "A tanfolyam plakátja",
   "prog_h1": "A tanfolyam <em>programja</em>",
-  "prog_lead": "14 alkalom, szerdánként 19:00–21:00 (romániai idő), ZOOM-on: egy óra előadás és egy óra beszélgetés. A felépítés a tanfolyamra javasolt terv szerinti.",
+  "prog_lead": "14 alkalom, szerdánként 19:00–21:00 (romániai idő), ZOOM-on: egy óra előadás és egy óra beszélgetés. A felépítés a tanfolyamra javasolt tervet követi.",
   "prog_expand": "Összes kinyitása",
-  "prog_cal_all": "📅 Az egész tanfolyam naptárba",
+  "prog_cal_all": "📅 Az egész tanfolyam hozzáadása a naptárhoz",
   "prog_filter_ph": "Keressen témát (pl.: Vallée, CRV, AARO)…",
   "prog_filter_aria": "Keresés a programban",
   "prog_session_page": "Az alkalom oldala →",
@@ -138,7 +138,7 @@
   "s_lead": "{label}, 19:00–21:00 · online, ZOOM-on",
   "fact_date": "Dátum",
   "fact_time": "Idő (Románia)",
-  "fact_format": "Forma",
+  "fact_format": "Formátum",
   "fact_place": "Helyszín",
   "s_format_v": "1 óra előadás + 1 óra beszélgetés",
   "s_place_v": "Online, ZOOM",
@@ -153,7 +153,7 @@
   "about_h1": "A <em>tanfolyamról</em>",
   "about_lead": "Az ASFAN – az azonosítatlan légi és űrbeli jelenségeket kutató egyesület – szeretettel meghívja Önt a „Bevezetés az ufológiába” című tanfolyamra (negyedik sorozat).",
   "about_invite": "Meghívó",
-  "about_p1": "A tanfolyam az azonosítatlan légi és űrbeli jelenségek alapfogalmait tárgyalja: a legfrissebb politikai és katonai vonatkozásokat, a dezinformációt, az elrablásokat, a népi hagyománnyal, a vallással és a paranormálissal való kapcsolatokat, a samanokat, a magyarázati kísérleteket, a vizsgálati módszertant, a hamis UFO-kat, a nemzetközi szakmai szervezeteket és egyebeket.",
+  "about_p1": "A tanfolyam az azonosítatlan légi és űrbeli jelenségek alapfogalmait tárgyalja: a legfrissebb politikai és katonai vonatkozásokat, a dezinformációt, az elrablásokat, a folklórral, a vallással és a paranormálissal való kapcsolatokat, a samanokat, a magyarázati kísérleteket, a vizsgálati módszertant, a hamis UFO-kat, a nemzetközi szakmai szervezeteket és egyebeket.",
   "about_p2": "A tanfolyam ZOOM-on zajlik, elvileg kéthetente, szerdánként 19–21 óra között, egy óra előadással és egy óra beszélgetéssel, 2026. november 18. és 2027. május 26. között, az ünnepnapokat és a vizsgaidőszakokat elkerülve.",
   "about_p3": "A részvétel ingyenes, de a tanfolyam végén azok, akik legfeljebb háromszor hiányoztak, oklevelet kérhetnek.",
   "about_p4": "A létszám korlátozott. Jelentkezni a <a href=\"mailto:{MAIL}\">{MAIL}</a> címre küldött e-mailben lehet, 2026. november 17-ig. A felvettek (elvileg a jelentkezés sorrendjében) minden előadáshoz e-mailben megkapják a ZOOM-linket.",
@@ -185,7 +185,7 @@
   "enr_h1": "<em>Jelentkezés</em> a tanfolyamra",
   "enr_lead": "Ingyenes részvétel · korlátozott létszám · határidő: <b>2026. november 17.</b> A felvettek (elvileg a jelentkezés sorrendjében) e-mailben kapják meg a ZOOM-linket.",
   "enr_cd_label": "A jelentkezés lezárásáig",
-  "enr_cd_done": "A jelentkezési határidő (2026. november 17.) lejárt. Ennek ellenére megírhatja a szervezőknek.",
+  "enr_cd_done": "A jelentkezési határidő (2026. november 17.) lejárt. Ennek ellenére írhat a szervezőknek.",
   "enr_form_h": "Űrlap",
   "enr_note1": "Az űrlap kitöltése előkészít egy e-mailt a szervezőknek az Ön e-mail-alkalmazásában; el is kell küldenie. Az adatokat nem tároljuk ezen az oldalon.",
   "enr_name": "Családi és utónév *",
@@ -206,7 +206,7 @@
   "qr_print": "🖨️ Oldal nyomtatása",
   "qr_note": "Az első kód a {SITE}/ oldalra visz, a második a {ASFAN} oldalra.",
   "qr_course_h": "A tanfolyam weboldala",
-  "qr_course_p": "Olvassa be a programért, a részletekért és a jelentkezéshez.",
+  "qr_course_p": "Olvassa be a programhoz, a részletekhez és a jelentkezéshez.",
   "qr_asfan_h": "Az ASFAN weboldala",
   "qr_asfan_p": "Az azonosítatlan légi és űrbeli jelenségeket kutató egyesület.",
   "qr_copy": "Link másolása",
@@ -227,7 +227,7 @@
   "share_via": "Megosztás: {net}",
   "share_text": "Ingyenes online tanfolyam: „Bevezetés az ufológiába” (ASFAN), 2026. november 18. – 2027. május 26., ZOOM-on (román nyelven)",
   "inv_h": "MEGHÍVÓ",
-  "inv_lead": "Az ASFAN tisztelettel meghívja Önt a következő című tanfolyamra",
+  "inv_lead": "Az ASFAN tisztelettel meghívja Önt a következő címmel meghirdetett tanfolyamra",
   "inv_title": "BEVEZETÉS AZ UFOLÓGIÁBA",
   "inv_sign": "A tanfolyam vezetője, az ASFAN elnöke",
   "plan_h": "Bevezetés az ufológiába",
@@ -235,14 +235,14 @@
   "plan_kind": "javasolt szerkezet",
   "plan_cal": "📅 A teljes tanfolyam hozzáadása a naptárhoz",
   "enr_btn": "✉️ Jelentkezés e-mailben",
-  "enr_hint": "Megnyílik az e-mail alkalmazás a címzettel, a tárgygyal és az üzenettel kitöltve; adja hozzá a nevét, és küldje el. Az e-mail a szervezők számára román nyelvű.",
+  "enr_hint": "Megnyílik az e-mail-alkalmazás a címzettel, a tárggyal és az üzenettel kitöltve; adja hozzá a nevét, és küldje el. Az e-mail a szervezők számára román nyelvű.",
   "nav_top": "Fel",
   "nav_inv": "Meghívó",
   "plan_ics": "Naptár",
   "tz_note": "Romániai idő szerint. Budapesten: 18:00–20:00; Londonban: 17:00–19:00.",
   "enr_gmail": "Megnyitás Gmailben",
   "enr_copy_msg": "Üzenet másolása",
-  "enr_alt": "Nincs e-mail alkalmazás?",
+  "enr_alt": "Nincs e-mail-alkalmazása?",
   "og_alt": "„Bevezetés az ufológiába” tanfolyam plakátja – UFO, moai szobor és Dan D. Farcaș portréja",
   "prog_none": "Nincs a keresésnek megfelelő téma.",
   "over_note": "A tanfolyam véget ért. Köszönjük minden résztvevőnek! Hírek és a következő sorozat: www.asfanufo.ro"
@@ -293,12 +293,12 @@
   ],
   [
    "Milyen témákat érint a tanfolyam?",
-   "A legfrissebb politikai és katonai vonatkozásokat, a dezinformációt, az elrablásokat, a népi hagyománnyal, a vallással és a paranormálissal való kapcsolatokat, a samanokat, a magyarázati kísérleteket, a vizsgálati módszertant, a hamis UFO-kat, a nemzetközi szakmai szervezeteket és egyebeket."
+   "Többek között a legfrissebb politikai és katonai vonatkozásokat, a dezinformációt, az elrablásokat, a folklórral, a vallással és a paranormálissal való kapcsolatokat, a samanokat, a magyarázati kísérleteket, a vizsgálati módszertant, a hamis UFO-kat és a nemzetközi szakmai szervezeteket."
   ]
  ],
  "topics": [
   [
-   "Azonosítatlan légi és űrbeli jelenségek (UFO/AAP)",
+   "Azonosítatlan légi és űrbeli jelenségek (UFO/UAP)",
    "Mit tudunk, és mi marad rejtély?"
   ],
   [
@@ -314,7 +314,7 @@
    "Esetek, tanúvallomások, értelmezések."
   ],
   [
-   "Népi hagyományi és történelmi kapcsolatok",
+   "Népi hagyományokhoz és a történelemhez fűződő kapcsolatok",
    "A legendáktól a modern esetekig."
   ],
   [
@@ -346,7 +346,7 @@
    "Tudományban, művészetben, filmben és a társadalomban."
   ],
   [
-   "Következmények a jövőre nézve",
+   "Jövőbeli következmények",
    "Mit tanulunk a jelenségből?"
   ],
   [
@@ -356,8 +356,8 @@
  ],
  "sessions": [
   {
-   "title": "Alapfogalmak: azonosítatlan légi/anomális jelenségek (AAP/UFO)",
-   "text": "Azonosítatlan légi/anomális jelenségek (AAP/UFO), alapfogalmak: légi, víz alatti, világűr, transzmédia. Nappali, éjszakai, radarmegfigyelések. Tulajdonságok, leszállások. Agresszív UFO-k.",
+   "title": "Alapfogalmak: azonosítatlan légi/anomális jelenségek (UAP/UFO)",
+   "text": "Azonosítatlan légi/anomális jelenségek (UAP/UFO), alapfogalmak: légi, víz alatti, világűr, transzmédia. Nappali, éjszakai, radarmegfigyelések. Tulajdonságok, leszállások. Agresszív UFO-k.",
    "chips": [
     "Légi, víz alatti, világűr, transzmédia",
     "Nappali, éjszakai, radarmegfigyelések",
@@ -391,11 +391,11 @@
   },
   {
    "title": "Harmadik–negyedik típusú találkozások",
-   "text": "Harmadik–negyedik típusú találkozások. Kapcsolatfelvételek, kapcsolatba kerültek, elrablások, forgatókönyv, genetikai kísérletek, átprogramozás, különleges jellemzők, bizonyítékok, vissza nem térő elrablások. Hopkins, Mack stb. Megcsonkítások, kriptozoológia, rezervátumok?",
+   "text": "Harmadik–negyedik típusú találkozások. Kapcsolatfelvételek, kontaktszemélyek, elrablások, forgatókönyv, genetikai kísérletek, indoktrináció, különleges jellemzők, bizonyítékok, vissza nem térő elrablások. Hopkins, Mack stb. Megcsonkítások, kriptozoológia, rezervátumok?",
    "chips": [
-    "Kapcsolatfelvételek, kapcsolatba kerültek",
+    "Kapcsolatfelvételek, kontaktszemélyek",
     "Elrablások, forgatókönyv, genetikai kísérletek",
-    "Átprogramozás, különleges jellemzők, bizonyítékok",
+    "Indoktrináció, különleges jellemzők, bizonyítékok",
     "Vissza nem térő elrablások",
     "Hopkins, Mack",
     "Megcsonkítások, kriptozoológia, rezervátumok?"
@@ -403,9 +403,9 @@
   },
   {
    "title": "A jelenség régi története",
-   "text": "A jelenség régi története, népi hagyományi kapcsolatok, ielék (román népi tündérek), törpék, Magonia, mágikus körök és terménykörök, Vallée.",
+   "text": "A jelenség régi története, folklórkapcsolatok, ielék (román népi tündérek), törpék, Magonia, mágikus körök és terménykörök, Vallée.",
    "chips": [
-    "Népi hagyományi kapcsolatok",
+    "Folklórkapcsolatok",
     "Ielék (román népi tündérek), törpék",
     "Magonia",
     "Mágikus körök és terménykörök",
@@ -487,9 +487,9 @@
   },
   {
    "title": "Vizsgálati módszertan és hamis UFO-k",
-   "text": "Módszertan, hogyan vizsgáljuk az AAP-eseteket, ASFAN-források (adatbázis, adattár stb.). Hogyan ismerünk fel/különböztetünk meg egy UFO-t, hamis UFO-k, repülőgépek, műholdak, fényképek és filmek, hamisítványok.",
+   "text": "Módszertan, hogyan vizsgáljuk az UAP-eseteket, ASFAN-források (adatbázis, adattár stb.). Hogyan ismerünk fel/különböztetünk meg egy UFO-t, hamis UFO-k, repülőgépek, műholdak, fényképek és filmek, hamisítványok.",
    "chips": [
-    "Hogyan vizsgáljuk az AAP-eseteket",
+    "Hogyan vizsgáljuk az UAP-eseteket",
     "ASFAN-források (adatbázis, adattár)",
     "Hamis UFO-k: repülőgépek, műholdak",
     "Fényképek, filmek, hamisítványok"

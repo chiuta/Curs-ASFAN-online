@@ -5,7 +5,7 @@ import os, json, html, datetime as dt, shutil
 import segno
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-OUT = os.environ.get("OUT") or os.path.dirname(ROOT)
+OUT = os.environ.get("OUT") or os.path.join(ROOT, "site")
 POSTER = os.environ.get("POSTER") == "1"
 SIMPLE = os.environ.get("SIMPLE") == "1"   # fără titluri/etichete derivate: doar textul din plan
 SITE = "https://curs.asfan.online"

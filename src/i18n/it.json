@@ -63,7 +63,7 @@
   "lang_aria": "Scegli la lingua",
   "crumb_home": "Home",
   "title_index": "Introduzione all'ufologia – corso ASFAN, quarta serie",
-  "desc_index": "Corso gratuito online su ZOOM, 18 nov 2026 – 26 mag 2027, mercoledì 19:00–21:00 (Romania). 14 temi sui fenomeni aerospaziali non identificati. In romeno.",
+  "desc_index": "Corso gratuito online su ZOOM, 18 nov 2026 – 26 mag 2027, mercoledì 19:00–21:00 (ora della Romania). 14 temi sui fenomeni aerospaziali non identificati. Coordinatore: Dan D. Farcaș. In romeno.",
   "ld_name": "Introduzione all'ufologia (quarta serie)",
   "ld_desc": "Corso gratuito online sui fenomeni aerospaziali non identificati.",
   "title_program": "Programma del corso – Introduzione all'ufologia · ASFAN",
@@ -133,7 +133,7 @@
   "prog_filter_aria": "Cerca nel programma",
   "prog_session_page": "Pagina della sessione →",
   "prog_cal": "📅 Calendario",
-  "prog_note": "Gli orari sono in ora della Romania (EET/EEST). Il link ZOOM per ogni incontro viene inviato per e-mail agli ammessi.",
+  "prog_note": "Gli orari sono espressi in ora della Romania (EET/EEST). Il link ZOOM per ogni incontro viene inviato per e-mail agli ammessi.",
   "s_crumb": "Sessione {n}",
   "s_lead": "{label}, ore 19:00–21:00 · online su ZOOM",
   "fact_date": "Data",
@@ -142,7 +142,7 @@
   "fact_place": "Luogo",
   "s_format_v": "1 h di relazione + 1 h di discussione",
   "s_place_v": "Online, ZOOM",
-  "s_cd_label": "Mancano a questa sessione",
+  "s_cd_label": "Alla sessione mancano",
   "s_cd_done": "La sessione è iniziata o si è conclusa",
   "s_about": "Di cosa parliamo",
   "s_topics": "Dai temi della locandina",
@@ -151,7 +151,7 @@
   "s_note": "Il link ZOOM della sessione viene inviato per e-mail ai partecipanti ammessi. La partecipazione è gratuita; l'attestato si può richiedere con al massimo tre assenze.",
   "s_all": "Tutte le sessioni",
   "about_h1": "Il <em>corso</em>",
-  "about_lead": "ASFAN – Associazione per lo studio dei fenomeni aerospaziali non identificati – ti invita al corso «Introduzione all'ufologia» (quarta serie).",
+  "about_lead": "ASFAN – Associazione per lo studio dei fenomeni aerospaziali non identificati – vi invita al corso «Introduzione all'ufologia» (quarta serie).",
   "about_invite": "Invito",
   "about_p1": "Il corso offre nozioni di base sui fenomeni aerospaziali non identificati: ultimi sviluppi politici e militari, disinformazione, rapimenti, legami con folclore, religione e paranormale, sciamani, tentativi di spiegazione, metodologia d'indagine, falsi UFO, organizzazioni internazionali del settore e altro.",
   "about_p2": "Il corso si svolge su ZOOM, in linea di massima ogni due settimane, il mercoledì dalle 19 alle 21, con un'ora di relazione e un'ora di discussione, dal 18 novembre 2026 al 26 maggio 2027, evitando i giorni festivi e le sessioni d'esame.",
@@ -249,7 +249,7 @@
  },
  "js": {
   "copied": "Copiato ✓",
-  "copy_manual": "Copia a mano",
+  "copy_manual": "Copia manualmente",
   "copy_fail": "Impossibile copiare",
   "expand": "Espandi tutto",
   "collapse": "Comprimi tutto",
@@ -367,10 +367,10 @@
   },
   {
    "title": "Storia politico-militare 1942–2017",
-   "text": "Storia politico-militare 1942-2017, legami nucleari, precipitazioni, conflitti, progetti, Blue Book, Hynek, regolamenti. Segreto, disinformazione, tabù, ridicolizzazione, complicità dei media, mitologia UFO. E presso russi, inglesi, francesi, sudamericani ecc.",
+   "text": "Storia politico-militare 1942-2017, legami nucleari, schianti, conflitti, progetti, Blue Book, Hynek, regolamenti. Segreto, disinformazione, tabù, ridicolizzazione, complicità dei media, mitologia UFO. E presso russi, inglesi, francesi, sudamericani ecc.",
    "chips": [
     "Legami nucleari",
-    "Precipitazioni, conflitti, progetti",
+    "Schianti, conflitti, progetti",
     "Blue Book, Hynek, regolamenti",
     "Segreto, disinformazione, tabù, ridicolizzazione",
     "Complicità dei media, mitologia UFO",
@@ -448,12 +448,12 @@
   },
   {
    "title": "Civiltà antichissime",
-   "text": "Civiltà antichissime, Siluriano, Atlantide, Nibiru, Anunnaki, pleiadiani, rettiliani. Paleoastronautica, ooparts, costruzioni ciclopiche, mummie.",
+   "text": "Civiltà antichissime, Siluriano, Atlantide, Nibiru, Anunnaki, pleiadiani, rettiliani. Paleoastronautica, OOPArt (manufatti fuori contesto), costruzioni ciclopiche, mummie.",
    "chips": [
     "Siluriano, Atlantide",
     "Nibiru, Anunnaki",
     "Pleiadiani, rettiliani",
-    "Paleoastronautica, ooparts",
+    "Paleoastronautica, OOPArt",
     "Costruzioni ciclopiche, mummie"
    ]
   },
@@ -468,12 +468,12 @@
    ]
   },
   {
-   "title": "Tentativi di rivelazione",
-   "text": "Tentativi di rivelazione. Declassificazioni. Ci sarà un contatto? Come sarà? A quali condizioni? L'atteggiamento attuale verso una rivelazione: militari, ricercatori, religiosi, grande pubblico.",
+   "title": "Tentativi di divulgazione",
+   "text": "Tentativi di divulgazione. Declassificazioni. Ci sarà un contatto? Come sarà? A quali condizioni? L'atteggiamento attuale verso una divulgazione: militari, ricercatori, religiosi, grande pubblico.",
    "chips": [
     "Declassificazioni",
     "Ci sarà un contatto? Come sarà?",
-    "Atteggiamento verso la rivelazione: militari, ricercatori, religiosi, grande pubblico"
+    "Atteggiamento verso la divulgazione: militari, ricercatori, religiosi, grande pubblico"
    ]
   },
   {

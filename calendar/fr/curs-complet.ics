@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Cours ASFAN – Introduction à l’ufologie
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s1-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20261118T170000Z
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s2-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20261202T170000Z
@@ -51,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s3-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20261216T170000Z
@@ -74,7 +74,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s4-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270113T170000Z
@@ -97,7 +97,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s5-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270224T170000Z
@@ -118,7 +118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s6-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270303T170000Z
@@ -140,7 +140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s7-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270310T170000Z
@@ -160,17 +160,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s8-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270324T170000Z
 DTEND:20270324T190000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (8/14)
 DESCRIPTION:Liens avec la religion\n\nLiens avec la religion\, sectes\, app
- aritions saintes\, OVNI dans la Bible ?\, enlèvements célestes\, expéri
- ences génétiques\, sataniques ? Vatican\, Vallée.\n\nUne heure d’expo
- sé\, une heure de discussion. Les personnes admises reçoivent le lien ZO
- OM par e-mail.\nDétails : https://curs.asfan.online/fr/#s8
+ aritions religieuses\, OVNI dans la Bible ?\, enlèvements célestes\, exp
+ ériences génétiques\, sataniques ? Vatican\, Vallée.\n\nUne heure d’
+ exposé\, une heure de discussion. Les personnes admises reçoivent le lie
+ n ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s8
 LOCATION:En ligne\, via ZOOM
 URL:https://curs.asfan.online/fr/#s8
 BEGIN:VALARM
@@ -181,14 +181,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s9-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270331T160000Z
 DTEND:20270331T180000Z
 SUMMARY:Cours ASFAN – Introduction à l’ufologie (9/14)
 DESCRIPTION:Civilisations anciennes\n\nCivilisations anciennes\, Silurien\,
-  Atlantide\, Nibiru\, Anunnaki\, Pléiadiens\, reptiliens. Paléoastronaut
+  Atlantide\, Nibiru\, Anunnaki\, pléiadiens\, reptiliens. Paléoastronaut
  ique\, ooparts\, constructions cyclopéennes\, momies.\n\nUne heure d’ex
  posé\, une heure de discussion. Les personnes admises reçoivent le lien 
  ZOOM par e-mail.\nDétails : https://curs.asfan.online/fr/#s9
@@ -202,7 +202,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s10-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270407T160000Z
@@ -224,7 +224,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s11-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270421T160000Z
@@ -246,7 +246,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s12-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270428T160000Z
@@ -266,7 +266,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s13-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270512T160000Z
@@ -289,7 +289,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asfan-ufologie-4-s14-fr@curs.asfan.online
-DTSTAMP:20261030T131345Z
+DTSTAMP:20261030T132556Z
 SEQUENCE:13
 STATUS:CONFIRMED
 DTSTART:20270526T160000Z
