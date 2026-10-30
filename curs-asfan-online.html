@@ -503,7 +503,6 @@ details.lang ul{position:absolute;right:0;top:calc(100% + 6px);margin:0;padding:
 details.lang a{display:flex;align-items:center;padding:0 12px;border-radius:8px;color:#e8f1ff;text-decoration:none;min-height:44px}
 details.lang a:hover{background:rgba(76,201,255,.14)}
 details.lang a[aria-current]{background:rgba(76,201,255,.2);font-weight:800}
-@media (max-width:860px){details.lang ul{position:static;box-shadow:none;margin-top:6px}}
 /* ===== ajustări per limbă (texte mai lungi decât în română) ===== */
 html[lang="hu"] .t-main{font-size:clamp(2.2rem,11.6vw,5rem)}
 html[lang="es"] .sec h2 .sub,html[lang="fr"] .sec h2 .sub,html[lang="pt"] .sec h2 .sub,html[lang="it"] .sec h2 .sub,html[lang="de"] .sec h2 .sub,html[lang="hu"] .sec h2 .sub{white-space:normal}
@@ -523,6 +522,16 @@ html[lang="es"] .sec h2 .sub,html[lang="fr"] .sec h2 .sub,html[lang="pt"] .sec h
 }
 @media (min-width:900px){html[lang="fr"] .ic:nth-child(4) .sm,html[lang="de"] .ic:nth-child(4) .sm,html[lang="hu"] .ic:nth-child(4) .sm{font-size:calc(14*var(--u));line-height:1.28}}
 
+/* comutator de limbă pe bara de sus */
+.topbar .wrap>details.lang{order:3;margin-left:6px}
+.logo-home{display:contents}
+@media (max-width:860px){
+  .topbar .wrap>details.lang{order:0;margin-left:auto}
+  .topbar .wrap>.btn-menu{margin-left:0}
+  details.lang summary{padding:0 12px}
+  .brand small{display:none}
+}
+
 [hidden]{display:none!important}
 section.page{display:block}
 
@@ -534,6 +543,7 @@ section.page{display:block}
 <noscript><p style="margin:0;padding:14px;background:#7a1d1d;color:#fff;position:relative;z-index:9">This site needs JavaScript · Acest site are nevoie de JavaScript.</p></noscript>
 <header class="topbar"><a class="skip" href="#/" data-skip data-k="skip">Sari la conținut</a><div class="wrap">
   <a class="brand" data-nav="" data-k-aria="brand_aria" href="#/" aria-label="ASFAN – Curs: Introducere în ufologie, pagina principală"><img data-img="logo.png" alt="ASFAN România" data-k-alt="logo_alt" width="108" height="40"><small data-k="brand_small">Curs: Introducere în ufologie</small></a>
+  <details class="lang"><summary data-k-aria="lang_aria" aria-label="Alege limba"><span aria-hidden="true">🌐</span> <b>RO</b></summary><ul><li><a lang="ro" hreflang="ro" data-lang-link="ro" href="#/" aria-current="true">Română</a></li><li><a lang="en" hreflang="en" data-lang-link="en" href="#/en/">English</a></li><li><a lang="fr" hreflang="fr" data-lang-link="fr" href="#/fr/">Français</a></li><li><a lang="it" hreflang="it" data-lang-link="it" href="#/it/">Italiano</a></li><li><a lang="es" hreflang="es" data-lang-link="es" href="#/es/">Español</a></li><li><a lang="pt" hreflang="pt" data-lang-link="pt" href="#/pt/">Português</a></li><li><a lang="de" hreflang="de" data-lang-link="de" href="#/de/">Deutsch</a></li><li><a lang="hu" hreflang="hu" data-lang-link="hu" href="#/hu/">Magyar</a></li></ul></details>
   <button class="btn-menu" type="button" aria-expanded="false" aria-controls="nav" data-k="menu_btn">Meniu ☰</button>
   <nav class="main" id="nav" aria-label="Navigare principală" data-k-aria="nav_aria">
     <a class="lnk" data-nav="" data-k="nav_home" href="#/">Acasă</a>
@@ -541,7 +551,6 @@ section.page{display:block}
     <a class="lnk" data-nav="detalii" data-k="nav_about" href="#/detalii">Despre curs</a>
     <a class="lnk" data-nav="inscriere" data-k="nav_enroll" href="#/inscriere">Înscriere</a>
     <a class="lnk" data-nav="qr" data-k="nav_qr" href="#/qr">Cod QR</a>
-    <details class="lang"><summary data-k-aria="lang_aria" aria-label="Alege limba"><span aria-hidden="true">🌐</span> <b>RO</b></summary><ul><li><a lang="ro" hreflang="ro" data-lang-link="ro" href="#/" aria-current="true">Română</a></li><li><a lang="en" hreflang="en" data-lang-link="en" href="#/en/">English</a></li><li><a lang="fr" hreflang="fr" data-lang-link="fr" href="#/fr/">Français</a></li><li><a lang="it" hreflang="it" data-lang-link="it" href="#/it/">Italiano</a></li><li><a lang="es" hreflang="es" data-lang-link="es" href="#/es/">Español</a></li><li><a lang="pt" hreflang="pt" data-lang-link="pt" href="#/pt/">Português</a></li><li><a lang="de" hreflang="de" data-lang-link="de" href="#/de/">Deutsch</a></li><li><a lang="hu" hreflang="hu" data-lang-link="hu" href="#/hu/">Magyar</a></li></ul></details>
     <span class="theme-switch" role="group" aria-label="Alege designul" data-k-aria="theme_aria">
       <button type="button" data-theme="moai" aria-pressed="false">🗿 Moai</button>
       <button type="button" data-theme="anzi" aria-pressed="true">🏔️ Anzi</button>
@@ -561,7 +570,7 @@ section.page{display:block}
   <div class="hand hand-l" aria-hidden="true">Știință<br>Istorie<br>Cultură<br>Oameni<br>Întrebări<br>Viitor</div>
   <div class="hand hand-r" aria-hidden="true">Mistere.<br>Oameni.<br>Idei.<br>Dincolo de orizont.<span class="sw"></span></div>
   <div class="wrap hero-inner">
-    <div class="hero-logo"><img data-img="logo.png" alt="ASFAN România" width="163" height="105">
+    <div class="hero-logo"><a class="logo-home" data-nav="" href="#/" aria-label="ASFAN – Curs: Introducere în ufologie, pagina principală" data-k-aria="brand_aria"><img data-img="logo.png" alt="ASFAN România" data-k-alt="logo_alt" width="163" height="105"></a>
       <div class="motto">Explorăm<br>Cunoaștem<br>Împărtășim<div class="about">Asociația pentru studiul fenomenelor aerospațiale neidentificate</div></div></div>
     <div class="hero-center">
       <div class="hero-title">
@@ -1423,7 +1432,7 @@ section.page{display:block}
   <div class="hand hand-l" aria-hidden="true">Science<br>History<br>Culture<br>People<br>Questions<br>Future</div>
   <div class="hand hand-r" aria-hidden="true">Mysteries.<br>People.<br>Ideas.<br>Beyond the horizon.<span class="sw"></span></div>
   <div class="wrap hero-inner">
-    <div class="hero-logo"><img data-img="logo.png" alt="ASFAN Romania" width="163" height="105">
+    <div class="hero-logo"><a class="logo-home" data-nav="" href="#/en/" aria-label="ASFAN – Course: Introduction to Ufology, home page" data-k-aria="brand_aria"><img data-img="logo.png" alt="ASFAN Romania" data-k-alt="logo_alt" width="163" height="105"></a>
       <div class="motto">We explore<br>We learn<br>We share<div class="about">Association for the Study of Unidentified Aerospace Phenomena</div></div></div>
     <div class="hero-center">
       <div class="hero-title">
@@ -2285,7 +2294,7 @@ section.page{display:block}
   <div class="hand hand-l" aria-hidden="true">Science<br>Histoire<br>Culture<br>Humains<br>Questions<br>Avenir</div>
   <div class="hand hand-r" aria-hidden="true">Mystères.<br>Humains.<br>Idées.<br>Par-delà l’horizon.<span class="sw"></span></div>
   <div class="wrap hero-inner">
-    <div class="hero-logo"><img data-img="logo.png" alt="ASFAN Roumanie" width="163" height="105">
+    <div class="hero-logo"><a class="logo-home" data-nav="" href="#/fr/" aria-label="ASFAN – Cours : Introduction à l’ufologie, page d’accueil" data-k-aria="brand_aria"><img data-img="logo.png" alt="ASFAN Roumanie" data-k-alt="logo_alt" width="163" height="105"></a>
       <div class="motto">Explorer<br>Connaître<br>Partager<div class="about">Association pour l’étude des phénomènes aérospatiaux non identifiés</div></div></div>
     <div class="hero-center">
       <div class="hero-title">
@@ -3147,7 +3156,7 @@ section.page{display:block}
   <div class="hand hand-l" aria-hidden="true">Scienza<br>Storia<br>Cultura<br>Persone<br>Domande<br>Futuro</div>
   <div class="hand hand-r" aria-hidden="true">Misteri.<br>Persone.<br>Idee.<br>Oltre l'orizzonte.<span class="sw"></span></div>
   <div class="wrap hero-inner">
-    <div class="hero-logo"><img data-img="logo.png" alt="ASFAN Romania" width="163" height="105">
+    <div class="hero-logo"><a class="logo-home" data-nav="" href="#/it/" aria-label="ASFAN – Corso: Introduzione all&#x27;ufologia, pagina principale" data-k-aria="brand_aria"><img data-img="logo.png" alt="ASFAN Romania" data-k-alt="logo_alt" width="163" height="105"></a>
       <div class="motto">Esploriamo<br>Conosciamo<br>Condividiamo<div class="about">Associazione per lo studio dei fenomeni aerospaziali non identificati</div></div></div>
     <div class="hero-center">
       <div class="hero-title">
@@ -4009,7 +4018,7 @@ section.page{display:block}
   <div class="hand hand-l" aria-hidden="true">Ciencia<br>Historia<br>Cultura<br>Personas<br>Preguntas<br>Futuro</div>
   <div class="hand hand-r" aria-hidden="true">Misterios.<br>Personas.<br>Ideas.<br>Más allá del horizonte.<span class="sw"></span></div>
   <div class="wrap hero-inner">
-    <div class="hero-logo"><img data-img="logo.png" alt="ASFAN Rumanía" width="163" height="105">
+    <div class="hero-logo"><a class="logo-home" data-nav="" href="#/es/" aria-label="ASFAN – Curso: Introducción a la ufología, página principal" data-k-aria="brand_aria"><img data-img="logo.png" alt="ASFAN Rumanía" data-k-alt="logo_alt" width="163" height="105"></a>
       <div class="motto">Exploramos<br>Conocemos<br>Compartimos<div class="about">Asociación para el estudio de los fenómenos aeroespaciales no identificados</div></div></div>
     <div class="hero-center">
       <div class="hero-title">
@@ -4871,7 +4880,7 @@ section.page{display:block}
   <div class="hand hand-l" aria-hidden="true">Ciência<br>História<br>Cultura<br>Pessoas<br>Perguntas<br>Futuro</div>
   <div class="hand hand-r" aria-hidden="true">Mistérios.<br>Pessoas.<br>Ideias.<br>Para lá do horizonte.<span class="sw"></span></div>
   <div class="wrap hero-inner">
-    <div class="hero-logo"><img data-img="logo.png" alt="ASFAN Roménia" width="163" height="105">
+    <div class="hero-logo"><a class="logo-home" data-nav="" href="#/pt/" aria-label="ASFAN – Curso: Introdução à ufologia, página inicial" data-k-aria="brand_aria"><img data-img="logo.png" alt="ASFAN Roménia" data-k-alt="logo_alt" width="163" height="105"></a>
       <div class="motto">Exploramos<br>Conhecemos<br>Partilhamos<div class="about">Associação para o estudo dos fenómenos aeroespaciais não identificados</div></div></div>
     <div class="hero-center">
       <div class="hero-title">
@@ -5733,7 +5742,7 @@ section.page{display:block}
   <div class="hand hand-l" aria-hidden="true">Wissenschaft<br>Geschichte<br>Kultur<br>Menschen<br>Fragen<br>Zukunft</div>
   <div class="hand hand-r" aria-hidden="true">Rätsel.<br>Menschen.<br>Ideen.<br>Jenseits des Horizonts.<span class="sw"></span></div>
   <div class="wrap hero-inner">
-    <div class="hero-logo"><img data-img="logo.png" alt="ASFAN Rumänien" width="163" height="105">
+    <div class="hero-logo"><a class="logo-home" data-nav="" href="#/de/" aria-label="ASFAN – Kurs: Einführung in die Ufologie, Startseite" data-k-aria="brand_aria"><img data-img="logo.png" alt="ASFAN Rumänien" data-k-alt="logo_alt" width="163" height="105"></a>
       <div class="motto">Wir erforschen<br>Wir verstehen<br>Wir teilen<div class="about">Verein zur Erforschung unidentifizierter Aerospace-Phänomene</div></div></div>
     <div class="hero-center">
       <div class="hero-title">
@@ -6595,7 +6604,7 @@ section.page{display:block}
   <div class="hand hand-l" aria-hidden="true">Tudomány<br>Történelem<br>Kultúra<br>Emberek<br>Kérdések<br>Jövő</div>
   <div class="hand hand-r" aria-hidden="true">Titkok.<br>Emberek.<br>Eszmék.<br>A horizonton túl.<span class="sw"></span></div>
   <div class="wrap hero-inner">
-    <div class="hero-logo"><img data-img="logo.png" alt="ASFAN Románia" width="163" height="105">
+    <div class="hero-logo"><a class="logo-home" data-nav="" href="#/hu/" aria-label="ASFAN – Tanfolyam: Bevezetés az ufológiába, főoldal" data-k-aria="brand_aria"><img data-img="logo.png" alt="ASFAN Románia" data-k-alt="logo_alt" width="163" height="105"></a>
       <div class="motto">Felfedezünk<br>Megismerünk<br>Megosztunk<div class="about">Az azonosítatlan légi és űrbeli jelenségeket kutató egyesület</div></div></div>
     <div class="hero-center">
       <div class="hero-title">

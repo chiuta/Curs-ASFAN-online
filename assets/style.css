@@ -488,7 +488,6 @@ details.lang ul{position:absolute;right:0;top:calc(100% + 6px);margin:0;padding:
 details.lang a{display:flex;align-items:center;padding:0 12px;border-radius:8px;color:#e8f1ff;text-decoration:none;min-height:44px}
 details.lang a:hover{background:rgba(76,201,255,.14)}
 details.lang a[aria-current]{background:rgba(76,201,255,.2);font-weight:800}
-@media (max-width:860px){details.lang ul{position:static;box-shadow:none;margin-top:6px}}
 /* ===== ajustări per limbă (texte mai lungi decât în română) ===== */
 html[lang="hu"] .t-main{font-size:clamp(2.2rem,11.6vw,5rem)}
 html[lang="es"] .sec h2 .sub,html[lang="fr"] .sec h2 .sub,html[lang="pt"] .sec h2 .sub,html[lang="it"] .sec h2 .sub,html[lang="de"] .sec h2 .sub,html[lang="hu"] .sec h2 .sub{white-space:normal}
@@ -507,3 +506,13 @@ html[lang="es"] .sec h2 .sub,html[lang="fr"] .sec h2 .sub,html[lang="pt"] .sec h
   html[lang="hu"] .box.enroll p,html[lang="de"] .box.enroll p{font-size:calc(13.4*var(--u))}
 }
 @media (min-width:900px){html[lang="fr"] .ic:nth-child(4) .sm,html[lang="de"] .ic:nth-child(4) .sm,html[lang="hu"] .ic:nth-child(4) .sm{font-size:calc(14*var(--u));line-height:1.28}}
+
+/* comutator de limbă pe bara de sus */
+.topbar .wrap>details.lang{order:3;margin-left:6px}
+.logo-home{display:contents}
+@media (max-width:860px){
+  .topbar .wrap>details.lang{order:0;margin-left:auto}
+  .topbar .wrap>.btn-menu{margin-left:0}
+  details.lang summary{padding:0 12px}
+  .brand small{display:none}
+}

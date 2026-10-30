@@ -117,10 +117,10 @@ def head(title, desc, page, path, extra=""):
 <canvas id="stars" aria-hidden="true"></canvas>
 <header class="topbar"><a class="skip" href="#main" data-k="skip">{T("skip")}</a><div class="wrap">
   <a class="brand" data-nav="" data-k-aria="brand_aria" href="index.html" aria-label="{A("brand_aria")}"><img src="{P}assets/logo.png" alt="{A("logo_alt")}" data-k-alt="logo_alt" width="108" height="40"><small data-k="brand_small">{T("brand_small")}</small></a>
+  <details class="lang"><summary data-k-aria="lang_aria" aria-label="{A("lang_aria")}"><span aria-hidden="true">🌐</span> <b>{CODE.upper()}</b></summary><ul>{langlinks}</ul></details>
   <button class="btn-menu" type="button" aria-expanded="false" aria-controls="nav" data-k="menu_btn">{T("menu_btn")}</button>
   <nav class="main" id="nav" aria-label="{A("nav_aria")}" data-k-aria="nav_aria">
-{navl}    <details class="lang"><summary data-k-aria="lang_aria" aria-label="{A("lang_aria")}"><span aria-hidden="true">🌐</span> <b>{CODE.upper()}</b></summary><ul>{langlinks}</ul></details>
-    <span class="theme-switch" role="group" aria-label="{A("theme_aria")}" data-k-aria="theme_aria">
+{navl}    <span class="theme-switch" role="group" aria-label="{A("theme_aria")}" data-k-aria="theme_aria">
       <button type="button" data-theme="moai" aria-pressed="false">🗿 Moai</button>
       <button type="button" data-theme="anzi" aria-pressed="true">🏔️ Anzi</button>
     </span>
@@ -187,7 +187,7 @@ def page_index():
   <div class="hand hand-l" aria-hidden="true">{T("hand_l")}</div>
   <div class="hand hand-r" aria-hidden="true">{T("hand_r")}<span class="sw"></span></div>
   <div class="wrap hero-inner">
-    <div class="hero-logo"><img src="{P}assets/logo.png" alt="{A("logo_alt")}" width="163" height="105">
+    <div class="hero-logo"><a class="logo-home" data-nav="" href="index.html" aria-label="{A("brand_aria")}" data-k-aria="brand_aria"><img src="{P}assets/logo.png" alt="{A("logo_alt")}" data-k-alt="logo_alt" width="163" height="105"></a>
       <div class="motto">{T("motto")}<div class="about">{T("about_assoc")}</div></div></div>
     <div class="hero-center">
       <div class="hero-title">
