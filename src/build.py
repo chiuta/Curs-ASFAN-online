@@ -99,7 +99,7 @@ IC = {
 
 
 # ------------------------------------------------------------------ layout
-NAV = [("inv","nav_inv"),("plan","nav_program"),("inscriere","nav_enroll"),("qr","nav_qr")]
+NAV = [("inv","nav_inv"),("plan","nav_program"),("inscriere","nav_enroll"),("afise","nav_afise"),("qr","nav_qr")]
 def lang_href(code, path):
     """link relativ către aceeași pagină în limba `code`"""
     if path == "index.html":
@@ -197,6 +197,11 @@ def foot():
 
 def write(path, content):
     open(f"{DIR}/{path}", "w", encoding="utf-8").write(content)
+
+def afis_block():
+    it = "".join(f'''<figure class="afis"><a href="{P}assets/afis-{k}.jpg" target="_blank" rel="noopener" aria-label="{A("afis_open")}"><img src="{P}assets/afis-{k}.jpg" width="1024" height="1536" loading="lazy" alt="{A("afis_"+k+"_alt")}"></a>
+    <figcaption><h3>{T("afis_"+k)}</h3><a class="btn btn-blue" href="{P}assets/afis-{k}.jpg" download="afis-curs-asfan-ufologie-{k}.jpg">{T("afis_dl")}</a></figcaption></figure>''' for k in ("a","b"))
+    return f'<div class="afise">{it}</div>'
 
 def qr_block():
     return f'''<div class="qrs">
@@ -378,6 +383,14 @@ def page_index():
   </div>
 </section>
 
+<section class="doc afis-sec" id="afise" aria-labelledby="h-afise">
+  <div class="wrap">
+    <h2 id="h-afise">{T("afis_h")}</h2>
+    <p class="lead">{T("afis_lead")}</p>
+    {afis_block()}
+  </div>
+</section>
+
 <section class="doc qr-sec" id="qr" aria-labelledby="h-qr">
   <div class="wrap">
     <h2 id="h-qr">{T("qr_h1")}</h2>
@@ -399,7 +412,7 @@ for CODE in LANGS:
     open(f"{OUT}/{CAL}curs-complet.ics","w",encoding="utf-8",newline="").write(ics(SESS))
     if CODE == "ro":   # date independente de limbă
         open(f"{OUT}/assets/sessions.js","w",encoding="utf-8").write("window.ASFAN_SESSIONS="+json.dumps([dict(n=s["n"],start=s["start"],end=s["end"]) for s in SESS])+";\n")
-    chrome = {k: UI[k] for k in ("skip","brand_aria","brand_small","logo_alt","menu_btn","nav_aria","nav_home","nav_program","nav_about","nav_enroll","nav_qr","theme_aria","lang_aria",
+    chrome = {k: UI[k] for k in ("skip","brand_aria","brand_small","logo_alt","menu_btn","nav_aria","nav_home","nav_program","nav_about","nav_enroll","nav_qr","nav_afise","theme_aria","lang_aria",
               "nav_inv","over_note","lb_aria","lb_dl","lb_close","lb_alt","foot_hand","foot_hand2","foot_tag_b","foot_tag_s","foot_qr_aria","foot_qr_alt","share_h","share_native","share_copy","share_via","share_text","lang_notice")}
     open(f"{OUT}/assets/i18n-{CODE}.js","w",encoding="utf-8").write("window.ASFAN_I18N="+json.dumps(dict(lang=CODE,js=LD["js"],labels=[s["label"] for s in SESS],chrome=chrome,
         titles={"index":UI["title_index"]},
